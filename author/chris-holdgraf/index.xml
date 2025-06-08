@@ -1,4 +1,916 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>2024 impact report: new team structure, new funding, and growth in our network</title><link>https://2i2c.org/blog/2024/retrospective/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/retrospective/</guid><description>&lt;p>2024 has been a busy year for 2i2c, with many highs and lows, a lot of impact, and significant organizational change. As the year comes to an end, I want to reflect on the work we&amp;rsquo;ve done in 2024, and where we aim to go in 2025.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>2025-Q1 reflection: Building a foundation for our new platform and membership model</title><link>https://2i2c.org/blog/2025/q1-reflection/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-reflection/</guid><description>&lt;p>&lt;em>This is a summary of major progress we made in Q1 of 2025. Its goal is to summarize our major accomplishments and important context before we prioritize for Q2. We hope this gives our community stakeholders a more strategic-level insight into our progress and organizational plans. See
+&lt;a href="https://2i2c.org/blog/2025/q1-product-highlights/" >our Product Highlights for 2025Q1&lt;/a> for a product-focused review. Please
+&lt;a href="" >give us feedback&lt;/a> for how we can provide more useful information.&lt;/em>&lt;/p>
+&lt;p>Heading into Q1 2025, we had just completed an organizational re-structuring into new functional areas. These were
+&lt;a href="https://compass.2i2c.org/product-and-services/" target="_blank" rel="noopener" >Products and Services&lt;/a>,
+&lt;a href="https://compass.2i2c.org/biz-dev/" target="_blank" rel="noopener" >Business Development&lt;/a>, and
+&lt;a href="https://compass.2i2c.org/delivery-enablement/" target="_blank" rel="noopener" >Delivery and Team Enablement&lt;/a>. Our
+&lt;a href="https://2i2c.org/blog/2024/funding-navigation/" target="_blank" rel="noopener" >support from The Navigation Fund&lt;/a> began in January 2025, and we re-organized around the goals defined in that report. Q1 2025 was the first quarterly cycle under this new system.&lt;/p>
+&lt;p>Our primary Q1 2025 goal was to build a solid organizational foundation that will enable us to iterate on our product and business model in Q2. We successfully completed our reorganization into dedicated Business Development and Product teams, and implemented a new quarterly target-setting process across the organization. There are still some key remaining areas to make progress, and we need to ensure that key KPIs and team responsibilities are solidified quickly in Q2.&lt;/p>
+&lt;p>Below we’re sharing a brief update about the major achievements across each area of 2i2c, and first thoughts about outcomes to target in Q2 2025.&lt;/p>
+&lt;h2 id="delivery-and-enablement">
+Delivery and Enablement
+&lt;a class="header-anchor" href="#delivery-and-enablement">#&lt;/a>
+&lt;/h2>&lt;p>&lt;strong>Goal&lt;/strong>: Develop the operating structure and team skills to efficiently scale our product and service delivery.&lt;/p>
+&lt;p>&lt;strong>Quarterly Objectives&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>D01&lt;/strong>: Re-organize into product-centric team structure. Define new roles, and accountability practices.&lt;/li>
+&lt;li>&lt;strong>D02&lt;/strong>: Define at least one KPI across each of 2i2c’s areas and complete 2-3 iterations of measurement.&lt;/li>
+&lt;/ul>
+&lt;h3 id="how-we-did">
+How we did
+&lt;a class="header-anchor" href="#how-we-did">#&lt;/a>
+&lt;/h3>&lt;p>We did a good job of taking our first steps at being more structured and intentional about our team and our goals. Our biggest accomplishment was to &lt;strong>significantly improve the Product and Services (P&amp;amp;S) team’s ability to plan and deliver on work&lt;/strong>. We are now measuring velocity as a P&amp;amp;S team, and this gives us a much better understanding of our capacity and a means of optimizing it.&lt;/p>
+&lt;p>We were slower than expected in defining our new team structures - particularly within the Business Development (BD) team, but I’m confident that we are now on the right track. The biggest remaining challenge is to &lt;strong>refine the relationship between BD and P&amp;amp;S so that we have clear responsibility hand-offs.&lt;/strong>&lt;/p>
+&lt;p>We have made progress defining KPIs, but have had uneven success in implementing them across the teams. We defined the BD KPIs later than expected, and as a result &lt;strong>we must still operationalize our measurement of those KPIs.&lt;/strong>&lt;/p>
+&lt;p>Finally, &lt;strong>we were inconsistent in the way that we completed and documented the work above&lt;/strong>, and did not reliably encode outcomes as a “source of truth” in our team compass. This resulted in some confusion about the status, context, and outcomes of some of the team initiatives.&lt;/p>
+&lt;h2 id="product-and-services">
+Product and Services
+&lt;a class="header-anchor" href="#product-and-services">#&lt;/a>
+&lt;/h2>&lt;p>&lt;strong>Goal&lt;/strong>: Create a systematic approach to defining our product value and prioritizing development work.&lt;/p>
+&lt;p>&lt;strong>Quarterly Objectives&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>P01:&lt;/strong> The Product Menu of current capabilities already exists. The focus now should be on finalizing the Product and Services MVP, which is linked to goal S01&lt;/li>
+&lt;li>&lt;strong>P02:&lt;/strong> Integrate Services into the Product roadmap, prioritizing those needed to enable &lt;strong>S01&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>P03:&lt;/strong> We have designed a qualitative survey to benchmark and record customer satisfaction for any newly released product feature. This survey is already in the process of being sent out to customers of the recent Grafana work, and will be sent out to representative customers of subsequent feature releases.&lt;/li>
+&lt;/ul>
+&lt;h3 id="how-we-did-1">
+How we did
+&lt;a class="header-anchor" href="#how-we-did-1">#&lt;/a>
+&lt;/h3>&lt;p>We&amp;rsquo;ve finalized our product roadmap and incorporated service design priorities into this system as well. It now guides both technical and service development which are the two key ways that we deliver value to our communities. This is a key win for the team, because it means &lt;strong>we can more systematically decide what to build next in order to deliver value to our communities&lt;/strong>.&lt;/p>
+&lt;p>We also collaborated with the BD team to define our menu of options for communities and ensure they are clearly defined and scalable for our team. This involved a lot of extra back-and-forth that wasn’t planned, but was &lt;strong>critical to ensure we had alignment between our business model and our team’s ability to deliver&lt;/strong>.&lt;/p>
+&lt;p>We ran an experiment at conducting community surveys to establish a baseline customer satisfaction KPI and learn if we are building the right things, but didn’t have the response rates that we needed to be useful. &lt;strong>We need to find a way of efficiently creating actionable answers to “are we building the right thing?”&lt;/strong>.&lt;/p>
+&lt;p>We also agreed on a general principle of measuring community engagement as a primary KPI, but have not yet operationalized it. This is a key metric to &lt;strong>understand whether we’re delivering the value we intend, and whether a community is likely to renew their contract&lt;/strong>.&lt;/p>
+&lt;p>Finally, in some cases we have continued to interact with communities in an unscalable way. This is both true for the ways in which we’ve given communities guidance and training, as well as the ways that the P&amp;amp;S team has supported BD in its sales and marketing efforts. It is critical that we &lt;strong>build scalable systems for delivering services to all of our member communities&lt;/strong> to ensure that we deliver value to our entire network of member organizations and not just those we have the strongest connections with. It will also &lt;strong>create more scalable channels of communication and relationship-building with communities&lt;/strong> so that we can support and learn from our entire network.&lt;/p>
+&lt;h2 id="business-development">
+Business Development
+&lt;a class="header-anchor" href="#business-development">#&lt;/a>
+&lt;/h2>&lt;p>&lt;strong>Goal&lt;/strong>: Create a structured service menu and improve sales tracking.&lt;/p>
+&lt;p>&lt;strong>Quarterly targets&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>S01&lt;/strong>: Define a tiered pricing and service model&lt;/li>
+&lt;li>&lt;strong>S02&lt;/strong>: Define a scalable sales system&lt;/li>
+&lt;li>&lt;strong>S03&lt;/strong>: Create and operationalize revenue targets and projections&lt;/li>
+&lt;/ul>
+&lt;h3 id="how-we-did-2">
+How we did
+&lt;a class="header-anchor" href="#how-we-did-2">#&lt;/a>
+&lt;/h3>&lt;p>Our BD team built a three-tier membership model that combines monthly fees with active user pricing. &lt;strong>This gives us a foundation to iterate on our pricing and business model.&lt;/strong> Initial anecdotal feedback from renewing communities has been positive, though &lt;strong>we have not yet systematized a process for collecting and incorporating feedback from communities into our sales assets&lt;/strong>.&lt;/p>
+&lt;p>We&amp;rsquo;ve completed the first version of our sales CRM to track all customer conversations and tie them to ongoing opportunities. The &lt;strong>CRM is now being used reliably, and has already generated helpful feedback for improvement&lt;/strong>. However &lt;strong>we did not make our intended progress in creating systematized and scalable sales assets&lt;/strong>. It will be critical to build these assets quickly so that we can engage in efficient sales conversations and iterate quickly.&lt;/p>
+&lt;p>We were slower than expected in defining the KPIs that drive BD. We’ve successfully defined the KPIs that should drive BD, but have not operationalized and iterated on business development targets. It will be &lt;strong>critical to measure these BD KPIs and define targets in Q2 in order to set a benchmark of success for BD&lt;/strong>.&lt;/p>
+&lt;p>Finally, we were slower than expected in defining the team structure of BD, due to a diffusion of responsibility stemming from our shared leadership model. We’ve clarified that ambiguity and &lt;strong>now have a defined structure of roles and responsibilities within BD&lt;/strong>.&lt;/p>
+&lt;h2 id="concluding-thoughts">
+Concluding thoughts
+&lt;a class="header-anchor" href="#concluding-thoughts">#&lt;/a>
+&lt;/h2>&lt;p>Overall, I consider this quarter a success, given that we are operating with new systems for planning and executing work, as well as a new team structure. We didn&amp;rsquo;t accomplish everything we set out to do in Q1 2025, but I think that&amp;rsquo;s OK for our first quarterly cycle. In Q2 I expect us to be better at scoping the work we aim to accomplish, as well as holding ourselves accountable for getting it done.&lt;/p>
+&lt;p>In Q2, we need to prioritize the refinement of our Business Development / Membership model and the system we use for growing and sustaining it. Our P&amp;amp;S team is now much more reliable at planning and delivering work, and our next bottleneck is having a business process that can reliably &lt;em>generate&lt;/em> work and revenue that sustains the organization. This will be a key focus in our Q2 planning.&lt;/p></description></item><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of 2i2c. He was previously a post-doctoral researcher in the Department of Statistics at
+&lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a>, and a Community Architect with the
+&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Division of Data Science&lt;/a> at Berkeley. He is also a team member of Project Jupyter (particularly the
+&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team" target="_blank" rel="noopener" >JupyterHub and Binder teams&lt;/a>), with a focus on how infrastructure can support interactive computing workflows in research and education. He&amp;rsquo;s interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows in a way that makes science more impactful and inclusive. His background is in cognitive and computational neuroscience, where he used
+&lt;a href="https://www.nature.com/articles/ncomms13654" target="_blank" rel="noopener" >predictive models to understand the auditory system&lt;/a> in the human brain.&lt;/p>
+&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>10+ years leading and building open source projects, open infrastructure teams and services&lt;/li>
+&lt;li>Jupyter Distinguished Contributor&lt;/li>
+&lt;li>Co-led JupyterHub, Binder, and Jupyter Book&lt;/li>
+&lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
+&lt;/ul></description></item><item><title>Our Product and Service goals for Q2 2025</title><link>https://2i2c.org/blog/2025/q2-product-goals/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q2-product-goals/</guid><description>&lt;p>&lt;em>As we head into Q2 of 2025, we continue to focus our work delivering on a small set of core themes that reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. See
+&lt;a href="https://2i2c.org/blog/2025/q1-product-goals/" >last quarter’s product goals here&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>The following themes are not guarantees, but should provide a high level view on how we plan to improve our product and services offerings in the next quarter. &lt;strong>If your organization has funding available to support any of the enhancements below,
+&lt;a href="" >reach out to us&lt;/a> and we can discuss how you can shape our priorities and outcomes&lt;/strong>.&lt;/p>
+&lt;h2 id="give-administrators-more-control">
+Give administrators more control
+&lt;a class="header-anchor" href="#give-administrators-more-control">#&lt;/a>
+&lt;/h2>&lt;p>The implementation of
+&lt;a href="https://2i2c.org/blog/2025/per-user-storage-quota-gcp/" target="_blank" rel="noopener" >per-user storage quotas&lt;/a> in Q1 was the start of a set of product initiatives aimed at giving hub administrators more control and peace of mind over unexpected cost overruns.&lt;/p>
+&lt;p>We aim to continue giving administrators more control by implementing the ability to &lt;strong>associate users with groups for usage monitoring&lt;/strong>, and as a foundation for future improvements which will deliver &lt;strong>group-level management of storage quotas,&lt;/strong> and later Compute and Dask quotas.&lt;/p>
+&lt;h2 id="improve-creating-and-sharing-custom-environments">
+Improve creating and sharing custom environments
+&lt;a class="header-anchor" href="#improve-creating-and-sharing-custom-environments">#&lt;/a>
+&lt;/h2>&lt;p>One of the wonderful things about shared open source JupyterHub infrastructure is that it allows community members to share their projects with each other in ways that ensure the work can be fully experienced by the recipient, complete with fully executable content.&lt;/p>
+&lt;p>In Q2, we aim to improve the ability for hub users to &lt;strong>build custom environments in their hubs&lt;/strong>, and later to easily &lt;strong>share those custom environments with others&lt;/strong>, ensuring their entire toolchain is replicated in full.&lt;/p>
+&lt;h2 id="out-of-the-box-jupyter-book-support">
+Out-of-the-box Jupyter Book support
+&lt;a class="header-anchor" href="#out-of-the-box-jupyter-book-support">#&lt;/a>
+&lt;/h2>&lt;p>We have been working on scoping and building a default JupyterBook implementation
+&lt;a href="http://mystmd.org" target="_blank" rel="noopener" >using the new MyST document engine&lt;/a>, aiming to deliver a default set of tools for &lt;strong>authoring and sharing documentation&lt;/strong>, &lt;strong>customizable landing pages&lt;/strong> and &lt;strong>interactive training materials&lt;/strong> out of the box with new hub deployments.&lt;/p>
+&lt;p>In Q1 we delivered improvements to the JupyterBook launching interface to allow for &lt;strong>automatic hub type detection&lt;/strong>, as well as &lt;strong>landing page components, theming capabilities, galleries and more&lt;/strong>. We aim to complete this work in Q2.&lt;/p>
+&lt;h2 id="a-better-onboarding-experience-for-our-communities">
+A better onboarding experience for our communities
+&lt;a class="header-anchor" href="#a-better-onboarding-experience-for-our-communities">#&lt;/a>
+&lt;/h2>&lt;p>As more communities in the research and education space join the 2i2c community network, it’s important for us to be ready to deliver the best value we can for them at scale. To that end, we’re &lt;strong>streamlining the processes we use to onboard our communities&lt;/strong>, improving the touchpoints through which we engage with them when they join our community network, and ensuring we create opportunities to better understand their needs in order to set them up for success with their hubs right from the start.&lt;/p>
+&lt;h2 id="improve-and-formalize-the-services-we-deliver-to-our-communities">
+Improve and formalize the services we deliver to our communities
+&lt;a class="header-anchor" href="#improve-and-formalize-the-services-we-deliver-to-our-communities">#&lt;/a>
+&lt;/h2>&lt;p>Together with an improved onboarding experience, we aim to improve how we deliver other key services to our communities, including &lt;strong>expert consulting, hub management, and technical support&lt;/strong>, with the aim to offer more scalable, high-value services to address the needs of our communities in a sustainable way.&lt;/p>
+&lt;p>Some of the goals of this service revamp will include improving triaging of support tickets, shortening our issue response time, and providing our community champions with dedicated expertise on subjects including open source science and tools, community participation in open science, fundraising and grantsmanship co-creation, engineering consultancy and more.&lt;/p>
+&lt;h2 id="another-update-coming-in-q3">
+Another update coming in Q3
+&lt;a class="header-anchor" href="#another-update-coming-in-q3">#&lt;/a>
+&lt;/h2>&lt;p>We’ll use this blog post as an informal roadmap of our product goals for the quarter, striving to advance as many of the outlined areas as possible. During our Q3 planning, we’ll reflect on the achievements made in line with this initiative and share a progress update with our community. Keep an eye out for more details!&lt;/p></description></item><item><title>Our product highlights from Q2 2025</title><link>https://2i2c.org/blog/2025/q1-product-highlights/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-product-highlights/</guid><description>&lt;p>&lt;em>These describe the major service improvements that we rolled out in Q1 2025. See this
+&lt;a href="https://2i2c.org/blog/2025/q1-product-goals/" >blog post describing our product enhancement goals in Q1 2025&lt;/a> for the targets we intended to hit this quarter. Below is a brief description of what we accomplished.&lt;/em>&lt;/p>
+&lt;h2 id="user-storage-quotas">
+User storage quotas
+&lt;a class="header-anchor" href="#user-storage-quotas">#&lt;/a>
+&lt;/h2>&lt;p>A key part of 2i2c’s service is &lt;strong>making the cloud safe to try&lt;/strong>. One of the biggest concerns from our communities is that their cloud costs will be unexpectedly high. This quarter we decided to make cloud storage a bit safer. Storage can get expensive, especially when a user accidentally downloads a particularly large file - they may not even realize that doing so incurs an extra cost. For this reason, we added the ability to limit user storage on JupyterHubs:&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/per-user-storage-quota/" target="_blank" rel="noopener" >Enforcing per-user storage quotas with &lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a>&lt;/p>
+&lt;p>We initially deployed this feature on our AWS hubs, and followed up by deploying it on GCP hubs as well. Any community with a hub on AWS and GCP now has the ability to limit the storage that their users receive, greatly increasing our communities’ control over their costs.&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/per-user-storage-quota-gcp/" target="_blank" rel="noopener" >Enforcing per-user storage quotas now available on GCP&lt;/a>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Thanks to&lt;/strong>
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >DevSeed&lt;/a> for collaboration on this work, in addition to the
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA project&lt;/a> for funding this effort.&lt;/em>&lt;/p>
+&lt;h2 id="automated-backups-for-gcp-hubs">
+Automated backups for GCP hubs
+&lt;a class="header-anchor" href="#automated-backups-for-gcp-hubs">#&lt;/a>
+&lt;/h2>&lt;p>Another concern communities have is “what happens if something breaks and I lose data?” Cloud providers offer a number of ways to recover from disasters like this, and we did some work enabling this for GCP so that communities have disaster recovery options available to them.&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/gcp-filestore-backups/" target="_blank" rel="noopener" >Announcing backups for GCP-hosted hubs!&lt;/a>&lt;/p>
+&lt;h2 id="deploying-jupyterhub-on-public-infrastructure">
+Deploying JupyterHub on public infrastructure
+&lt;a class="header-anchor" href="#deploying-jupyterhub-on-public-infrastructure">#&lt;/a>
+&lt;/h2>&lt;p>Deploying Kubernetes and JupyterHub on publicly-managed infrastructure could be an excellent way to reduce the perceived risk of depending on large tech companies for their key workflows, and potentially reduce costs by using federal infrastructure that can be paid with special grant funding. We built team expertise in deploying and running JupyterHub and BinderHub on JetStream2, and have promising results that we hope to build upon in Q2.&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/jetstream-binderhub/" target="_blank" rel="noopener" >Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2&lt;/a>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Thanks to&lt;/strong>
+&lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a> for an ACCESS allocation, to Julian Pistorius for technical support, to
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> (NSF award 2324302) for funding this work, and to
+&lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2.&lt;/em>&lt;/p>
+&lt;h2 id="upgrading-to-the-latest-jupyterhub-version">
+Upgrading to the latest JupyterHub version
+&lt;a class="header-anchor" href="#upgrading-to-the-latest-jupyterhub-version">#&lt;/a>
+&lt;/h2>&lt;p>We upgraded all of 2i2c’s community hubs to use JupyterHub 5.0. This brings in a bunch of security improvements, bugfixes, and enhancements. You can find links to the highlights and changelog in our blog post below.&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/jupyterhub5-upgrade/" target="_blank" rel="noopener" >2i2c hubs now run JupyterHub 5.0&lt;/a>&lt;/p>
+&lt;h2 id="reproducible-environments-for-community-members">
+Reproducible environments for community members
+&lt;a class="header-anchor" href="#reproducible-environments-for-community-members">#&lt;/a>
+&lt;/h2>&lt;p>Finally, we did a bit of product brainstorming around enabling communities to bring their environments with them when they publish. We are interested in making it easy to re-use a community’s hub infrastructure to provide the reproducible environments needed for publishing or communicating their work externally. Here’s a brief brainstorm for what this could look like:&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/frictionless-reproducibility/" target="_blank" rel="noopener" >Towards frictionless, portable, and sustainable reproducibility with Binder&lt;/a>&lt;/p>
+&lt;h2 id="improving-the-ux-and-flexibility-of-community-documentation-with-myst">
+Improving the UX and flexibility of community documentation with MyST
+&lt;a class="header-anchor" href="#improving-the-ux-and-flexibility-of-community-documentation-with-myst">#&lt;/a>
+&lt;/h2>&lt;p>To provide our communities with quality documentation that sits alongside their Hubs, we have been working on improving MyST to allow for a more flexible and usable document authoring experience, with improvements to landing page layouts, theming, galleries, button layouts, and project launching. We’re aiming to deliver a complete MVP covering our communities’ most requested features by the end of Q2.&lt;/p>
+&lt;h2 id="in-case-you-missed-it">
+In case you missed it
+&lt;a class="header-anchor" href="#in-case-you-missed-it">#&lt;/a>
+&lt;/h2>&lt;p>Finally, below are a few other blog posts where we’ve documented major impact stories and organizational updates:&lt;/p>
+&lt;p>&lt;strong>Community impact&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/hackweek-shoutout/" target="_blank" rel="noopener" >Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/veda-update-q4-2024/" target="_blank" rel="noopener" >NASA VEDA &amp;amp; 2i2c Update for Q4 2024 (Oct-Dec 2024)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Open Source impact&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/jupyter-executive-council/" target="_blank" rel="noopener" >Chris is joining Project Jupyter&amp;rsquo;s Executive Council&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://blog.jupyter.org/simplifying-and-speeding-up-binder-builds-with-buildkit-d44f96582994" target="_blank" rel="noopener" >Simplifying and speeding up Binder builds with BuildKit&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/binder-singlenode/" target="_blank" rel="noopener" >2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/jupyter-book-cors/" target="_blank" rel="noopener" >Designing for an ecosystem: a case study in cross-project open source contribution&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Organizational updates&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/community-ownership/" target="_blank" rel="noopener" >Announcing our formal commitment to open technology&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Chris is joining Project Jupyter's Executive Council</title><link>https://2i2c.org/blog/2025/jupyter-executive-council/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyter-executive-council/</guid><description>&lt;p>We are proud to announce that 2i2c&amp;rsquo;s Executive Director, Chris Holdgraf, was
+&lt;a href="https://blog.jupyter.org/project-jupyters-2025-executive-council-elections-605b183ec64c" target="_blank" rel="noopener" >recently elected to Jupyter&amp;rsquo;s Executive Council&lt;/a>. The 2i2c team discussed whether Chris should run for this position last year, and concluded that it was a way for our non-profit to both support Jupyter&amp;rsquo;s mission at a strategic level, and represent the interests of research and education communities in Jupyter&amp;rsquo;s direction. Chris wrote
+&lt;a href="https://chrisholdgraf.com/blog/2025/jupyter-org-structure" target="_blank" rel="noopener" >a blog post about his reasons for running&lt;/a> with more information.&lt;/p>
+&lt;p>One of Chris&amp;rsquo; goals is to be a transparent source of information about what the council is working on, where its priorities lie, and what are the major challenges it is trying to tackle. He&amp;rsquo;s written two blog posts that describe some of his experiences so far, at the links below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://chrisholdgraf.com/blog/2025/os-support" target="_blank" rel="noopener" >On the ways that the Jupyter Foundation could support the Jupyter Project with its funds&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://chrisholdgraf.com/blog/2025/jupyter-org-structure" target="_blank" rel="noopener" >A high-level overview of Jupyter&amp;rsquo;s structure&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>We&amp;rsquo;re hopeful that this is a way for 2i2c to scale its impact and lean into its
+&lt;a href="https://2i2c.org/open-technology/" >commitment to open technology&lt;/a>. Chris intends to keep writing about his personal experience via
+&lt;a href="https://chrisholdgraf.com" target="_blank" rel="noopener" >his blog&lt;/a>, and we&amp;rsquo;ll provide updates here for major developments that are relevant to 2i2c&amp;rsquo;s network of communities.
+We&amp;rsquo;re proud to have Chris in this role, and excited for his contributions to the Jupyter community!&lt;/p></description></item><item><title>Simplifying and speeding up Binder builds with BuildKit</title><link>https://2i2c.org/blog/2025/binder-buildkit/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-buildkit/</guid><description>&lt;p>A blog post on the Jupyter blog about a recent experiment to significantly reduce the cost of runnign a node on the mybinder.org federation.&lt;/p></description></item><item><title>Towards frictionless, portable, and sustainable reproducibility with Binder</title><link>https://2i2c.org/blog/2025/frictionless-reproducibility/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/frictionless-reproducibility/</guid><description>&lt;p>Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem at a workshop hosted by
+&lt;a href="https://www.hhmi.org" target="_blank" rel="noopener" >HHMI&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. While 2i2c doesn&amp;rsquo;t primarily focus on &amp;ldquo;publishing&amp;rdquo; workflows, we do support communities on a journey that often &lt;em>leads to publishing&lt;/em>, and we make choices about technology in our
+&lt;a href="https://2i2c.org/platform/" >community hub platform&lt;/a> that can support different kinds of publishing outcomes.&lt;/p>
+&lt;p>After listening to folks across the open science and publishing ecosystem, I noticed a common challenge:&lt;/p>
+&lt;ul>
+&lt;li>Publishers care about &lt;strong>reproducibility&lt;/strong> of computational narratives and the &lt;strong>interactivity&lt;/strong> that computation can provide.&lt;/li>
+&lt;li>But they &lt;strong>lack the capacity to manage computational infrastructure&lt;/strong> in a way that is flexible enough for all of their authors.&lt;/li>
+&lt;/ul>
+&lt;p>This post is a reflection on how ecosystems like Jupyter and managed community hubs could solve some of these challenges.&lt;/p>
+&lt;h2 id="a-community-experiment-to-provide-reproducible-environments-for-published-pre-prints">
+A community experiment to provide reproducible environments for published pre-prints
+&lt;a class="header-anchor" href="#a-community-experiment-to-provide-reproducible-environments-for-published-pre-prints">#&lt;/a>
+&lt;/h2>&lt;p>Many of 2i2c&amp;rsquo;s communities already care about reproducibility and sharing their computational narratives. That&amp;rsquo;s one reason that we&amp;rsquo;ve
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >been improving reproducible environment sharing with Binder&lt;/a>,
+&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/" >integrating Jupyter Book into our community cloud platform&lt;/a>, and
+&lt;a href="https://2i2c.org/blog/2025/binder-singlenode/" >supporting the mybinder.org federation&lt;/a>.&lt;/p>
+&lt;p>However, communities often want to &lt;strong>publish&lt;/strong> rather than just &lt;strong>share&lt;/strong>. Publishing is more structured, invites particular kinds of feedback, and requires more Quality Assurance. There&amp;rsquo;s a huge ecosystem of publishers and services that support formal publishing, and they ensure things like discoverability, long-term archivability, versioning, peer review, DOI referencing, etc.&lt;/p>
+&lt;p>We recently piloted
+&lt;a href="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/" >running a BinderHub for Biorxiv publications with the Loren Frank lab and HHMI&lt;/a>, and found this to be a nice proof-of-concept. While the &amp;ldquo;published article&amp;rdquo; lives on
+&lt;a href="https://www.biorxiv.org/" target="_blank" rel="noopener" >Biorxiv&lt;/a>, the computational infrastructure and environment is provided by a BinderHub (in this case managed by 2i2c, but anybody could manage a hub in this way).&lt;/p>
+&lt;figure id="figure-the-biorxiv-binder-pilot-workflow-an-author-used-a-2i2c-managed-binderhub-to-generate-a-reproducible-environment-for-their-paper-they-included-a-link-to-this-environment-in-the-abstract-readers-could-click-this-link-and-be-taken-to-a-fully-interactive-environment-to-explore-the-ideas-in-the-paper-and-reproduce-its-computation">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The Biorxiv Binder pilot workflow. An author used a 2i2c-managed BinderHub to generate a reproducible environment for their paper. They included a link to this environment in the abstract. Readers could click this link, and be taken to a fully interactive environment to explore the ideas in the paper and reproduce its computation." srcset="
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_3441b302dcaeeacf16df2b59218d7be8.webp 400w,
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_12bb4f6978b5b5a62c5ff0f4ac0c4057.webp 760w,
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_3441b302dcaeeacf16df2b59218d7be8.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The Biorxiv Binder pilot workflow. An author used a 2i2c-managed BinderHub to generate a reproducible environment for their paper. They included a link to this environment in the abstract. Readers could click this link, and be taken to a fully interactive environment to explore the ideas in the paper and reproduce its computation.
+&lt;/figcaption>&lt;/figure>
+&lt;p>This was a nice proof-of-concept, though I think that broader adoption of this type of workflow would require a deeper connection between publisher workflows and open source communities.&lt;/p>
+&lt;h2 id="could-we-enable-communities-to-bring-their-computational-environments-with-them-when-publishing">
+Could we enable communities to &amp;ldquo;bring their computational environments with them&amp;rdquo; when publishing?
+&lt;a class="header-anchor" href="#could-we-enable-communities-to-bring-their-computational-environments-with-them-when-publishing">#&lt;/a>
+&lt;/h2>&lt;p>Currently, a community&amp;rsquo;s computational environment and data are &lt;em>not accessible to publishers&lt;/em>. Could we relax this by allowing JupyterHub and Binder to be re-used by external services like publishers? This could allow a community&amp;rsquo;s hub to act like an &lt;strong>external service for reproducibility&lt;/strong> that could be used by one of the many publishing platforms out there. It would require making improvements around a few different areas of Jupyter:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>JupyterHub&lt;/strong> and &lt;strong>BinderHub&lt;/strong> would need improved workflows around external authentication so that services could easily request kernels from a hub.&lt;/li>
+&lt;li>&lt;strong>Jupyter Book&lt;/strong> and &lt;strong>MyST&lt;/strong> would need the ability to power computation on a page from a variety of computational back-ends, potentially defined by a user (e.g., via
+&lt;a href="https://thebe.readthedocs.io/en/stable/" target="_blank" rel="noopener" >Thebe&lt;/a> and some UI design in Jupyter Book).&lt;/li>
+&lt;li>&lt;strong>Jupyter Lab&lt;/strong> and other user interfaces may need improved ways for defining and sharing their environments and their content to use tools like Jupyter Book and Binder.&lt;/li>
+&lt;/ul>
+&lt;p>We&amp;rsquo;d also need &lt;strong>integration work&lt;/strong> for the various publishers to leverage this technology for their infrastructure. This is a significant lift - a lot of publishers use &lt;em>very old&lt;/em> and bespoke technology in their systems. However, there&amp;rsquo;s also hope that a subset of the publishing ecosystem is ready to try things like this.&lt;/p>
+&lt;h2 id="there-are-many-publishing-organizations-innovating-with-open-source">
+There are many publishing organizations innovating with open source
+&lt;a class="header-anchor" href="#there-are-many-publishing-organizations-innovating-with-open-source">#&lt;/a>
+&lt;/h2>&lt;p>I learned that &lt;strong>there&amp;rsquo;s a lot of interest in innovating around publishing workflows&lt;/strong>, as well as &lt;strong>building on top of open source communities and standards&lt;/strong>. We don&amp;rsquo;t need the whole industry to move at once (it won&amp;rsquo;t), but we do need a critical mass of organizations who are interested in innovating. This might be possible with more publishing-focused products that integrate heavily with open source.&lt;/p>
+&lt;p>For example,
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a> is a publishing and communication platform that builds heavily on top of the Jupyter and MyST ecosystems. They co-lead many of the open source projects they use in their platform. Curvenote builds largely around the
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown document engine&lt;/a>, which means they could more easily integrate improvements around Portable Computation in the Jupyter ecosystem.&lt;/p>
+&lt;p>I hope that the broader publishing ecosystem moves in this direction. Because Jupyter is largely based around open standards and protocols, it should be possible for publishers to leverage the BinderHub API and the
+&lt;a href="https://repo2docker.readthedocs.io/en/latest/specification.html" target="_blank" rel="noopener" >Reproducible Execution Environment Specification&lt;/a> to integrate computation that powers their reproducible articles. This would allow a community&amp;rsquo;s members to connect their hub&amp;rsquo;s reproducible environment with each published article. Something like the figure below.&lt;/p>
+&lt;figure id="figure-publishers-could-re-use-the-computational-environments-from-a-communitys-hub-resulting-in-a-de-duplication-of-infrastructure-and-effort-and-bridging-the-gap-between-where-a-community-does-its-work-and-where-it-submits-new-ideas-for-publication-note-these-are-hypothetical-for-now-but-we-think-publishing-platforms-like-these-are-a-good-starting-point">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Publishers could re-use the computational environments from a community&amp;#39;s hub, resulting in a de-duplication of infrastructure and effort, and bridging the gap between where a community does its work, and where it submits new ideas for publication. (note these are hypothetical for now, but we think publishing platforms like these are a good starting point!)" srcset="
+/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_d99920aeaec9917382ce149f3ce7d5a3.webp 400w,
+/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_e5e6ded3be27e1fb99f31ea2025fe129.webp 760w,
+/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_d99920aeaec9917382ce149f3ce7d5a3.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Publishers could re-use the computational environments from a community&amp;rsquo;s hub, resulting in a de-duplication of infrastructure and effort, and bridging the gap between where a community does its work, and where it submits new ideas for publication. (note these are hypothetical for now, but we think publishing platforms like these are a good starting point!)
+&lt;/figcaption>&lt;/figure>
+&lt;p>Integrating with publishing in this way would allow communities to leverage their pre-existing infrastructure as part of their scholarly workflows. If a community had their own capacity to manage Binder infrastructure they could do so, or they could use a service provider like
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a> to manage it for them. This would distribute the responsibility of infrastructure management to those who are in the best position to do so - the communities that do the work.&lt;/p>
+&lt;h2 id="how-could-we-sustain-the-cost-of-running-computation-for-published-articles">
+How could we sustain the cost of running computation for published articles?
+&lt;a class="header-anchor" href="#how-could-we-sustain-the-cost-of-running-computation-for-published-articles">#&lt;/a>
+&lt;/h2>&lt;p>This raises an important question: how would you sustain services like these? Communities are already nervous about the cost of computation for their workflows. Public services like
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> are free and accessible, but not scalable, nor suitable for complex or mission-critical workflows&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Would community stakeholders pay for privileged access to BinderHubs that could reproduce and share their computational narratives? Would publishers be willing to pay a percentage of the cloud and management costs associated with reproduction? Could we use this to sustain a larger public service like mybinder.org?&lt;/p>
+&lt;p>We don&amp;rsquo;t have any answers yet but we&amp;rsquo;re keen to try. Our colleague Jim Colliander recently explored some of these ideas in a talk recorded for
+&lt;a href="https://agu.confex.com/agu/fm24/meetingapp.cgi/Paper/100644" target="_blank" rel="noopener" >AGU 2024&lt;/a>.&lt;/p>
+&lt;figure>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/D5s2HbaulZw?si=GCeDPpr2WobIuu4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>&lt;/iframe>
+&lt;figcaption>
+&lt;p>A talk from 2i2c team member
+&lt;a href="https://2i2c.org/author/jim-colliander/" target="_blank" rel="noopener" >Jim Colliander&lt;/a> discussing the right to reproduce computational ideas, the importance of enabling frictionless reproducibility, and how we might sustain such a service.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>One thing seems clear - there is an imperative to make reproducibility and interaction frictionless. This is both to ensure the scientific integrity of the work being done, and also to make computational ideas more accessible to the world. Technologies and service partnerships like these can help ensure the broader community&amp;rsquo;s right to reproduce the work of others.&lt;/p>
+&lt;h2 id="exploring-frictionless-portable-computing-at-2i2c">
+Exploring Frictionless Portable Computing at 2i2c
+&lt;a class="header-anchor" href="#exploring-frictionless-portable-computing-at-2i2c">#&lt;/a>
+&lt;/h2>&lt;p>2i2c often plays a role in &lt;em>bridging user communities and open source communities&lt;/em> through cycles of development and collaboration, perhaps we could do the same for the publishing community. We&amp;rsquo;d like to explore some tooling improvements that lay a foundation for these workflows, and will report back on our experiments in the coming months.&lt;/p>
+&lt;p>&lt;strong>If you are interested in collaborating&lt;/strong>, &lt;a href="mailto:hello@2i2c.org">please reach out&lt;/a>. We&amp;rsquo;d love to hear from organizations from the scholarly publishing community to understand where these ideas have holes or need significant new development. I&amp;rsquo;d also love feedback on sustainability models to ensure these services can be relied on as part of the publishing ecosystem. In the meantime, hopefully these ideas serve as an inspiration for what is possible, and where we might be heading with 2i2c&amp;rsquo;s service and the broader publishing ecosystem.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>There&amp;rsquo;s a
+&lt;a href="https://incentivizingopen.org/2025/03/new-paradigms-in-research-communication-continuing-thediscussion/" target="_blank" rel="noopener" >follow-up meeting&lt;/a> for those who are interested.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>The costs associated with running
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> have historically been shouldered by donations from organizations such as
+&lt;a href="https://ovhcloud.com" target="_blank" rel="noopener" >OVH&lt;/a>,
+&lt;a href="https://google.com" target="_blank" rel="noopener" >Google&lt;/a>,
+&lt;a href="https://notebooks.gesis.org/" target="_blank" rel="noopener" >GESIS&lt;/a>,
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>, and now
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>. These donations are not guaranteed, and do not scale directly with the number of users.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Our product goals for Q1 2025</title><link>https://2i2c.org/blog/2025/q1-product-goals/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-product-goals/</guid><description>&lt;p>&lt;em>This quarterly post is coming out a little bit late - our goal was to post this in early January, but the year has been more complicated than we bargained for :-)&lt;/em>&lt;/p>
+&lt;p>Over the past year, 2i2c has made team-wide efforts to improve our product planning and delivery. A key part of this is re-organizing an integrated
+&lt;a href="https://compass.2i2c.org/product-and-services/" target="_blank" rel="noopener" >Product and Services team&lt;/a> that brings our strategic planning, engineering, and service delivery closer together. We&amp;rsquo;ve also built systems for planning and measuring progress within the P&amp;amp;S team, and a product initiatives system for planning major work.&lt;/p>
+&lt;p>Our goal is to &lt;strong>organize our product work around a small set of core themes&lt;/strong> to help us focus and prioritize. As part of this, we’d like to share platform enhancement goals for roughly each quarter. These are not guarantees, but we share them to be transparent about where we think we can be the most impactful in the next few months. Here are the major areas we hope to improve 2i2c’ platform in Q1 2025.&lt;/p>
+&lt;h2 id="expand-access-to-cloud-providers-and-improve-data-safety">
+Expand access to cloud providers and improve data safety
+&lt;a class="header-anchor" href="#expand-access-to-cloud-providers-and-improve-data-safety">#&lt;/a>
+&lt;/h2>&lt;p>One of 2i2c&amp;rsquo;s goals is to showcase the ability of open infrastructure to be deployed on a variety of infrastructure proiders. This includes user-facing features, as well as guardrails and safety measures.&lt;/p>
+&lt;p>&lt;strong>In Q1 2025&lt;/strong> we are working to bring closer feature parity between hub deployments on AWS and GCP, while enabling disaster recovery with automated home directory backups.&lt;/p>
+&lt;h2 id="explore-deploying-on-public-infrastructure-providers">
+Explore deploying on public infrastructure providers
+&lt;a class="header-anchor" href="#explore-deploying-on-public-infrastructure-providers">#&lt;/a>
+&lt;/h2>&lt;p>Many communities in research and education are interested in leveraging publicly-owned infrastructure providers like
+&lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >JetStream 2&lt;/a> and the
+&lt;a href="https://nationalresearchplatform.org/" target="_blank" rel="noopener" >National Research Platform&lt;/a>. While 2i2c has historically focused on commercial cloud due to their highly-reliable Kubernetes platforms, we think it is important to explore publicly-owned infrastructure providers as well.&lt;/p>
+&lt;p>&lt;strong>In Q1 2025&lt;/strong> we&amp;rsquo;ll begin this expansion by deploying JupyterHubs and BinderHubs on JetStream 2, which will give communities access to publicly-funded computing resources. We will use this experience to decide whether it&amp;rsquo;s sustainable for us to deploy on this and other publicly-owned infrastructure providers.&lt;/p>
+&lt;h2 id="enable-enhanced-community-knowledge-bases-with-jupyter-book-2">
+Enable enhanced community knowledge bases with Jupyter Book 2
+&lt;a class="header-anchor" href="#enable-enhanced-community-knowledge-bases-with-jupyter-book-2">#&lt;/a>
+&lt;/h2>&lt;p>A key theme we aim to enable is &lt;strong>sharing&lt;/strong> within and between community hubs. This is a critical part of the data science workflow because it allows people to collaborate on the same ideas, and build on top of one another&amp;rsquo;s ideas. An early target for this is to facilitate lightweight sharing of computational content so that community members can learn from one another more effectively.&lt;/p>
+&lt;p>&lt;strong>In Q1 2025&lt;/strong> we want to help get
+&lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&amp;rsquo;s beta&lt;/a> released, and provide an out-of-the-box configuration for our communities to use it with their hubs. This includes adding landing pages and better integration with JupyterHub via launch buttons to create a more seamless experience between documentation and interactive computing.&lt;/p>
+&lt;h2 id="enable-sharing-reproducible-environments-on-a-hub">
+Enable sharing reproducible environments on a hub
+&lt;a class="header-anchor" href="#enable-sharing-reproducible-environments-on-a-hub">#&lt;/a>
+&lt;/h2>&lt;p>Another key aspect of sharing is &lt;strong>sharing the computational environment as well&lt;/strong>. This would allow communities to not only sheir their content, but also live infrastructure that allows others to reproduce and interact with their work. We think that investing more time into imiproving and deploying
+&lt;a href="https://binderhub.readthedocs.io/en/latest/" target="_blank" rel="noopener" >BinderHubs&lt;/a> (the technology behind
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>) will help us learn more about how to make this a reality.&lt;/p>
+&lt;p>&lt;strong>In Q1 2025&lt;/strong> we plan to grow our capacity to deploy BinderHubs across multiple cloud providers. This will allow hub users to build their own Binder environments on the fly and make it possible to share these environments with others, enabling better reproducibility and collaboration within communities.&lt;/p>
+&lt;h2 id="give-communities-more-visibility-and-control-over-their-hub-setup-and-costs">
+Give communities more visibility and control over their hub setup and costs
+&lt;a class="header-anchor" href="#give-communities-more-visibility-and-control-over-their-hub-setup-and-costs">#&lt;/a>
+&lt;/h2>&lt;p>Perhaps the biggest perceived risk to using cloud infrastructure is the possibility of &lt;strong>runaway costs&lt;/strong>. Community leaders are often nervous that something unexpected will happen and they&amp;rsquo;ll have to foot a giant bill at the end of the month. We think that reducing this risk is a key way to make cloud infrastructure safer and more useful for research and education communities.&lt;/p>
+&lt;p>&lt;strong>In Q1 2025&lt;/strong> we are aim to add more &lt;strong>visibility into hub usage&lt;/strong> and &lt;strong>more controls over resources via quotas&lt;/strong>. This will allow more fine control over resource budgets such as CPU, memory, and storage. We&amp;rsquo;ll also work on &lt;strong>assigning users to groups&lt;/strong>, allowing communities greater control over resource allocation across large user bases.&lt;/p>
+&lt;h2 id="standardize-our-hub-service-menu-of-options-and-prices">
+Standardize our hub service menu of options and prices
+&lt;a class="header-anchor" href="#standardize-our-hub-service-menu-of-options-and-prices">#&lt;/a>
+&lt;/h2>&lt;p>A key goal of our
+&lt;a href="" >Navigation Fund grant&lt;/a> is to streamline ourselves into a few repeatable, scalable service offerings at different price points. This will allow us to more easily support new communities and provide a more consistent experience for users.&lt;/p>
+&lt;p>&lt;strong>In Q1 2025&lt;/strong> we&amp;rsquo;d like to define a starting point that we can begin to iterate on. We&amp;rsquo;ll define a new set of pricing based around a tiered service model, and decide on an initial set of features and services to include with each. Our goal will be to have something defined quickly so that we can iterate a few times with community feedback before the quarter is over.&lt;/p>
+&lt;h2 id="standardize-our-community-support-services">
+Standardize our community support services
+&lt;a class="header-anchor" href="#standardize-our-community-support-services">#&lt;/a>
+&lt;/h2>&lt;p>Finally, we&amp;rsquo;ve audited our ongoing support practices and realized that we aren&amp;rsquo;t always delivering them in an efficient way. We often share the same information one-on-one conversations, and aren&amp;rsquo;t effectively leveraging our community network to support and learn from one another. We&amp;rsquo;d like to standardize and boost the scalability of our support services.&lt;/p>
+&lt;p>&lt;strong>In Q1 2025&lt;/strong> we want to explore how we can more scalably and efficiently provide hands-on guidance, expert co-creation, and support to communities. Our goal is to define a starting point for these services so that we can offer this support in a sustainable way and begin to learn from our experiences. We also want to build a mechanism for scoping (and pricing) additional capacity that is needed beyond standard community services.&lt;/p>
+&lt;h2 id="another-update-coming-in-q2">
+Another update coming in Q2
+&lt;a class="header-anchor" href="#another-update-coming-in-q2">#&lt;/a>
+&lt;/h2>&lt;p>Our aim is to use this blog post as a guide for the quarter, and to make progress in as many areas above as we can. As part of our Q2 planning process, we&amp;rsquo;ll provide a retrospective on the accomplishments we&amp;rsquo;ve made towards this effort, and will provide an update for our community on our progress. Stay tuned for more!&lt;/p></description></item><item><title>2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub</title><link>https://2i2c.org/blog/2025/binder-singlenode/</link><pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-singlenode/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+If you&amp;rsquo;re interested in supporting &lt;code>mybinder.org&lt;/code> with cloud resources, financial resources, or human resources, please see the
+&lt;p>&lt;a href="https://mybinder.readthedocs.io/en/latest/about/support.html" target="_blank" rel="noopener" >Support Binder&lt;/a> page for how you can help.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;code>tl;dr&lt;/code>: The 2i2c team is joining the mybinder.org federation with a
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3169/" target="_blank" rel="noopener" >single-node BinderHub instance at &lt;code>2i2c.mybinder.org&lt;/code>&lt;/a>. It should be much cheaper to run than auto-scaling Kubernetes clusters, and might be a good way to support &lt;code>mybinder.org&lt;/code> more sustainably. For questions or comments, join
+&lt;a href="https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/ANN.3A.202i2c.20joins.20mybinder.2Eorg.20federation.20with.20new.20strategy/near/496811301" target="_blank" rel="noopener" >this Jupyter Zulip thread&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >&lt;code>mybinder.org&lt;/code>&lt;/a> is a massive public service for creating and sharing reproducible computational environments. It is managed by the JupyterHub team and
+&lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >members of the &lt;code>mybinder.org&lt;/code> federation&lt;/a>. One challenge in running
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >&lt;code>mybinder.org&lt;/code>&lt;/a> is identifying cloud credits or financial resources to support the cloud infrastructure that runs the service. Two years ago,
+&lt;a href="https://medium.com/jupyter-blog/mybinder-org-reducing-capacity-c93ccfc6413f" target="_blank" rel="noopener" >Google stopped supporting &lt;code>mybinder.org&lt;/code> federation with cloud credits&lt;/a>, and last month
+&lt;a href="https://discourse.jupyter.org/t/mybinder-org-reduced-capacity-stability/31750" target="_blank" rel="noopener" >the federation lost more capacity&lt;/a>, leaving only
+&lt;a href="https://www.gesis.org/en/home" target="_blank" rel="noopener" >GESIS&lt;/a> and
+&lt;a href="https://us.ovhcloud.com/" target="_blank" rel="noopener" >OVH&lt;/a> as remaining federation members&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. This makes &lt;code>mybinder.org&lt;/code> less reliable, slower, and generally less useful to the world.&lt;/p>
+&lt;p>The landscape of cloud infrastructure technology and services has changed considerably, and we think that there&amp;rsquo;s a way to deploy BinderHub instances with lower costs and less complexity. We&amp;rsquo;ve accomplished this by deploying a &lt;strong>single-node Kubernetes cluster&lt;/strong> on a VM provider that is much cheaper, now running at &lt;code>2i2c.mybinder.org&lt;/code>. This both relieves Binder&amp;rsquo;s short-term capacity shortage and may provide an easier pathway for others to support the project in the future.&lt;/p>
+&lt;p>Below, we&amp;rsquo;ll describe what has changed to enable this, what we&amp;rsquo;re deploying, and what the impact should be.&lt;/p>
+&lt;h2 id="cloud-infrastructure-has-become-cheaper-and-more-commodified">
+Cloud infrastructure has become cheaper and more commodified
+&lt;a class="header-anchor" href="#cloud-infrastructure-has-become-cheaper-and-more-commodified">#&lt;/a>
+&lt;/h2>&lt;p>A key theory of mybinder.org (and 2i2c) is that commercial cloud infrastructure will be commidified over time &amp;ndash; what begins as cutting-edge functionality will become commonplace and offered across all cloud providers. As a result, costs will go down over time. Abstractions like
+&lt;a href="https://kubernetes.io/" target="_blank" rel="noopener" >Kubernetes&lt;/a> will allow you to easily migrate workflows and infrastructure between cloud providers. As a result, you&amp;rsquo;ll be able to easily &lt;em>follow those costs&lt;/em> where there are better options. That&amp;rsquo;s essentially what is happening here.&lt;/p>
+&lt;p>There are two key changes that make it much easier to deploy a BinderHub instance at a fraction of the cost:&lt;/p>
+&lt;p>First, &lt;strong>Kubernetes has matured and become easier to deploy&lt;/strong>. When mybinder.org started, it was using the cutting-edge of Kubernetes functionality. This meant that we needed to use cloud providers that provided a &lt;em>managed Kubernetes service&lt;/em> to deal with this complexity. A managed Kubernetes offering tends to be expensive, offered by only a few cloud providers, and thus raises costs across-the-board for the provider that offers it.&lt;/p>
+&lt;p>However, this was almost a decade ago, and Kubernetes has become both more functional and more stable. There are now many more ways of running Kubernetes, especially for simpler workflows that don&amp;rsquo;t require autoscaling. In the last several months, we&amp;rsquo;ve been experimenting with &lt;strong>single-node Kubernetes workflows&lt;/strong> via
+&lt;a href="https://k3s.io/" target="_blank" rel="noopener" >K3s&lt;/a>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.
+&lt;a href="https://k3s.io/" target="_blank" rel="noopener" >K3s&lt;/a> is a lightweight Kubernetes distribution that is much easier to deploy and manage. It&amp;rsquo;s designed for things like edge computing and low-resource environments, and it can be deployed with a single script!&lt;/p>
+&lt;p>By running a Kubernetes cluster on a single node, we don&amp;rsquo;t need a &amp;ldquo;managed Kubernetes service&amp;rdquo;, which means &lt;strong>we can choose from a much larger pool of infrastructure / cloud providers&lt;/strong>. If all we need is a running VM, this is something the tech industry has been doing for decades.&lt;/p>
+&lt;p>Second, &lt;strong>Managed Object Storage services have more open source options, and are more commodified and cheaper&lt;/strong>. In addition to Kubernetes, the other thing that BinderHub needs is a way to store and retrieve images for the environments that it builds. This also used to be a fairly complex problem, and thus required managed solutions from cloud providers that charged a premium for their service. However, a number of open source object storage solutions have emerged and made it much easier for providers to support this workflow.&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Because these are open source, infrastructure providers can provide managed object storage at a fraction of the cost.&lt;/p>
+&lt;p>Because of these two things, we&amp;rsquo;ve learned that we can run a BinderHub instance on a single VM from a much larger pool of infrastructure providers. This means &lt;strong>we should be able to run BinderHub instances at a fraction of the cost&lt;/strong>.&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="deploying-binderhub-on-a-single-node-vm-is-cheaper-and-simpler">
+Deploying BinderHub on a single-node VM is cheaper and simpler
+&lt;a class="header-anchor" href="#deploying-binderhub-on-a-single-node-vm-is-cheaper-and-simpler">#&lt;/a>
+&lt;/h2>&lt;p>Last week, we
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3169" target="_blank" rel="noopener" >deployed 2i2c.mybinder.org&lt;/a>, a single-node Kubernetes instance on
+&lt;a href="https://hetzner.com/cloud" target="_blank" rel="noopener" >Hetzner&lt;/a> cloud using
+&lt;a href="https://k3s.io/" target="_blank" rel="noopener" >K3s&lt;/a>. This will run on a single node VM, with a Kubernetes instance that is entirely managed by us, and with managed object storage from Hetzner. Compared to other cloud providers, it is &lt;strong>around 5x cheaper per month&lt;/strong>.&lt;/p>
+&lt;figure id="figure-comparison-of-rough-monthly-costs-across-different-cloud-providers-for-similar-vm-instances-these-are-rough-estimates-based-on-cloud-provider-pricing-pages-for-an-on-demand-vm-with-around-190gb-ram-pricing-pages-hetzner-cloudhttpswwwhetznercomcloud-300-microsoft-azurehttpsazurecomeda6294b08dfa49639f74caad1630bbe4-1300-google-cloud-platformhttpscloudgooglecomproductscalculatorhlendlcjhdavjrwlrbevpeumpnqzawtvrrmkxuumtnalv0t0rnnu5pmhpav1eywlrnmfphsxppve1rqve9praigirdrtq3qtywqy1dnum5ltq3qkqtqtm3ms05mjbcqju1qjngrjg-1500-amazon-web-serviceshttpscalculatorawsestimateida3bddb8bdbfa2058b941b669e408141e7fd18da4-1600">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Comparison of rough monthly costs across different cloud providers for similar VM instances. These are rough estimates based on cloud provider pricing pages for an on-demand VM with around 190GB RAM. Pricing pages: [Hetzner Cloud](https://www.hetzner.com/cloud) ~$300, [Microsoft Azure](https://azure.com/e/da6294b08dfa49639f74caad1630bbe4) ~$1,300, [Google Cloud Platform](https://cloud.google.com/products/calculator?hl=en&amp;amp;dl=CjhDaVJrWlRBeVpEUmpNQzAwTVRrMkxUUmtNalV0T0RnNU5pMHpaV1EyWlRnMFpHSXpPVE1RQVE9PRAIGiRDRTQ3QTYwQy1DNUM5LTQ3QkQtQTM3MS05MjBCQjU1QjNGRjg) ~$1,500, [Amazon Web Services](https://calculator.aws/#/estimate?id=a3bddb8bdbfa2058b941b669e408141e7fd18da4) ~$1,600." srcset="
+/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp 400w,
+/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_c2893908494f67146ba04b558b8584c1.webp 760w,
+/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp"
+width="760"
+height="540"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Comparison of rough monthly costs across different cloud providers for similar VM instances. These are rough estimates based on cloud provider pricing pages for an on-demand VM with around 190GB RAM. Pricing pages:
+&lt;a href="https://www.hetzner.com/cloud" target="_blank" rel="noopener" >Hetzner Cloud&lt;/a> ~$300,
+&lt;a href="https://azure.com/e/da6294b08dfa49639f74caad1630bbe4" target="_blank" rel="noopener" >Microsoft Azure&lt;/a> ~$1,300,
+&lt;a href="https://cloud.google.com/products/calculator?hl=en&amp;amp;dl=CjhDaVJrWlRBeVpEUmpNQzAwTVRrMkxUUmtNalV0T0RnNU5pMHpaV1EyWlRnMFpHSXpPVE1RQVE9PRAIGiRDRTQ3QTYwQy1DNUM5LTQ3QkQtQTM3MS05MjBCQjU1QjNGRjg" target="_blank" rel="noopener" >Google Cloud Platform&lt;/a> ~$1,500,
+&lt;a href="https://calculator.aws/#/estimate?id=a3bddb8bdbfa2058b941b669e408141e7fd18da4" target="_blank" rel="noopener" >Amazon Web Services&lt;/a> ~$1,600.
+&lt;/figcaption>&lt;/figure>
+&lt;!-- Machines for the figure above:
+Hetzner: CCX63
+Amazon Web Services: m8g.12xlarge
+Google Cloud Platform: n2-standard-48
+Microsoft Azure: D48as v5
+-->
+&lt;p>Running a single-node Kubernetes instance will be a cheap and effective way to handle a lot of &lt;code>mybinder.org&lt;/code>&amp;rsquo;s capacity needs. Because it&amp;rsquo;s a single node cluster, there is no auto-scaling (one reason it is so cheap), which reduces a lot of the complexity we&amp;rsquo;ll have to manage. These are acceptable tradeoffs for a service like &lt;code>mybinder.org&lt;/code>, which runs entirely ephemeral sessions with very limited resources and no promises about uptime, persistence, etc.&lt;/p>
+&lt;p>You might be wondering: &amp;ldquo;I thought Kubernetes was supposed to &lt;em>save money&lt;/em>.&amp;rdquo; Normally, running Kubernetes for scalable workflows does save costs because you can scale infrastructure to match your capacity needs. Without scaling, you&amp;rsquo;d need to provide a VM that can &lt;em>always&lt;/em> handle your &lt;em>maximum capacity&lt;/em> needs (and pay for the costs the entire time). With Kubernetes, you can request and remove nodes to grow your capacity as-needed (and save money doing so). It looks something like this:&lt;/p>
+&lt;figure id="figure-the-cost-difference-between-a-single-large-vm-vs-scalable-nodes-given-variable-usage-over-time-kubernetes-allows-you-to-scale-your-cost-up-and-down-with-need-which-is-more-efficient-than-paying-for-a-single-vm-that-can-withstand-your-maximum-capacity">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The cost difference between a single large VM vs scalable nodes. Given variable usage over time, kubernetes allows you to scale your cost up and down with need, which is more efficient than paying for a single VM that can withstand your maximum capacity."
+src="https://2i2c.org/blog/2025/binder-singlenode/images/scalable.excalidraw.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The cost difference between a single large VM vs scalable nodes. Given variable usage over time, kubernetes allows you to scale your cost up and down with need, which is more efficient than paying for a single VM that can withstand your maximum capacity.
+&lt;/figcaption>&lt;/figure>
+&lt;p>However, there is a built-in cost you pay when you use a service that provides managed Kubernetes. &lt;strong>Managed Kubernetes services are complex and expensive&lt;/strong>, and this is reflected across-the-board in the provider&amp;rsquo;s costs. What if we could achieve the same outcome with a much simpler cloud offering like a single VM?&lt;/p>
+&lt;p>We did a bit of research and discovered that the Kubernetes and object storage landscape has indeed evolved significantly since the early days of mybinder.org. For example,
+&lt;a href="https://www.hetzner.com/cloud/" target="_blank" rel="noopener" >Hetzner&lt;/a> is a cloud provider that has been around for a long time. It has single-node VMs that are about &lt;code>4x&lt;/code> cheaper than their counterparts in Google Cloud or AWS, and provides managed object storage that uses
+&lt;a href="https://min.io/" target="_blank" rel="noopener" >MinIO&lt;/a> in a cost-effective way. Using
+&lt;a href="https://k3s.io/" target="_blank" rel="noopener" >K3s&lt;/a>, we can run a lightweight, single-node Kubernetes runtime on this node, and deploy a BinderHub with the same infrastructure as any other BinderHub federation member.&lt;/p>
+&lt;p>By our estimate, we could fit around &lt;strong>400 simultaneous sessions&lt;/strong> on &lt;code>mybinder.org&lt;/code> (because each session uses very few cloud resources). This is already the majority of mybinder.org&amp;rsquo;s capacity needs, and at a much lower cost than using a scalable Kubernetes cluster. The cost picture looks something like this:&lt;/p>
+&lt;figure id="figure-if-your-single-vm-is-much-cheaper-it-might-still-be-the-cheapest-option-in-the-case-of-a-hetzner-vm-it-has-roughly-the-same-capacity-as-another-cloud-providers-vm-but-at-14-of-the-cost">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="If your single VM is much cheaper, it might still be the cheapest option. In the case of a Hetzner VM, it has roughly the same capacity as another cloud provider&amp;#39;s VM, but at 1/4 of the cost."
+src="https://2i2c.org/blog/2025/binder-singlenode/images/single.excalidraw.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+If your single VM is much cheaper, it might still be the cheapest option. In the case of a Hetzner VM, it has roughly the same capacity as another cloud provider&amp;rsquo;s VM, but at 1/4 of the cost.
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="2i2cmybinderorg-now-serves-70-of-the-mybinderorg-federation">
+2i2c.mybinder.org now serves 70% of the mybinder.org federation
+&lt;a class="header-anchor" href="#2i2cmybinderorg-now-serves-70-of-the-mybinderorg-federation">#&lt;/a>
+&lt;/h2>&lt;p>About a week ago, we launched
+&lt;a href="https://2i2c.mybinder.org" target="_blank" rel="noopener" >2i2c.mybinder.org&lt;/a> running via the methodology we described above. We intended to run this as a longer experiment, but believe that it has already proven useful enough to consider &amp;ldquo;ready for production&amp;rdquo;. We recently
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3196" target="_blank" rel="noopener" >increased 2i2c.mybinder.org&amp;rsquo;s load to 70%&lt;/a> and will continue to monitor its performance over time. Here&amp;rsquo;s a plot of where each mybinder.org session has been run over the past ten days - you can see the moment where we turn on &lt;code>2i2c.mybinder.org&lt;/code> to the left:&lt;/p>
+&lt;figure id="figure-sessions-launched-on-mybinderorgs-federation-over-the-past-ten-days-the-yellow-area-represents-sessions-run-on-2i2cmybinderorg-they-now-make-up-the-majority-of-launches-on-mybinderorg-prior-to-this-gesismybinderorg-was-the-only-remaining-federation-member">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Sessions launched on mybinder.org&amp;#39;s federation over the past ten days. The yellow area represents sessions run on `2i2c.mybinder.org`. They now make up the majority of launches on mybinder.org. Prior to this, `gesis.mybinder.org` was the only remaining federation member." srcset="
+/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp 400w,
+/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_60d33ca4f5b10dd4a2e0daa491ee21c6.webp 760w,
+/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp"
+width="760"
+height="455"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Sessions launched on mybinder.org&amp;rsquo;s federation over the past ten days. The yellow area represents sessions run on &lt;code>2i2c.mybinder.org&lt;/code>. They now make up the majority of launches on mybinder.org. Prior to this, &lt;code>gesis.mybinder.org&lt;/code> was the only remaining federation member.
+&lt;/figcaption>&lt;/figure>
+&lt;p>For now, 2i2c is sponsoring a max of €350 a month (with some currency conversion noise) to run this service. We&amp;rsquo;ll provide in-kind labor to run this node, and treat it as an organizational investment in supporting open science, as well as learning new Kubernetes and cloud infrastructure workflows. We&amp;rsquo;re going to use funds recovered from communities in our
+&lt;a href="https://2i2c.org/platform/" >community hub network&lt;/a>, along with in-kind labor to build out this experiment.&lt;/p>
+&lt;p>In six months, we&amp;rsquo;ll evaluate how much effort it was to run this node for &lt;code>mybinder.org&lt;/code>, whether it meaningfully helped with &lt;code>mybinder.org&lt;/code>&amp;rsquo;s capacity, and whether it was sustainable for us from a time and labor perspective.&lt;/p>
+&lt;h2 id="others-can-join-the-mybinderorg-federation-using-this-approach-as-well">
+Others can join the mybinder.org federation using this approach as well
+&lt;a class="header-anchor" href="#others-can-join-the-mybinderorg-federation-using-this-approach-as-well">#&lt;/a>
+&lt;/h2>&lt;p>We think that developing this single-node BinderHub workflow will make it much easier for others to join the mybinder.org federation, because it lowers the infrastructure and skills complexity needed to join.
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/blob/72a1a34509e2c43aec788f602250c58d9d849a13/docs/source/deployment/k3s.md" target="_blank" rel="noopener" >Here is a brief guide we&amp;rsquo;ve written for deploying a BinderHub with K3s&lt;/a>. We are helping a few interested organizations deploy their own BinderHubs in this way in order to validate the idea, and are hopeful that this makes it much easier to grow mybinder.org&amp;rsquo;s capacity via new federation members.&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>We&amp;rsquo;re excited to experiment with new ways to support &lt;code>mybinder.org&lt;/code>. We think this is an excellent example of how open standards and technology lead to cloud workflows with lower costs and more flexibility. We also think it&amp;rsquo;s a good example of how it is valuable to have organizations aligned with open science (like 2i2c!) acting in this space. If you have any questions or comments, please join
+&lt;a href="https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/ANN.3A.202i2c.20joins.20mybinder.2Eorg.20federation.20with.20new.20strategy/near/496811301" target="_blank" rel="noopener" >this Jupyter Zulip thread&lt;/a>&lt;/p>
+&lt;h2 id="anybody-want-to-fund-this">
+Anybody want to fund this?
+&lt;a class="header-anchor" href="#anybody-want-to-fund-this">#&lt;/a>
+&lt;/h2>&lt;p>If you&amp;rsquo;re interested in making open science infrastructure like Binder more scalable and sustainable, we&amp;rsquo;d love to find more resources to both sustain this node and cover more development time to run this experiment.
+&lt;a href="" >Feel free to reach out here&lt;/a>.&lt;/p>
+&lt;p>If you have access to VMs and object storage, and are interested in running a mybinder.org federation member using the methods described here, check out
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/blob/72a1a34509e2c43aec788f602250c58d9d849a13/docs/source/deployment/k3s.md" target="_blank" rel="noopener" >our brief guide for deploying a BinderHub with K3s&lt;/a>.&lt;/p>
+&lt;p>If you&amp;rsquo;re generally interested in supporting &lt;code>mybinder.org&lt;/code> with cloud resources, financial resources, or human resources, please see the
+&lt;a href="https://mybinder.readthedocs.io/en/latest/about/support.html" target="_blank" rel="noopener" >Support Binder&lt;/a> page for how you can help.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+If you&amp;rsquo;re interested in supporting &lt;code>mybinder.org&lt;/code> with cloud resources, financial resources, or human resources, please see the
+&lt;p>&lt;a href="https://mybinder.readthedocs.io/en/latest/about/support.html" target="_blank" rel="noopener" >Support Binder&lt;/a> page for how you can help.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Many thanks to
+&lt;a href="https://www.gesis.org/en/home" target="_blank" rel="noopener" >GESIS&lt;/a> and
+&lt;a href="https://us.ovhcloud.com/" target="_blank" rel="noopener" >OVH&lt;/a> for their continued support of mybinder.org, your contributions to keeping this service running are critical!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>thanks to
+&lt;a href="https://carlboettiger.info/" target="_blank" rel="noopener" >Carl Boettiger&lt;/a> for collaborating on this with us!&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>One example is
+&lt;a href="https://min.io/" target="_blank" rel="noopener" >MinIO&lt;/a>, which is used by
+&lt;a href="https://hetzner.com/cloud" target="_blank" rel="noopener" >Hetzner&lt;/a> to provide managed object storage for their single-node VMs.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>For example,
+&lt;a href="https://hetzner.com/cloud" target="_blank" rel="noopener" >Hetzner&lt;/a> provides a single-VM option with managed object storage that is roughly 25% of the cost of other cloud providers that also offer autoscaling Kubernetes services. There are many other infrastructure providers who could be used in this way.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>We&amp;rsquo;re also experimenting with a few other ways to reduce the complexity and costs of running a BinderHub even further, but will have more on that later as we learn more :-).&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Designing for an ecosystem: a case study in cross-project open source contribution</title><link>https://2i2c.org/blog/2025/jupyter-book-cors/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyter-book-cors/</guid><description>&lt;p>A key challenge in the open source space is that projects are often independent and autonomous, with relatively few formal ways to collaborate and coordinate efforts. While this usually isn&amp;rsquo;t a big deal, it means that there is a missed opportunity to grow the impact of an ecosystem because it requires coordinated development among multiple stakeholders within it.&lt;/p>
+&lt;p>This is one of the reasons we created 2i2c&amp;rsquo;s open community hub platform. By deploying a single platform that utilizes entirely open infrastructure that we contribute back to, we have visibility over a variety of projects along with the need to combine them together for a specific end-user outcome. One-such development scenario recently came up involving
+&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> and
+&lt;a href="https://jupyterhub.org/" target="_blank" rel="noopener" >JupyterHub&lt;/a>.&lt;/p>
+&lt;h2 id="allowing-readers-to-bring-their-own-binders">
+Allowing readers to &amp;ldquo;bring their own Binders&amp;rdquo;
+&lt;a class="header-anchor" href="#allowing-readers-to-bring-their-own-binders">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;ve recently been working to integrate
+&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> workflows with our community hubs for a more seamless experience (for example, having book pages link back to interactive cloud sessions that allow users to interact with the content). We imagine a network of Jupyter Books that all build upon the same core infrastructures (JupyterHub, Binder, etc) for cloud-based computing. Our hope is to allow a user to &lt;em>bring their own Binder&lt;/em> with them so that they can interact with another book&amp;rsquo;s content with their own cloud infrastructure. For example:&lt;/p>
+&lt;ul>
+&lt;li>A student with access to &lt;code>binder.myuniversity.edu&lt;/code> could read a Jupyter Book created by a professor at &lt;code>otheruniversity.edu&lt;/code>.&lt;/li>
+&lt;li>The Jupyter Book is defined with a
+&lt;a href="https://repo2docker.readthedocs.io/en/latest/specification.html" target="_blank" rel="noopener" >Binder specification&lt;/a> that has a recipe for re-building the environment needed to run te book&amp;rsquo;s content.&lt;/li>
+&lt;li>From the professor&amp;rsquo;s book, the student can choose to launch an interactive Binder sessions on &lt;em>their university&amp;rsquo;s Binder&lt;/em>, allowing them to interact with the book&amp;rsquo;s content on their own infrastructure.&lt;/li>
+&lt;/ul>
+&lt;p>We want a workflow like this to be as seamless and un-complicated as possible. We also want it to follow the same fundamental workflow as the
+&lt;a href="https://docs.2i2c.org/community/content/" target="_blank" rel="noopener" >nbgitpuller-based launch buttons&lt;/a>. Along the way, we realized that we needed to coordinate development across
+&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a>],
+&lt;a href="https://jupyter.readthedocs.io" target="_blank" rel="noopener" >JupyterHub&lt;/a>, and
+&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>.&lt;/p>
+&lt;figure id="figure-the-three-projects-jupyter-book-binderhub-and-jupyterhub-that-needed-to-work-together-to-enable-bring-your-own-binderhub-workflows">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.png" alt="The three projects (Jupyter Book, BinderHub, and JupyterHub) that needed to work together to enable &amp;#39;bring your own binderhub&amp;#39; workflows." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The three projects (Jupyter Book, BinderHub, and JupyterHub) that needed to work together to enable &amp;lsquo;bring your own binderhub&amp;rsquo; workflows.
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="getting-jupyter-book-to-discover-jupyter-hub">
+Getting Jupyter Book to discover Jupyter Hub
+&lt;a class="header-anchor" href="#getting-jupyter-book-to-discover-jupyter-hub">#&lt;/a>
+&lt;/h2>&lt;p>As we began developing this workflow, we realized that there was a blocker in the JupyterHub and BinderHub ecosystem that needed to be fixed. We needed a way to &lt;strong>ask a JupyterHub whether it had an unauthenticated end-point for service discovery&lt;/strong>. Basically, a way to ask a hub &amp;ldquo;what kind of hub are you, and how can we launch an interactive session on you?&amp;rdquo; Doing this is simple-enough - JupyterHub already has a way of reporting its version and application type, which allows us to infer how to launch interactive sessions. But, we hit a snag in an HTML context.&lt;/p>
+&lt;p>By default, JupyterHub disallows certain kinds of
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" target="_blank" rel="noopener" >Cross-Origin Resource Sharing&lt;/a> (CORS) requests, in order to restrict other applications from abusing a JupyterHub&amp;rsquo;s API. If you hit parts of a JupyterHub API from &lt;em>the command line&lt;/em>, things work fine. But if you do the same thing via JavaScript from a website, the request is disallowed. This was a problem if we want Jupyter Book (a web application) to be able to make requests of JupyterHub&amp;rsquo;s API.&lt;/p>
+&lt;p>So, we realized that we needed to make an &lt;strong>upstream contribution in JupyterHub&lt;/strong> in order to &lt;strong>enable an interaction between JupyterHub and Jupyter Book&lt;/strong>. In this case, it was a relatively simple fix: allowing CORS requests for the specific API endpoint we needed (which is a very lightweight endpoint that is not vulnerable to security risks, and is broadly useful to make accessible)&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. That resulted in two PRs:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/jupyterhub/pull/4966" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/jupyterhub#4966&lt;/a> allows CORS requests for the API that was needed for service discovery in JupyterHub.&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1906" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/binderhub#1906&lt;/a> enables this workflow on a BinderHub so that its services can be discovered.&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/503" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter-book/myst-theme#503&lt;/a> adds new launch button functionality to
+&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> that allows readers to bring their own Binder / JupyterHub links for launching. (this is what necessitated the above two PRs)&lt;/li>
+&lt;/ul>
+&lt;p>As a result of this upstream contribution loop, JupyterHub can now accept API requests at its &amp;ldquo;service discovery&amp;rdquo; endpoint, which means that Jupyter Book (and any other web application) can more easily learn about a hub&amp;rsquo;s capabilities and version.&lt;/p>
+&lt;p>We wanted to share this short vignette because it&amp;rsquo;s a good reflection of the kind of value that 2i2c tries to provide, given its role in helping to build and enhance networks of infrastructure, domain communities, and open source communities. In this case, we enabled a &lt;em>cross-project&lt;/em> workflow that required knowledge of each project, and a vision for how they could be used together in a way that exceeded the sum of their parts.&lt;/p>
+&lt;p>We think there&amp;rsquo;s a lot more potential in these kinds of workflows, and are eager to continue our work to identify and enhance community-centric infrastructure for interactive computing.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>This actually required an interesting bit of team discussion that was much easier with a few 2i2c staff on the JupyterHub team. The original request from Angus was interpreted as opening up the &lt;em>entire hub API&lt;/em> to external requests (which is a bad idea!) but we were able to quickly discuss this with the JupyterHub team to clarify that this was only about a very specific API endpoint. This is the kind of communication loop that often goes haywire when you have people contributing to a project without historical relationships to the project&amp;rsquo;s maintainers.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Announcing our formal commitment to open technology</title><link>https://2i2c.org/blog/2025/community-ownership/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/community-ownership/</guid><description>&lt;p>In this post, we&amp;rsquo;re sharing our
+&lt;a href="https://2i2c.org/open-technology/" >Commitment to Open Technology&lt;/a>. It is focused on &lt;em>software licenses&lt;/em> for reasons we&amp;rsquo;ll describe below. We hope that it clarifies what kind of licenses we&amp;rsquo;ll use, and assures our communities that we will not change our stance towards open source technology in the future. This ensures 2i2c&amp;rsquo;s long-term commitment to community-owned and open infrastructure.&lt;/p>
+&lt;p>Being a platform and service provider gives us a lot of power, and also introduces a potential source of &lt;em>lock-in&lt;/em> for our member communities. While 2i2c&amp;rsquo;s organizational mission and culture are strongly aligned with open infrastructure, we believe it&amp;rsquo;s important to encode commitments like these in a formal way to provide both transparency and accountability to our member communities.&lt;/p>
+&lt;h2 id="our-commitment-to-open-technology">
+Our commitment to open technology
+&lt;a class="header-anchor" href="#our-commitment-to-open-technology">#&lt;/a>
+&lt;/h2>&lt;p>Below we copy the original language of this policy from our
+&lt;a href="https://2i2c.org/open-technology/" >Commitment to Open Technology&lt;/a>:&lt;/p>
+&lt;!-- TODO: When we switch to MyST, we should embed this rather than copy/paste -->
+&lt;p>&lt;em>Definitions of MUST, MUST NOT, SHOULD, MAY, etc are defined in
+&lt;a href="https://tools.ietf.org/html/rfc2119" target="_blank" rel="noopener" >RFC 2119&lt;/a>&lt;/em>&lt;/p>
+&lt;ol>
+&lt;li>All engineering artifacts (code, documentation, etc) produced by 2i2c&amp;rsquo;s engineering team MUST be licensed under an open source license approved by a non-profit organization that is not 2i2c.&lt;/li>
+&lt;li>Open Source Projects originating at 2i2c, or stewarded by 2i2c, MUST NOT require a
+&lt;a href="https://en.wikipedia.org/wiki/Contributor_License_Agreement" target="_blank" rel="noopener" >Contributor Licensing Agreement&lt;/a> that includes Copyright Assignment to 2i2c.&lt;/li>
+&lt;li>The list of external organizations that define licenses we accept are
+&lt;ol>
+&lt;li>
+&lt;a href="https://opensource.org/" target="_blank" rel="noopener" >the Open Source Initiative&lt;/a>&lt;/li>
+&lt;li>the
+&lt;a href="https://ethicalsource.dev/" target="_blank" rel="noopener" >Organization for Ethical Source&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Modifying (1), (2), or (3) MUST be done through a 2/3 majority vote of 2i2c staff.&lt;/li>
+&lt;/ol>
+&lt;h2 id="what-does-this-commitment-mean">
+What does this commitment mean?
+&lt;a class="header-anchor" href="#what-does-this-commitment-mean">#&lt;/a>
+&lt;/h2>&lt;p>In plain language, here&amp;rsquo;s what this commitment means:&lt;/p>
+&lt;ol>
+&lt;li>We&amp;rsquo;ll only use open source licenses that have been approved by standard non-profits that are broadly recognized by the tech industry.&lt;/li>
+&lt;li>For anything we build, we won&amp;rsquo;t require contributors to give up the rights to their contributions via CLAs, so that it is much harder for 2i2c to change our licenses in the future.&lt;/li>
+&lt;li>Changing this policy will require organization-wide agreement, and in the future we&amp;rsquo;ll give authority over this policy to a group of people representing our member communities.&lt;/li>
+&lt;/ol>
+&lt;h2 id="why-are-licenses-and-clas-important">
+Why are licenses and CLAs important?
+&lt;a class="header-anchor" href="#why-are-licenses-and-clas-important">#&lt;/a>
+&lt;/h2>&lt;p>Many organizations claim to be committed to open infrastructure, while retaining the ability to &lt;em>change this commitment in the future when it is in their interests&lt;/em>. A classic example of this is a &amp;ldquo;bait and switch&amp;rdquo; that looks something like this:&lt;/p>
+&lt;ol>
+&lt;li>A company releases software under an open source license and professes to build an open source community around it.&lt;/li>
+&lt;li>However, they retain the rights to all of the code in their projects through a
+&lt;a href="https://en.wikipedia.org/wiki/Contributor_License_Agreement" target="_blank" rel="noopener" >Contributor License Agreement&lt;/a> (CLA) with copyright assignment. This generally means that contributors must &lt;em>give up the rights to their contribution&lt;/em> in order to make that contribution.&lt;/li>
+&lt;li>Once their product has gained traction and it is in their interests, the company can &lt;em>change the license&lt;/em> to whatever they wish (even one that is not open source) because they retain the rights to all contributions in the codebase.&lt;/li>
+&lt;li>They then leverage this new position as owners of a proprietary project to extract business value or grow their position in a market.&lt;/li>
+&lt;/ol>
+&lt;p>Think this sounds unlikely? Here are just a few recent examples of companies that have switched their license after many years of releasing their technology under an open source license:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://redis.io/blog/redis-adopts-dual-source-available-licensing/" target="_blank" rel="noopener" >Redis&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license" target="_blank" rel="noopener" >Hashicorp / Terraform&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://en.wikipedia.org/wiki/Elasticsearch#Licensing_changes" target="_blank" rel="noopener" >Elastic Search&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>We want to ensure our communities that 2i2c is not headed down this path, in order to give them confidence in treating us as a long-term service partner.&lt;/p>
+&lt;h2 id="what-does-this-change-about-2i2cs-open-source-commitment">
+What does this change about 2i2c&amp;rsquo;s open source commitment?
+&lt;a class="header-anchor" href="#what-does-this-change-about-2i2cs-open-source-commitment">#&lt;/a>
+&lt;/h2>&lt;p>In short: nothing. These are already the principles that 2i2c was committed to from its inception, and already implied via our
+&lt;a href="https://2i2c.org/right-to-replicate/" >Right to Replicate&lt;/a>. However, we wanted to make these commitments more formally in order to give ourselves more accountability to sticking with them, and to provide more transparency for our community members and stakeholders.&lt;/p>
+&lt;h2 id="who-is-this-for">
+Who is this for?
+&lt;a class="header-anchor" href="#who-is-this-for">#&lt;/a>
+&lt;/h2>&lt;p>We imagine three audiences for this policy:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>2i2c present and future staff&lt;/strong> who want to ensure that their organization remains committed to our open principles. This document provides a sense of psychological safety to have bold discussions about structuring our approach to open source.&lt;/li>
+&lt;li>&lt;strong>Member communities and 2i2c stakeholders&lt;/strong> who need to have an understanding of the guarantees that we provide in order to trust 2i2c as a service developer and provider. This is similar to the effect our
+&lt;a href="https://2i2c.org/right-to-replicate/" >Right to Replicate&lt;/a> has.&lt;/li>
+&lt;li>&lt;strong>Open source communities&lt;/strong> who need to understand our long-term commitment and goals around open technology in order to trust as a peer and collaborator within open source communities.&lt;/li>
+&lt;/ol>
+&lt;h2 id="wed-love-feedback">
+We&amp;rsquo;d love feedback
+&lt;a class="header-anchor" href="#wed-love-feedback">#&lt;/a>
+&lt;/h2>&lt;p>We hope that these ideas both clarify our intent and the reason that we think it&amp;rsquo;s important. We&amp;rsquo;d love feedback about early refinements to these principles in order to make them more effective, as well as ways that we can provide more community oversight and participation in evolving these policies moving forward. If you have any thoughts to share, please send feedback via e-mail
+&lt;a href="" >hello@2i2c.org&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Acknowledgements&lt;/strong>: &lt;em>The creation of this policy and the rationale behind it was led by
+&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi Panda&lt;/a> with feedback from 2i2c&amp;rsquo;s team. This blog post was co-written with
+&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>2i2c communities at AGU 2024</title><link>https://2i2c.org/blog/2024/agu/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/agu/</guid><description>&lt;p>We are proud to share that several of 2i2c&amp;rsquo;s community partners are presenting their work at AGU 2024! In each case, 2i2c&amp;rsquo;s infrastructure plays a part in helping communities create and share knowledge, and grow their community. As an organization rooted in community-centric practices, we are particularly excited to see 2i2c represented &amp;ldquo;indirectly&amp;rdquo; at this conference, and to see ourselves as a supporting role enabling the impact of others.&lt;/p>
+&lt;p>Here&amp;rsquo;s a summary and links to all of the sessions. See below for a brief overview of seach one.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1735091" target="_blank" rel="noopener" >ED31G-2272 Breaking down the barriers to Open Science with Project Pythia&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1577974" target="_blank" rel="noopener" >ED31G-2277 PACE Hackweek: An open community keeping up with PACE&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763" target="_blank" rel="noopener" >IN13A-2147 Including more solutions and more solvers via actionable open science&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1522970" target="_blank" rel="noopener" >IN34A-01 Beyond Open Data: Ensuring True Accessibility for All (Invited)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1645291" target="_blank" rel="noopener" >Introducing GeoLab - An EarthScope JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1697601" target="_blank" rel="noopener" >U13A-2349 Sharing recipes for cloud computing: the Project Pythia Cookbook Initiative&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480" target="_blank" rel="noopener" >U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding &amp;amp; Fledging&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1605357" target="_blank" rel="noopener" >V31A-08 VICTOR – A new Cyber-infrastructure for Volcanology&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="ed31g-2272-breaking-down-the-barriers-to-open-science-with-project-pythia">
+ED31G-2272 Breaking down the barriers to Open Science with Project Pythia
+&lt;a class="header-anchor" href="#ed31g-2272-breaking-down-the-barriers-to-open-science-with-project-pythia">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1735091" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;p>Hall B-C (Poster Hall) (Convention Center)&lt;/p>
+&lt;h3 id="abstract">
+Abstract
+&lt;a class="header-anchor" href="#abstract">#&lt;/a>
+&lt;/h3>&lt;p>Project Pythia is an open access educational initiative established with funding from the U.S. National Science Foundation. Its mission is to help students and scientists enhance their skills and adopt best practices using the tools and technologies of open science. As part of the Pangeo community, Project Pythia primarily focuses on the Pangeo stack, which includes cloud computing, Jupyter technologies, GitHub, and various software packages in the Scientific Python ecosystem, centered around Xarray. Project Pythia offers a wide range of open access content, such as datasets, software, tutorials, and annotated real-world workflows presented in the form of Jupyter Books.&lt;/p>
+&lt;p>Project Pythia serves as a resource for scientists, promoting and fostering open science. Although it is not a scientific research artifact itself, the development of Project Pythia adheres to many best practices advocated by open science proponents. The Pythia team actively encourages community engagement and collaborates openly with scientists and technologists to create new content. All Pythia resources are freely accessible, and the project follows the FAIR principles (Findable, Accessible, Interoperable, and Reusable) for managing research outputs, including publications, data, and other materials. We support and facilitate open evaluation and peer reviews of content to ensure verifiability and trust. Lastly, we endeavor to openly discuss ideas, designs, and methods before implementation.&lt;/p>
+&lt;p>This presentation will provide an overview of Project Pythia&amp;rsquo;s extensive educational resources and share our experiences in applying many open science principles to develop this flagship training resource for the geoscience community.&lt;/p>
+&lt;h3 id="authors">
+Authors
+&lt;a class="header-anchor" href="#authors">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277" target="_blank" rel="noopener" >John Clyne&lt;/a> - NSF National Center for Atmospheric Research (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277" target="_blank" rel="noopener" >Orhan Eroglu&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> - University at Albany State University of New York&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821" target="_blank" rel="noopener" >Julia Kent&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099" target="_blank" rel="noopener" >James Munroe&lt;/a> - 2i2c / Code for Science and Society&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> - SUNY at Albany&lt;/li>
+&lt;/ul>
+&lt;h2 id="ed31g-2277-pace-hackweek-an-open-community-keeping-up-with-pace">
+ED31G-2277 PACE Hackweek: An open community keeping up with PACE
+&lt;a class="header-anchor" href="#ed31g-2277-pace-hackweek-an-open-community-keeping-up-with-pace">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1577974" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-1">
+Abstract
+&lt;a class="header-anchor" href="#abstract-1">#&lt;/a>
+&lt;/h3>&lt;p>The NASA Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission, while bringing NASA&amp;rsquo;s Earth System Observatory &lt;em>up to speed&lt;/em> with aquatic, atmospheric, and terrestrial science capabilities, is also providing data records of the Earth System for the next generation of scientists &lt;em>to grow into&lt;/em>. The goal of the PACE Hackweek, supported by the Ocean Carbon &amp;amp; Biogeochemistry program and hosted at the University of Maryland Baltimore County in August 2024, was to enrich and support the practice of open science by both emerging and established researchers. Cloud-compute resources for the event were provided by CryoCloud, a NASA funded collaboration between ICESat-2 and the International Interactive Computing Collaboration (2i2c) to provide cryosphere researchers with a shared JupyterHub. We, the hackweek mentors, were buoyed by the NASA Openscapes program and adopted its mantra of striving toward &amp;ldquo;a kinder science for future us.&amp;rdquo; Participants faced two novelties: the &amp;ldquo;firehose&amp;rdquo; of data from the PACE instrument array (a hyper-spectral imaging spectrometer, a wide-swath hyper-angular polarimeter, and a narrow-swath spectro-polarimeter), and the distribution of PACE collections through the NASA Earthdata Cloud (a first for the Ocean Biology Distributed Active Archive Center). We present our approach and the challenges undertaken to hold an in-person, social coding event with 45 participants that provided a collaborative, supportive launchpad for doing open science with PACE. All lectures and tutorials produced for the event are freely available for examination and reuse. Our results additionally include highlights from the demonstration projects pursued by event participants and results from two post-event, qualitative surveys. One anonymous survey gathered participant feedback that will inform plans for growing these 45 participants into a lasting, open community. A separate, anonymous survey recorded participant demographics in order to evaluate our efforts at increasing diversity within the community of PACE data users. Key points of discussion include participant views, informed by our event, on whether and how the NASA Earthdata Cloud is a significant resource for the practice of open science with PACE, and how a shared JupyterHub can further the practice of open science by the community it serves.&lt;/p>
+&lt;h3 id="authors-1">
+Authors
+&lt;a class="header-anchor" href="#authors-1">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1480998" target="_blank" rel="noopener" >Ian Carroll&lt;/a> - NASA Goddard Space Flight Center; University of Maryland Baltimore County (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1495436" target="_blank" rel="noopener" >Kelsey Bisson&lt;/a> - NASA Headquarters&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1376909" target="_blank" rel="noopener" >Sean Foley&lt;/a> - NASA Goddard Space Flight Center; Morgan State University&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/741441" target="_blank" rel="noopener" >Patrick Clifton Gray&lt;/a> - University of Maine&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1492013" target="_blank" rel="noopener" >Carina Poulin&lt;/a> - Science Systems and Applications, Inc.; NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1306597" target="_blank" rel="noopener" >Tasha Snow&lt;/a> - NASA Goddard Space Flight Center; University of Maryland College Park&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1076991" target="_blank" rel="noopener" >Guoqing Wang&lt;/a> - NASA Goddard Space Flight Center; Science Systems and Applications, Inc.&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38898" target="_blank" rel="noopener" >Jeremy Werdell&lt;/a> - NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1466866" target="_blank" rel="noopener" >Anna Windle&lt;/a> - NASA Goddard Space Flight Center; Science Systems and Applications, Inc.&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/66734" target="_blank" rel="noopener" >Pengwang Zhai&lt;/a> - Department of Physics, University of Maryland Baltimore County&lt;/li>
+&lt;/ul>
+&lt;h2 id="in13a-2147-including-more-solutions-and-more-solvers-via-actionable-open-science">
+IN13A-2147 Including more solutions and more solvers via actionable open science
+&lt;a class="header-anchor" href="#in13a-2147-including-more-solutions-and-more-solvers-via-actionable-open-science">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;p>Monday, 9 December 2024
+13:40 - 17:30&lt;br>
+Hall B-C (Poster Hall) (Convention Center)&lt;/p>
+&lt;h3 id="abstract-2">
+Abstract
+&lt;a class="header-anchor" href="#abstract-2">#&lt;/a>
+&lt;/h3>&lt;p>If we&amp;rsquo;re asking people to change for open science, we must be willing to change ourselves. Internalizing this as individuals and institutions is critical - &amp;ldquo;to address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver&amp;rdquo; (Johnson &amp;amp; Wilkinson, All We Can Save).&lt;/p>
+&lt;p>Radically reshaping our society and including more solvers requires Earth scientists of all disciplines, across AGU, to work together in new ways. Many of these shifts can be considered Open science. They change how we work daily, not just the open products we produce. And for that, people need to consider themselves part of a team, let go of perfection and embrace a growth mindset to continually reflect and improve skills – no matter their job title. Further, open science requires all of us to see ourselves as leaders making small changes that collectively add up to a movement.&lt;/p>
+&lt;p>Openscapes is an open source approach to cultivating leaders and change makers. Openscapes&amp;rsquo; flywheel approach intervenes and builds momentum through identifying mentors within organizations and mentoring teams curious about shifting to open science (Robinson &amp;amp; Lowndes 2022). Collectively, the Openscapes flywheel iterations have had a significant impact over the past five years across institutions like the federal government and academia that seem impossible to change. Through stories working with professional scientists over the past 5 years including at NASA, NOAA, Black Women in Ecology, Evolution, and Marine Science, and many universities, and open source software communities like 2i2c, Posit, Pangeo, and RLadies, we will share actionable insights for flourishing in the open science commons, and are interested in learning with and growing flywheel momentum further at AGU.&lt;/p>
+&lt;h3 id="authors-2">
+Authors
+&lt;a class="header-anchor" href="#authors-2">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/259076" target="_blank" rel="noopener" >Julia S. Stewart Lowndes&lt;/a> - Openscapes, LLC (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/710145" target="_blank" rel="noopener" >Ileana Faye Fenwick&lt;/a> - Hampton University&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/156587" target="_blank" rel="noopener" >Luis Alberto Lopez&lt;/a> - National Snow and Ice Data Center (NSIDC), CIRES, University of Colorado Boulder&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1117961" target="_blank" rel="noopener" >Erin Robinson&lt;/a> - Self Employed&lt;/li>
+&lt;/ul>
+&lt;h2 id="in34a-01-beyond-open-data-ensuring-true-accessibility-for-all-invited">
+IN34A-01 Beyond Open Data: Ensuring True Accessibility for All (Invited)
+&lt;a class="header-anchor" href="#in34a-01-beyond-open-data-ensuring-true-accessibility-for-all-invited">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1522970" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-3">
+Abstract
+&lt;a class="header-anchor" href="#abstract-3">#&lt;/a>
+&lt;/h3>&lt;p>The Earth Observation (EO) industry has seen rapid technological advancements alongside a massive increase in the number of private and public missions, leading to exponentially growing data archives. For publicly funded entities, this data is typically required to be freely available. However, open data does not always guarantee accessibility, and significant barriers remain for even the most advanced users. The stagnation in the use and adoption of open data can be attributed to several factors, including 1) challenges in unifying and maintaining metadata standards, 2) inefficiencies associated with legacy data formats, 3) a lack of training and resources for transitioning to cloud-based infrastructure, and 4) systemic social inequalities.&lt;/p>
+&lt;p>This talk will explore real-life examples of these barriers and highlight success stories that have emerged from partnerships largely originating within open-source communities which foster diverse connections between private and public entities including efforts like GeoZarr, pangeo-forge, Openscapes and 2i2c. While many advancements in improving the usability and accessibility of EO data have come from private efforts (i.e. Google Earth Engine), the shutdown of the Planetary Computer is a reminder of the need for publicly funded alternatives. The sustainability of open source projects will be addressed, with questions posed around reliable funding mechanisms as a means to ensure equitable development to address barriers and ensure accessibility for all. While this talk will be presented by one individual, it is the review and reflection of the work done by dozens of people across various organizations.&lt;/p>
+&lt;h3 id="authors-3">
+Authors
+&lt;a class="header-anchor" href="#authors-3">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1267904" target="_blank" rel="noopener" >Brianna Rita Pagán&lt;/a> - NASA Goddard Space Flight Center; ADNET Systems Inc. Greenbelt (first author)&lt;/li>
+&lt;/ul>
+&lt;h2 id="introducing-geolab---an-earthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">
+Introducing GeoLab - An EarthScope JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops
+&lt;a class="header-anchor" href="#introducing-geolab---an-earthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1645291" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-4">
+Abstract
+&lt;a class="header-anchor" href="#abstract-4">#&lt;/a>
+&lt;/h3>&lt;p>The EarthScope Consortium manages NSF&amp;rsquo;s GAGE and SAGE facilities and makes all of its geophysical data available in a commercial cloud system. This enables EarthScope and the communities it supports to leverage the abundant computational resources and cost-effective benefits of adopting data-proximate workflows with direct access to large, analysis-ready geophysical data sets.&lt;/p>
+&lt;p>In recent years, JupyterHub environments have gained popularity with data enthusiasts for their ability to provide open access to powerful compute resources. As part of a broad effort to support communities with intuitive resources to quickly adapt their workflows to the cloud, EarthScope has partnered with 2i2c to operate a scalable JupyterHub environment in AWS that will provide equitable access to cloud compute resources for researchers, educators, and the general public. GeoLab, the EarthScope hub, is aligned with related open science initiatives to establish rigorous and transparent standards for reproducible, data-intensive workflows. In addition to promoting interdisciplinary and inter-institutional collaborative work between researchers in GeoLab, EarthScope is developing and hosting workshops that can support both in-person and asynchronous learning modules that will train users how to utilize these new resources and transition their work to the cloud. We are excited to invite all geophysical data users to participate in the vigorous growth of this new platform and collaborate with adjacent open-science compute hub initiatives.&lt;/p>
+&lt;h3 id="authors-4">
+Authors
+&lt;a class="header-anchor" href="#authors-4">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/74000" target="_blank" rel="noopener" >Robert T Weekly&lt;/a> - EarthScope Consortium (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/84732" target="_blank" rel="noopener" >Tammy K Bravo&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38950" target="_blank" rel="noopener" >Jerry A Carter&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1522227" target="_blank" rel="noopener" >Tim Dittmann&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1293466" target="_blank" rel="noopener" >Alex Hamilton&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/57436" target="_blank" rel="noopener" >David Mencin&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/13120" target="_blank" rel="noopener" >Chad Trabant&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1526474" target="_blank" rel="noopener" >Sarah Wilson&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;/ul>
+&lt;h2 id="u13a-2349-sharing-recipes-for-cloud-computing-the-project-pythia-cookbook-initiative">
+U13A-2349 Sharing recipes for cloud computing: the Project Pythia Cookbook Initiative
+&lt;a class="header-anchor" href="#u13a-2349-sharing-recipes-for-cloud-computing-the-project-pythia-cookbook-initiative">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1697601" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-5">
+Abstract
+&lt;a class="header-anchor" href="#abstract-5">#&lt;/a>
+&lt;/h3>&lt;p>Project Pythia is the flagship education and training initiative of the Pangeo community. Pangeo has advanced transformative platforms and paradigms for &amp;ldquo;Big Data&amp;rdquo; geoscience in the cloud; Pythia is creating on-ramps for new users with open, interactive learning resources centered on Python in the geosciences. Pythia is now building a vibrant community-owned clearinghouse of accessible, reusable, and reproducible tutorials and exemplar workflows in the cloud known as Pythia Cookbooks.&lt;/p>
+&lt;p>&amp;ldquo;Cookbooks&amp;rdquo; imply collections of recipes for transforming raw ingredients (publicly available data) into scientifically useful results. Based on Jupyter notebooks, Cookbooks are explicitly tied to reproducible computational environments and supported by a rich cloud-based infrastructure enabling collaborative authoring and automated health-checking – essential tools in the struggle against the widespread notebook obsolescence problem. Cookbooks are hosted on Pythia&amp;rsquo;s searchable gallery and nurtured by a growing community of open science enthusiasts from across the geosciences. The Pythia Cookbook gallery is essentially a crowd-sourced, community-curated collection of best practices for data analysis and visualization.&lt;/p>
+&lt;p>Here we will outline the stack of technologies and infrastructure enabling cookbook creation, collaboration, testing, publication, and interactive deployment, and how these are used in service of building an inclusive participatory community. We will discuss existing technical and social hurdles for contributors, as well as new infrastructure developments in collaboration with the Executable Books Project that are reducing these hurdles.&lt;/p>
+&lt;h3 id="authors-5">
+Authors
+&lt;a class="header-anchor" href="#authors-5">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> - University at Albany State University of New York (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277" target="_blank" rel="noopener" >John Clyne&lt;/a> - NCAR&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277" target="_blank" rel="noopener" >Orhan Eroglu&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> - University at Albany State University of New York&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821" target="_blank" rel="noopener" >Julia Kent&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099" target="_blank" rel="noopener" >James Munroe&lt;/a> - 2i2c / Code for Science and Society&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/218622" target="_blank" rel="noopener" >Kevin Tyle&lt;/a> - SUNY at Albany&lt;/li>
+&lt;/ul>
+&lt;h2 id="u13a-2350-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-jupyterhub-and-user-onboarding--fledging">
+U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding &amp;amp; Fledging
+&lt;a class="header-anchor" href="#u13a-2350-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-jupyterhub-and-user-onboarding--fledging">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-6">
+Abstract
+&lt;a class="header-anchor" href="#abstract-6">#&lt;/a>
+&lt;/h3>&lt;p>In this talk we will highlight our NASA Openscapes community teaching approach to using the 2i2c-managed JupyterHub – how we&amp;rsquo;ve collaboratively developed it to meet user needs, and how it continues to enable researchers and users of NASA Earthdata in the new Cloud paradigm.&lt;/p>
+&lt;p>NASA Openscapes is an open source mentor community across NASA Earth science data centers (
+&lt;a href="https://www.earthdata.nasa.gov/eosdis/daacs" target="_blank" rel="noopener" >DAACs&lt;/a>) that helps users explore and use the Cloud for their science and applications.
+&lt;a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/" target="_blank" rel="noopener" >Earthdata Cloud Cookbook&lt;/a> is a learner-focused open source tutorial collection that we update openly as we learn together.&lt;/p>
+&lt;p>A critical piece of the NASA Openscapes effort is our &lt;strong>NASA Openscapes 2i2c JupyterHub&lt;/strong>, a managed cloud computing space. By working with cloud early adopters and science
+&lt;a href="https://nasa-openscapes.github.io/news/2024-07-24-2024-nasa-champions-cohort/" target="_blank" rel="noopener" >Champions&lt;/a>, responding and co-developing solutions, the JupyterHub has evolved since its early days in 2021. We support cloud computing for several languages (python, R, Matlab, QGIS) and common science libraries with
+&lt;a href="https://github.com/nasa-openscapes/corn" target="_blank" rel="noopener" >corn&lt;/a>; we streamlined how to bulk-add workshop participants via GitHub Teams; we established policy and technology for a special authentication mechanism for large scale workshops; we are developing earthaccess as an community-developed python library for NASA Earthdata search and access, whether locally or in the cloud.&lt;/p>
+&lt;p>Based on the last 3 years of engaging with the user community and the Hub, we have &lt;strong>evolved&lt;/strong> how we &lt;strong>onboard&lt;/strong> (first experience in the cloud) and &lt;strong>fledge&lt;/strong> (set up for Cloud that includes a plan, how to do it, how to pay for it; leaving the nest and perhaps building your own). Fledging is an important part of adoption and initiating users to the Cloud - where do researchers go when they decide to do their science in the Cloud? We&amp;rsquo;ve been developing practices that aim to be equitable and consider policy (cost), technical (where do people go, what admin setup is needed, what tech like base images etc are needed), and social (how do I learn, get support) aspects, and look forward to discussing further at AGU.&lt;/p>
+&lt;h3 id="authors-6">
+Authors
+&lt;a class="header-anchor" href="#authors-6">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/259076" target="_blank" rel="noopener" >Julia S. Stewart Lowndes&lt;/a> - Openscapes, LLC (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1187283" target="_blank" rel="noopener" >Andrew Barrett&lt;/a> - National Snow and Ice Data Center (NSIDC)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/153347" target="_blank" rel="noopener" >Carl Boettiger&lt;/a> - University of California Santa Cruz&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/249458" target="_blank" rel="noopener" >Aaron M Friesz&lt;/a> - Organization Not Listed&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1187291" target="_blank" rel="noopener" >Alexis Hunzinger&lt;/a> - NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1232669" target="_blank" rel="noopener" >Daniel Kaufman&lt;/a> - NASA Langley Research Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/156587" target="_blank" rel="noopener" >Luis Alberto Lopez&lt;/a> - National Snow and Ice Data Center (NSIDC), CIRES, University of Colorado Boulder&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/64338" target="_blank" rel="noopener" >Catalina M Oaida Taglialatela&lt;/a> - NASA Jet Propulsion Laboratory, California Institute of Technology&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/773544" target="_blank" rel="noopener" >Yuvi Panda&lt;/a> - University of California, Berkeley&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/153320" target="_blank" rel="noopener" >Michele Thornton&lt;/a> - Oak Ridge National Laboratory&lt;/li>
+&lt;/ul>
+&lt;h2 id="v31a-08-victor--a-new-cyber-infrastructure-for-volcanology">
+V31A-08 VICTOR – A new Cyber-infrastructure for Volcanology
+&lt;a class="header-anchor" href="#v31a-08-victor--a-new-cyber-infrastructure-for-volcanology">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1605357" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-7">
+Abstract
+&lt;a class="header-anchor" href="#abstract-7">#&lt;/a>
+&lt;/h3>&lt;p>Numerical models are essential for forecasting volcanic hazards for both short-term responses and long-term hazard assessment. While many models of volcanic processes already exist, challenges in finding, installing, and evaluating these models, coupled with limited computational resources, hinder their widespread use. To address this, we introduce VICTOR, the Volcanology Infrastructure for Computational Tools and Resources.&lt;/p>
+&lt;p>VICTOR is a cutting-edge cyber-infrastructure platform offering an open-source, cloud-based environment tailored for the volcanology community. It features Jupyter notebooks that integrate existing volcano models, such as the lava flow codes MOLASSES and IMEX_lava, the tephra and ash dispersal codes Tephra2 and HYSPLIT, and the mass flow code TITAN2D. The backend of VICTOR is managed as a JupyterHub, operated by the non-profit 2i2c under the Code for Science and Society.&lt;/p>
+&lt;p>VICTOR not only provides access to individual modeling tools, but also hosts workflows that use them in data inversion, model benchmarking, and uncertainty quantification. For example, we developed a workflow to validate mass flow models using multiple metrics and Bayesian statistics. VICTOR provides built-in access to external databases such as OpenTopography, Copernicus, and NASA&amp;rsquo;s remote sensing products to streamline obtaining and using data in workflows.&lt;/p>
+&lt;p>VICTOR also serves as an educational resource. In Spring 2023 and 2024 we taught graduate level, multi-institutional courses in Computational Volcanology using VICTOR, and we are creating multilingual tutorials for the workflows. We are developing teaching modules on topics such as lava flows and remote sensing to be shared with instructors. Lastly, VICTOR collaborates with national efforts including CONVERSE and SZ4D.&lt;/p>
+&lt;p>In summary, VICTOR addresses the critical need for accessible, effective volcanic hazard modeling tools and resources, fostering advancements in both research and education within the volcanology community.&lt;/p>
+&lt;h3 id="plain-language-summary">
+Plain-language Summary
+&lt;a class="header-anchor" href="#plain-language-summary">#&lt;/a>
+&lt;/h3>&lt;p>VICTOR is a new online platform designed to help scientists predict volcanic hazards more easily. Traditional models can be difficult to find, use, and combine with other tools. VICTOR solves these problems by offering a cloud-based, open-source environment with user-friendly tools.&lt;/p>
+&lt;p>VICTOR includes tools like Jupyter notebooks that combine various volcano models for lava flows, ash dispersal, and mass movements. It operates through JupyterHub, managed by the non-profit 2i2c. The platform not only provides access to these models but also offers workflows for tasks like data analysis and model validation. For example, it has a workflow for testing mass flow models using multiple evaluation methods.&lt;/p>
+&lt;p>VICTOR simplifies data access by connecting directly to databases like OpenTopography and NASA&amp;rsquo;s remote sensing products. It&amp;rsquo;s also an educational tool, used in graduate courses and offering multilingual tutorials. Additionally, VICTOR is developing teaching materials on topics like lava flows and remote sensing and collaborates with national projects like CONVERSE and SZ4D.&lt;/p>
+&lt;p>In essence, VICTOR makes volcanic hazard modeling more accessible and effective, benefiting both research and education in volcanology.&lt;/p>
+&lt;h3 id="authors-7">
+Authors
+&lt;a class="header-anchor" href="#authors-7">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23513" target="_blank" rel="noopener" >Einat Lev&lt;/a> - Columbia University of New York (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/82273" target="_blank" rel="noopener" >Sylvain J Charbonnier&lt;/a> - University of South Florida&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/12431" target="_blank" rel="noopener" >Charles Connor&lt;/a> - University of South Florida&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1565568" target="_blank" rel="noopener" >Samuel Krasnoff&lt;/a> - Lamont -Doherty Earth Observatory&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/880" target="_blank" rel="noopener" >Abani K Patra&lt;/a> - University at Buffalo&lt;/li>
+&lt;/ul></description></item><item><title>2024 impact report: new team structure, new funding, and growth in our network</title><link>https://2i2c.org/blog/2024/retrospective/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/retrospective/</guid><description>&lt;p>2024 has been a busy year for 2i2c, with many highs and lows, a lot of impact, and significant organizational change. As the year comes to an end, I want to reflect on the work we&amp;rsquo;ve done in 2024, and where we aim to go in 2025.&lt;/p>
 &lt;p>In 2024, 2i2c reached the point in an organization&amp;rsquo;s lifecycle when a team has grown enough in size and complexity that you must change the ways that you organize. The informal ways that worked as a small group don&amp;rsquo;t suffice anymore, and you have to put more effort into aligning and coordinating everyone to ensure you have the same impact.&lt;/p>
 &lt;p>I call this the &amp;ldquo;$1M to $2M budget jump&amp;rdquo;, because organizations seem to hit this point around when your annual budget goes from &lt;code>$1M&lt;/code> to &lt;code>$2M&lt;/code>. Getting to the other side of this gap with an intact runway and team is hard, and I suspect that 2i2c&amp;rsquo;s fully distributed nature means that we hit these scaling milestones earlier than many organizations. For us, this has been a major focus of effort all year, and has involved taking a top-to-bottom look at our plans and ways of working as a team. Read on for more details about major updates, challenges, and impact that our team had in 2024.&lt;/p>
 &lt;h2 id="organizational-updates">
@@ -121,18 +1033,7 @@ us resources to sustain and scale our service.&lt;/li>
 &lt;/ul>
 &lt;p>These are the key goals 2i2c must achieve in order to ensure that its service remains impactful, sustainable, scalable, and accessible. We believe that we&amp;rsquo;ve laid a strong foundation to get there, and are excited to begin work next year.&lt;/p>
 &lt;p>Overall, 2024 has been a challenging, but also a rewarding year for our team. We&amp;rsquo;ve encountered and successfully worked thorugh a number of scaling challenges, and we&amp;rsquo;ve made significant progress at laying a foundation on which we can build for the years to come.&lt;/p>
-&lt;p>I&amp;rsquo;m incredibly proud of 2i2c&amp;rsquo;s team for all of their hard work this year, and also honored to be working with a network of communities that care about open infrastructure and its value for creating and sharing knowledge with the world. Here&amp;rsquo;s to another year of impact!&lt;/p></description></item><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of 2i2c. He was previously a post-doctoral researcher in the Department of Statistics at
-&lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a>, and a Community Architect with the
-&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Division of Data Science&lt;/a> at Berkeley. He is also a team member of Project Jupyter (particularly the
-&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team" target="_blank" rel="noopener" >JupyterHub and Binder teams&lt;/a>), with a focus on how infrastructure can support interactive computing workflows in research and education. He&amp;rsquo;s interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows in a way that makes science more impactful and inclusive. His background is in cognitive and computational neuroscience, where he used
-&lt;a href="https://www.nature.com/articles/ncomms13654" target="_blank" rel="noopener" >predictive models to understand the auditory system&lt;/a> in the human brain.&lt;/p>
-&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>10+ years leading and building open source projects, open infrastructure teams and services&lt;/li>
-&lt;li>Jupyter Distinguished Contributor&lt;/li>
-&lt;li>Co-led JupyterHub, Binder, and Jupyter Book&lt;/li>
-&lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
-&lt;/ul></description></item><item><title>Financial support from The Navigation Fund for identifying and building a scalable sustainability model</title><link>https://2i2c.org/blog/2024/funding-navigation/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/funding-navigation/</guid><description>&lt;p>We are proud to announce that 2i2c has received financial support from
+&lt;p>I&amp;rsquo;m incredibly proud of 2i2c&amp;rsquo;s team for all of their hard work this year, and also honored to be working with a network of communities that care about open infrastructure and its value for creating and sharing knowledge with the world. Here&amp;rsquo;s to another year of impact!&lt;/p></description></item><item><title>Financial support from The Navigation Fund for identifying and building a scalable sustainability model</title><link>https://2i2c.org/blog/2024/funding-navigation/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/funding-navigation/</guid><description>&lt;p>We are proud to announce that 2i2c has received financial support from
 &lt;a href="https://www.navigation.org/" target="_blank" rel="noopener" >The Navigation Fund&lt;/a> to assist us in our mission to design and build a sustainable and scalable model for helping communities create and share knowledge with open infrastructure.&lt;/p>
 &lt;figure id="figure-funding-comes-from-the-open-science-initiativehttpswwwnavigationorggrantsopen-science-of-the-navigation-fund-which-is-dedicated-to-transforming-scientific-research-by-enhancing-collaboration-and-innovation-we-support-tools-and-approaches-that-move-beyond-traditional-practices-making-scientific-knowledge-more-accessible-and-impactful">
 &lt;div class="d-flex justify-content-center">
@@ -158,7 +1059,75 @@ delivers value and impact at scale.&lt;/li>
 us resources to sustain and scale our service.&lt;/li>
 &lt;/ul>
 &lt;p>We believe this is a critical step in helping our organization define and build a pathway to sustainability so that our service remains accessible, scalable, and resilient for years to come.&lt;/p>
-&lt;p>We&amp;rsquo;re incredibly honored to be supported by the Navigation Fund, and excited to continue our work helping communities create and share knowledge with open infrastructure.&lt;/p></description></item><item><title>Support from CZI to sustain 2i2c's mission to help communities create and share knowledge with open infrastructure</title><link>https://2i2c.org/blog/2024/funding-czi/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/funding-czi/</guid><description>&lt;p>We are proud to announce that 2i2c has received financial support from
+&lt;p>We&amp;rsquo;re incredibly honored to be supported by the Navigation Fund, and excited to continue our work helping communities create and share knowledge with open infrastructure.&lt;/p></description></item><item><title>`frx-challenges`: A new tool to host data challenges for Frictionless Research Exchanges</title><link>https://2i2c.org/blog/2024/frx/</link><pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/frx/</guid><description>&lt;p>2i2c is pleased to announce the &lt;code>frx-challenges&lt;/code> project, a new open source tool to help communities host data challenges on shared infrastructure:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/2i2c-org/frx-challenges" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/frx-challenges&lt;/a>&lt;/p>
+&lt;p>This project aims to make it easier for administrators to provide a service that enables users to &lt;strong>submit code and data&lt;/strong> that are &lt;strong>evaluated on secure infrastructure with access to private data and resources&lt;/strong>. It also provides a leaderboard that helps users compare their performance against others.&lt;/p>
+&lt;figure id="figure-an-example-leaderboard-for-a-data-challenge-taken-from-the-cellmap-challengehttpscellmapchallengejaneliaorg-users-make-submissions-that-are-run-against-secure-and-private-infrastructure-and-data-and-provides-feedback-about-the-submissions-performance-learn-more-about-the-frx-challenges-project-here-https2i2corgfrx-challenges">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;#39;s performance. Learn more about the FRX challenges project here: https://2i2c.org/frx-challenges/" srcset="
+/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp 400w,
+/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_be703c3a967b80309a261be425d99de3.webp 760w,
+/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp"
+width="75%"
+height="417"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+An example leaderboard for a data challenge, taken from the
+&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >Cellmap Challenge&lt;/a>. Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;rsquo;s performance. Learn more about the FRX challenges project here:
+&lt;a href="https://2i2c.org/frx-challenges/" target="_blank" rel="noopener" >2i2c.org/frx-challenges/&lt;/a>
+&lt;/figcaption>&lt;/figure>
+&lt;p>It is designed to be lightweight and flexible, and can be run on a variety of shared infrastructure. For those who wish to run this project on cloud infrastructure, we&amp;rsquo;ve also published a
+&lt;a href="https://2i2c.org/frx-challenges-helm-chart/" target="_blank" rel="noopener" >Helm Chart to help you deploy &lt;code>frx-challenges&lt;/code> with Kubernetes&lt;/a>.&lt;/p>
+&lt;p>While it can be run on its own, we believe that it naturally complements other tools and services for interactive computing and data, such as &lt;strong>JupyterHub&lt;/strong>, &lt;strong>Jupyter Book&lt;/strong>, and &lt;strong>Binder&lt;/strong>. More on that below.&lt;/p>
+&lt;p>Below is a brief description of the motivation behind this project.&lt;/p>
+&lt;h2 id="what-are-frictionless-research-exchanges">
+What are Frictionless Research Exchanges
+&lt;a class="header-anchor" href="#what-are-frictionless-research-exchanges">#&lt;/a>
+&lt;/h2>&lt;p>The project is heavily inspired by David Donoho&amp;rsquo;s vision of &lt;strong>Frictionless Research Exchanges&lt;/strong> (FRX) as described in
+&lt;a href="https://arxiv.org/abs/2310.00865" target="_blank" rel="noopener" >&lt;em>Data Science at the Singularity&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>In this article, Donoho describes three key pillars for Frictionless Research Exchanges:&lt;/p>
+&lt;blockquote>
+&lt;p>The three initiatives are related but separate; and all three have to come together, and in a particularly strong way, to provide the conditions for the new era. Here they are:&lt;/p>
+&lt;ul>
+&lt;li>[FR-1: Data] datafication of everything, with a culture of research data sharing. One can now find datasets publicly available online on a bewildering variety of topics, from chest x-rays to cosmic microwave background measurements to uber routes to geospatial crop identifications.&lt;/li>
+&lt;li>[FR-2: Re-execution] research code sharing including the ability to exactly re-execute the same complete workflow by different researchers.&lt;/li>
+&lt;li>[FR-3: Challenges] adopting challenge problems as a new paradigm powering scientific research. The paradigm includes: a shared public dataset, a prescribed and quantified task performance metric, a set of enrolled competitors seeking to outperform each other on the task, and a public leaderboard. Thousands of such challenges with millions of entries have now taken place, across many fields.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>We considered the landscape of tools and services, and felt that [FR-1] and [FR-2] were already well-served by a variety of tools and services for community workspace infrastructure (e.g., JupyterHub:
+&lt;a href="https://jupyterhub.readthedocs.io" target="_blank" rel="noopener" >jupyterhub.readthedocs.io&lt;/a>), sharable computational environments (e.g., BinderHub:
+&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >binderhub.readthedocs.io&lt;/a>), authoring and reading computational narratives (e.g., Jupyter Book:
+&lt;a href="https://jupyterbook.org" target="_blank" rel="noopener" >jupyterbook.org&lt;/a> and MyST:
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >mystmd.org&lt;/a>), and data I/O tools and standards (e.g., Zarr:
+&lt;a href="https://zarr.readthedocs.io" target="_blank" rel="noopener" >zarr.readthedocs.io&lt;/a> and Intake:
+&lt;a href="https://intake.readthedocs.io" target="_blank" rel="noopener" >intake.readthedocs.io&lt;/a>).&lt;/p>
+&lt;p>However there was a natural missing piece for &lt;strong>[FR-3 Challenges]&lt;/strong>, and we could not identify any community-managed infrastructure that facilitated data challenges. This is the goal of &lt;code>frx-challenges&lt;/code>.&lt;/p>
+&lt;h2 id="why-facilitate-data-challenges">
+Why facilitate data challenges?
+&lt;a class="header-anchor" href="#why-facilitate-data-challenges">#&lt;/a>
+&lt;/h2>&lt;p>Data challenges are harder than you think! While it is simple enough to run somebody else&amp;rsquo;s code locally, data challenges require a systematic, secure, and automated approach to accepting and evaluating submissions in a fair and repeatable way. Here are some of the big challenges to tackle:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Submissions must retain user and team identity&lt;/strong>, which means that we must keep track of users and their submissions over time, since data challenges are designed to encourage iterative improvement and optimization.&lt;/li>
+&lt;li>&lt;strong>Evaluations must use potentially complex resources and data&lt;/strong> since many data challenges operate by publicly sharing a small dataset, and then running it against a much more complex dataset.&lt;/li>
+&lt;li>&lt;strong>Evaluations must be totally secure&lt;/strong>, so that submissions can&amp;rsquo;t do nefarious things like mine cryptocurrency or extract the challenge&amp;rsquo;s private data in unintended ways.&lt;/li>
+&lt;li>&lt;strong>Evaluations must be automated&lt;/strong>, so that running the challenge does not require extensive human intervention and can scale to many users.&lt;/li>
+&lt;li>&lt;strong>Evaluation must be flexible&lt;/strong>, so that the infrastructure can accept a variety of types of submissions (e.g. code, data, model weights, etc), run them with arbitrary environments designed by the organizers, and run them with the right hardware to get the job done.&lt;/li>
+&lt;/ul>
+&lt;p>These are just a few of the major challenges that we&amp;rsquo;ve tried to address with &lt;code>frx-challenges&lt;/code>, and we&amp;rsquo;re excited to see how it goes with our first assisted community challenge: the
+&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >Cellmap Challenge&lt;/a>.&lt;/p>
+&lt;p>If you&amp;rsquo;re interested in learning more or participating in this project, follow along at its GitHub repository:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/2i2c-org/frx-challenges" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/frx-challenges&lt;/a>&lt;/p>
+&lt;p>This is still the &lt;strong>very early stages&lt;/strong> of the project, and we imagine it will evolve significantly. We welcome feedback for how it can more effectively serve a variety of communities.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to the Howard Hughes Medical Institute (HHMI) for collaborating with us on the
+&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >Cellmap Challenge&lt;/a>, which led to the creation of this project.&lt;/p>
+&lt;p>Thanks to Kristen Ratan and
+&lt;a href="https://strategiesos.org/about/" target="_blank" rel="noopener" >Strategies for Open Science&lt;/a> (Stratos) for enabling this collaboration, and providing strategic guidance and support.&lt;/p></description></item><item><title>Support from CZI to sustain 2i2c's mission to help communities create and share knowledge with open infrastructure</title><link>https://2i2c.org/blog/2024/funding-czi/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/funding-czi/</guid><description>&lt;p>We are proud to announce that 2i2c has received financial support from
 &lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >The Chan Zuckerberg Initiative&lt;/a> to sustain our efforts at helping open science communities create and share knowledge with open infrastructure.&lt;/p>
 &lt;figure id="figure-funding-comes-from-the-open-science-programhttpschanzuckerbergcomscienceprograms-resourcesopen-science-at-czi-which-aims-to-support-a-diverse-scientific-community-working-in-the-open-to-accelerate-our-understanding-of-human-health-and-disease-we-invest-in-tools-platforms-and-organizations-that-help-expand-participation-and-access-to-the-scientific-process-by-making-it-open-and-reproducible-and-helping-scientists-build-on-each-others-work">
 &lt;div class="d-flex justify-content-center">
@@ -533,7 +1502,13 @@ display: inline-flex;
 &lt;/ul>
 &lt;p>This report was written with the
 &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >new MyST Markdown document engine&lt;/a> and shows off some of the functionality that we&amp;rsquo;ve been working on in collaboration with the MyST team.&lt;/p>
-&lt;p>We&amp;rsquo;re incredibly grateful for the seed funding that CZI provided to kickstart 2i2c&amp;rsquo;s mission and operations, and excited about more impact to come!&lt;/p></description></item><item><title>Community Update: October 2023</title><link>https://2i2c.org/blog/2023/update-october/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/update-october/</guid><description>&lt;p>Over the past few months, we&amp;rsquo;ve been investigating ways to improve our reporting both internally and externally.
+&lt;p>We&amp;rsquo;re incredibly grateful for the seed funding that CZI provided to kickstart 2i2c&amp;rsquo;s mission and operations, and excited about more impact to come!&lt;/p></description></item><item><title>2i2c supports Jupyter Docker Stacks ARM builds</title><link>https://2i2c.org/blog/2023/docker-stacks-support/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/docker-stacks-support/</guid><description>&lt;p>The
+&lt;a href="https://jupyter-docker-stacks.readthedocs.io/" target="_blank" rel="noopener" >Jupyter Docker Stacks&lt;/a> project provides a collection of ready-to-use Docker images for Jupyter environments. These images are used by many in the Jupyter community, including 2i2c which uses them as base images for our JupyterHub deployments.&lt;/p>
+&lt;p>The project recently began publishing
+&lt;a href="https://github.com/jupyter/docker-stacks/issues/1019" target="_blank" rel="noopener" >ARM-compatible images&lt;/a> alongside the standard x86 images, making it easier for users with ARM-based systems (like M1 Macs) to use these environments. However, building and hosting these ARM images comes with additional cloud computing costs that were being personally covered by
+&lt;a href="https://github.com/mathbunnyru" target="_blank" rel="noopener" >@mathbunnyru&lt;/a>, one of the project&amp;rsquo;s maintainers.&lt;/p>
+&lt;p>A part of 2i2c&amp;rsquo;s mission is supporting upstream communities that we rely on, especially where the upstream project has limited resources. For this reason, we&amp;rsquo;ve decided to support Jupyter Docker Stack&amp;rsquo;s ARM building costs, with a total budget of &lt;code>$2000&lt;/code> (approximately &lt;code>$150&lt;/code> per month). As a regular user and beneficiary of the Jupyter Docker Stacks, we believe it&amp;rsquo;s important to contribute to the maintenance and sustainability of this crucial piece of infrastructure that benefits the entire Jupyter community.&lt;/p>
+&lt;p>We hope this support helps the Docker Stacks project remain healthy, and continue providing high-quality, multi-architecture images that work across different computing platforms. We&amp;rsquo;ll revisit this decision as the landscape of technology providers changes and other options arise.&lt;/p></description></item><item><title>Community Update: October 2023</title><link>https://2i2c.org/blog/2023/update-october/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/update-october/</guid><description>&lt;p>Over the past few months, we&amp;rsquo;ve been investigating ways to improve our reporting both internally and externally.
 We&amp;rsquo;ve decided to experiment with a &lt;strong>monthly community update&lt;/strong> to create a regular cadence of transparency and highlights from 2i2c for our broader community.
 This is the first such update, so bear with us as we work out the kinks!&lt;/p>
 &lt;p>Our goal with these updates is to share what stands out at 2i2c - what we&amp;rsquo;ve learned, what we&amp;rsquo;re proud of, where we&amp;rsquo;ve struggled, and where we&amp;rsquo;ve had an impact.
