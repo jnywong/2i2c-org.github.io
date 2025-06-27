@@ -1,4 +1,250 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>2025-Q1 reflection: Building a foundation for our new platform and membership model</title><link>https://2i2c.org/blog/2025/q1-reflection/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-reflection/</guid><description>&lt;p>&lt;em>This is a summary of major progress we made in Q1 of 2025. Its goal is to summarize our major accomplishments and important context before we prioritize for Q2. We hope this gives our community stakeholders a more strategic-level insight into our progress and organizational plans. See
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.png" alt="Grafana User Group Diagnostics Dashboard showing a memory usage over time with each line aggregating usage over a different user group." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="motivation">
+Motivation
+&lt;a class="header-anchor" href="#motivation">#&lt;/a>
+&lt;/h2>&lt;p>Hub admins have a strong impetus to monitor usage and costs by user groups
+because it allows them to advocate for better funding and cost recovery models based on data-driven insights. Group-level resource monitoring can help them to answer questions like:&lt;/p>
+&lt;ul>
+&lt;li>How many people participated in our workshop group?&lt;/li>
+&lt;li>How much GPU compute is our power user group using?&lt;/li>
+&lt;li>Is our resource usage cost-effective for X group persona or Y group persona?&lt;/li>
+&lt;/ul>
+&lt;p>Current methods and workarounds include:&lt;/p>
+&lt;ul>
+&lt;li>ring-fencing resources for specific user groups personas, e.g. creating a separate hub for a workshop group, or creating a separate Dask cluster for a power user group, which increases the admin burden of managing multiple hub instances&lt;/li>
+&lt;li>writing custom scripts to aggregate per user metrics, that are already available, into groups – which can be time-consuming and error-prone&lt;/li>
+&lt;/ul>
+&lt;h2 id="jupyterhub-and-user-groups">
+JupyterHub and user groups
+&lt;a class="header-anchor" href="#jupyterhub-and-user-groups">#&lt;/a>
+&lt;/h2>&lt;p>Recent key developments upstream in JupyterHub for groups management, such as
+&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator managed group membership&lt;/a>, makes this piece of work a prime and timely opportunity to be tackled. For more technical details of these upstream contributions, see GitHub PRs
+&lt;a href="https://github.com/jupyterhub/oauthenticator/pull/735" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#735&lt;/a> and
+&lt;a href="https://github.com/jupyterhub/oauthenticator/pull/498" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#498&lt;/a>.&lt;/p>
+&lt;p>Users can access JupyterHub using a variety of authentication methods. Authentication providers like GitHub have built-in user management features that allow admins to create and manage user groups. These groups can then be configured in JupyterHub to authorize access to the hub, as well as control access to certain hardware profiles.&lt;/p>
+&lt;p>Following the key upstream contributions above, we can leverage
+&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator-managed group membership&lt;/a> to automatically pass user group memberships from the authentication layer to JupyterHub itself. This allows us to capitalize on JupyterHub&amp;rsquo;s REST API to retrieve user group memberships from other
+&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >services&lt;/a>, such as exporting them as Prometheus metrics.&lt;/p>
+&lt;h2 id="exporting-user-group-memberships-to-prometheus">
+Exporting user group memberships to Prometheus
+&lt;a class="header-anchor" href="#exporting-user-group-memberships-to-prometheus">#&lt;/a>
+&lt;/h2>&lt;p>The
+&lt;a href="https://github.com/2i2c-org/jupyterhub-groups-exporter" target="_blank" rel="noopener" >&lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a> project provides a
+&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >service&lt;/a> that integrates with JupyterHub to export user group memberships as Prometheus metrics. This component is readily deployable as part of any JupyterHub instance, such as a standalone deployment or a Zero to JupyterHub deployment on Kubernetes.&lt;/p>
+&lt;p>The exporter provides a
+&lt;a href="https://prometheus.io/docs/concepts/metric_types/" target="_blank" rel="noopener" >Gauge metric&lt;/a> called &lt;code>jupyterhub_user_group_info&lt;/code>, which contain the following labels:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>namespace&lt;/code> – the Kubernetes namespace where the JupyterHub is deployed&lt;/li>
+&lt;li>&lt;code>usergroup&lt;/code> – the name of the user group&lt;/li>
+&lt;li>&lt;code>username&lt;/code> – the unescaped username of the user&lt;/li>
+&lt;li>&lt;code>username_escape&lt;/code> – the escaped username&lt;/li>
+&lt;/ul>
+&lt;p>Escaped usernames are useful because Kubernetes pods have characterset limits for valid pod label names (this limit does not apply to pod annotations). Storing both types of usernames allows us to join escaped versions with their more human-readable unescaped usernames.&lt;/p>
+&lt;p>Exposing this metric as an endpoint for Prometheus to scrape allows us to query and join groups data with a range of usage metrics to gain powerful group-level insights. Here is an example PromQL query that retrieves the memory usage by user group:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-promql" data-lang="promql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">sum&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nv">container_memory_working_set_bytes&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="nl">name&lt;/span>&lt;span class="o">!=&lt;/span>&lt;span class="p">&amp;#34;&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">pod&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">jupyter-.*&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">namespace&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">$hub_name&lt;/span>&lt;span class="p">&amp;#34;}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">on&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">namespace&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">pod&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">group_left&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">usergroup&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">group&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nv">kube_pod_annotations&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="nl">namespace&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">$hub_name&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">.*&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">pod&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">jupyter-.*&lt;/span>&lt;span class="p">&amp;#34;}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">by&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">pod&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">namespace&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">on&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">namespace&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">group_left&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">usergroup&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">group&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kr">label_replace&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">jupyterhub_user_group_info&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="nl">namespace&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">$hub_name&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">username&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">.*&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">usergroup&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">$user_group&lt;/span>&lt;span class="p">&amp;#34;},&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">$1&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">username&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">(.+)&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">by&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">usergroup&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">namespace&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">by&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">usergroup&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">namespace&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="visualizing-user-group-resource-usage-with-grafana">
+Visualizing user group resource usage with Grafana
+&lt;a class="header-anchor" href="#visualizing-user-group-resource-usage-with-grafana">#&lt;/a>
+&lt;/h2>&lt;p>The PromQL query above is rather long and complex to construct! However, you can benefit from an
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards/pull/149" target="_blank" rel="noopener" >upstream contribution&lt;/a> to the
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >jupyterhub/grafana-dashboards&lt;/a> project where we have encapsulated the PromQL queries as Jsonnet code and represented them as Grafana Dashboard visualizations (also known as
+&lt;a href="https://grafana.github.io/grafonnet/index.html" target="_blank" rel="noopener" >Grafonnet&lt;/a>). If you have a Kubernetes cluster running JupyterHub, try deploying these Grafana Dashboards and let us know what you think!&lt;/p>
+&lt;p>Our particular PromQL query above is visualized in the Grafana Dashboard &lt;strong>User Groups Diagnostics&lt;/strong> under the &lt;strong>Memory Usage&lt;/strong> panel (see also the corresponding screenshot at the top of this post). This is equivalent to its counterpart &lt;strong>User Diagnostics&lt;/strong> dashboard, but with resource usage visualized on a &lt;em>per-group&lt;/em> level rather than a per-user level &amp;#x1f389;&lt;/p>
+&lt;h2 id="future-work">
+Future work
+&lt;a class="header-anchor" href="#future-work">#&lt;/a>
+&lt;/h2>&lt;p>We have laid the foundation for joining user group data to usage metrics with Prometheus by extracting memberships from JupyterHub&amp;rsquo;s database. This unlocks potent ways in which observability systems can be extended to group-level reporting and monitoring.&lt;/p>
+&lt;p>Future directions for this work include:&lt;/p>
+&lt;ul>
+&lt;li>visualising cloud cost by user group in Grafana&lt;/li>
+&lt;li>developing more group-level reporting and monitoring dashboards&lt;/li>
+&lt;li>introducing group-level resource quotas.&lt;/li>
+&lt;/ul>
+&lt;p>What do you think? How would you like to see JupyterHub&amp;rsquo;s group management features evolve? Have you tried deploying this yourself?
+&lt;a href="https://airtable.com/appM2L2x1uglMU0hy/pagWPJDEKTlLd7uMP/form" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p></description></item><item><title>Solving classes of problems, rather than just an instance of a problem (with an example)</title><link>https://2i2c.org/blog/2025/automating-support-upgrades/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/automating-support-upgrades/</guid><description>
+&lt;h2 id="the-problem">
+The Problem
+&lt;a class="header-anchor" href="#the-problem">#&lt;/a>
+&lt;/h2>&lt;p>Two of our the communities we serve (
+&lt;a href="https://nmfs-openscapes.github.io/" target="_blank" rel="noopener" >NMFS Openscapes&lt;/a> and
+&lt;a href="https://book.cryointhecloud.com/intro.html" target="_blank" rel="noopener" >CryoCloud&lt;/a>) reported issues with starting GPU nodes on their hubs. Upon investigation, I discovered that the
+&lt;a href="https://github.com/kubernetes/autoscaler" target="_blank" rel="noopener" >cluster autoscaler&lt;/a> seems to not recognize that GPUs were available in the cluster at all suddenly, and hence wasn&amp;rsquo;t provisioning the nodes. A restart of the cluster-autoscaler pod fixed the issue for both these communities.&lt;/p>
+&lt;h2 id="an-incomplete-solution">
+An incomplete solution
+&lt;a class="header-anchor" href="#an-incomplete-solution">#&lt;/a>
+&lt;/h2>&lt;p>But is that the end of the story? Not if we want to provide reliable long term infrastructure to communities with minimal
+&lt;a href="https://sre.google/sre-book/eliminating-toil/" target="_blank" rel="noopener" >toil&lt;/a> on the part of 2i2c engineers!&lt;/p>
+&lt;p>One of the engineering principles I&amp;rsquo;m trying to have us more intentionally and structurally embody is the idea that we don&amp;rsquo;t fix individual instances of problems, but &lt;strong>whole classes of problems, rather than just an individual instance of the problem&lt;/strong>. Fixing the immediate issue is &lt;em>not enough&lt;/em> - we need to understand what &lt;strong>class of issues&lt;/strong> was manifesting itself in this particular fashion, and fix &lt;em>that&lt;/em>.&lt;/p>
+&lt;h2 id="what-was-the-class-of-issues-we-could-fix-here">
+What was the &lt;strong>class of issues&lt;/strong> we could fix here?
+&lt;a class="header-anchor" href="#what-was-the-class-of-issues-we-could-fix-here">#&lt;/a>
+&lt;/h2>&lt;p>Digging in, I realized that our version of cluster-autoscaler was a little behind and not the latest. I &lt;em>presumed&lt;/em> this was a bug in cluster-autoscaler (given a restart fixed it, implying it is a bug about state). To me, the &lt;em>class of problem&lt;/em> here is that we were not rolling out releases to our &amp;ldquo;supporting infrastructure&amp;rdquo; fast enough. Perhaps if we were on the most recent cluster-autoscaler release, this issue would have never happened.&lt;/p>
+&lt;p>Additionally, this failure to scale up was reported to us by the community rather than by an automated alert. We should change that too!&lt;/p>
+&lt;h2 id="structured-solutions">
+Structured solutions
+&lt;a class="header-anchor" href="#structured-solutions">#&lt;/a>
+&lt;/h2>&lt;p>We follow a two week sprint cycle, and I love the (hard won) structure it provides us. I don&amp;rsquo;t want to arbitrarily start doing work that upsets prior committed work from that structure. However, we also treat support requests seriously and try to work them into the sprint. So I timeboxed myself for one hour, and saw what I could accomplish. Turns out, a lot!&lt;/p>
+&lt;ol>
+&lt;li>I
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/6183" target="_blank" rel="noopener" >upgraded all our support components&lt;/a>, tested them, and rolled them out to &lt;em>all&lt;/em> our communities! This included upgrading Grafana, Prometheus, nginx-ingress as well as the cluster-autoscaler. This also restarts the cluster-autoscaler across our clusters, fixing this issue for other communities (if any had it).&lt;/li>
+&lt;li>I
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/6182" target="_blank" rel="noopener" >re-enabled&lt;/a> the automatic once a month PR for upgrading these support tasks. We had switched to doing them on a manual sprint cadence, but clearly that was not fast enough nor automated enough. We will instead work these into the sprint once the bot opens the PR. Credit to
+&lt;a href="https://github.com/consideratio" target="_blank" rel="noopener" >Erik Sundell&lt;/a> for initially setting this up&lt;/li>
+&lt;li>Create
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/6185" target="_blank" rel="noopener" >an issue&lt;/a> to track the alert creation, and put it in our sprint backlog.&lt;/li>
+&lt;li>(In an additional fifteen minute timebox) Write this blog post, to communicate out both to the affected communities and others what we have done.&lt;/li>
+&lt;/ol>
+&lt;p>By timeboxing myself, I didn&amp;rsquo;t upset our sprint cadence and was able to continue doing other work I had committed to in the sprint, while also fixing this &lt;em>class of issues&lt;/em> to the best of my ability.&lt;/p>
+&lt;h2 id="moving-forward">
+Moving forward
+&lt;a class="header-anchor" href="#moving-forward">#&lt;/a>
+&lt;/h2>&lt;p>While we have been &lt;em>implicitly&lt;/em> trying to solve whole classes of issues rather than individual instances of an issue as a team for a while, I want us to &lt;em>explicitly&lt;/em> do it from now on. Communicating this out to our communities is an important part of that, as is internal team training. This blog post is the former, and we are continually working on the latter :)&lt;/p></description></item><item><title>Jupyter Book at the Scientific Python 2025 Developer Summit</title><link>https://2i2c.org/blog/2025/scientific-python-summit/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/scientific-python-summit/</guid><description>&lt;p>A post on the Jupyter Book blog about the recent Scientific Python 2025 Developer Summit.&lt;/p></description></item><item><title>Launching Jupyter Book for 2i2c Communities</title><link>https://2i2c.org/blog/2025/jb-for-communities/</link><pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb-for-communities/</guid><description>&lt;p>A core component of our mission to make research and education more &lt;em>impactful&lt;/em>, &lt;em>accessible&lt;/em>, and &lt;em>delightful&lt;/em> is leveraging our unique
+&lt;a href="https://2i2c.org/communities/" target="_blank" rel="noopener" >global network of communities&lt;/a> to make meaningful improvements to the open-source tools that power their work. Learning from one community can then provide value to our entire network, e.g.,
+&lt;a href="https://2i2c.org/blog/2024/pace-hackweek/" >our work with PACE on speeding up their CNN model training&lt;/a>.&lt;/p>
+&lt;p>Central to our communities&amp;rsquo; work is the importance of sharing new findings, best practices, and community resources. Across our network, we have seen communities creating their own &amp;ldquo;books&amp;rdquo; that provide a home for this kind of content. Many of these books feature the concept of a &amp;ldquo;landing page&amp;rdquo; that welcomes new members, establishes an identity, and provides jumping-off points (or &amp;ldquo;calls to action&amp;rdquo;) to more detailed resources.&lt;/p>
+&lt;p>Until now, each community has been required to undertake this work independently. 2i2c believes that by
+&lt;a href="https://2i2c.org/blog/2025/community-ownership/" >building upon existing open-source tools&lt;/a> like
+&lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a>, we can help communities focus on the &lt;em>content&lt;/em> of their home, rather than spending time worrying about its &lt;em>appearance&lt;/em>. To that end, we have been working on
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/5045" target="_blank" rel="noopener" >an initiative&lt;/a> to allow communities to rapidly build interactive starter documentation and provide users with a rich, interactive, and informative onboarding experience. Through this initiative, we have:&lt;/p>
+&lt;ul>
+&lt;li>Improved the user experience of launching into interactive compute environments from a Jupyter Book.&lt;/li>
+&lt;li>Built components into the Jupyter Book &amp;ldquo;book theme&amp;rdquo; for low-density landing page content like call-to-action blocks.&lt;/li>
+&lt;li>Extended our service to co-locate community documentation alongside community hubs (i.e., &lt;code>docs.hub.2i2c.cloud&lt;/code>).&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./landing-page.png" alt="Screenshot of the 2i2c Showcase Hub landing page" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+(A screenshot of the 2i2c
+&lt;a href="https://docs.showcase.2i2c.cloud/" target="_blank" rel="noopener" >Showcase Hub&lt;/a> landing page, featuring a simple banner image and call-to-action.)&lt;/p>
+&lt;p>To take advantage of this feature, communities can use the
+&lt;a href="https://github.com/2i2c-org/community-docs-template" target="_blank" rel="noopener" >&lt;code>2i2c-org/community-docs-template&lt;/code>&lt;/a> to deploy a Jupyter Book site to GitHub Pages. This template demonstrates simple usage of Jupyter Book 2 for computational content and landing page creation, and establishes the necessary CD workflows for web publication. Meanwhile, 2i2c can update our domain name management to point the &lt;code>docs.hub.2i2c.cloud&lt;/code> nested subdomain to the newly deployed documentation.&lt;/p>
+&lt;p>For more information, see
+&lt;a href="https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book" target="_blank" rel="noopener" >our community documentation for deploying Jupyter Books&lt;/a>.&lt;/p>
+&lt;p>Developing these new capabilities taught us a lot about what makes building &amp;ldquo;good&amp;rdquo; community documentation so difficult. A wide range of bespoke website-building tools and integration quirks previously made it challenging for communities to both keep documentation current with internal changes and keep up with necessary software updates. We also learned that by trading bespoke complexity for simplicity and readability, we could build a solution that scales to multiple communities, with a consequently reduced maintenance burden.&lt;/p>
+&lt;p>With these improvements, we have initiated a conversation about what a more unified &amp;ldquo;look and feel&amp;rdquo; for our network might entail, and how it might benefit our communities. Much more can be done to build on this first step, and we are eager to gather feedback on how to improve these features for users.&lt;/p>
+&lt;p>To learn more about this work, consider exploring a minimal example on
+&lt;a href="https://docs.showcase.2i2c.cloud/" target="_blank" rel="noopener" >our Showcase Hub&lt;/a>, and check out
+&lt;a href="https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book" target="_blank" rel="noopener" >our service guide&lt;/a>.
+&lt;a href="https://airtable.com/appM2L2x1uglMU0hy/pagWPJDEKTlLd7uMP/form" target="_blank" rel="noopener" >Let us know&lt;/a> what you think!&lt;/p></description></item><item><title>Offering Jetstream2-powered hub support at 2i2c</title><link>https://2i2c.org/blog/2025/jetstream2-persistent-hub/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jetstream2-persistent-hub/</guid><description>&lt;p>When we first committed to offer
+&lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >Jetstream2&lt;/a> support at 2i2c, Jetstream2,
+&lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a>,
+&lt;a href="https://www.openstack.org/" target="_blank" rel="noopener" >OpenStack&lt;/a>,
+&lt;a href="https://cluster-api.sigs.k8s.io/" target="_blank" rel="noopener" >ClusterAPI&lt;/a> were all new concepts that we hadn&amp;rsquo;t used at 2i2c before.
+And although the initial exercise of reading about each of them independently was confusing, learning how they actually glued together was the key.
+This post is about Jetstream2, 2i2c persistent hub offerings, and the learning that took place in the process.&lt;/p>
+&lt;h2 id="context">
+Context
+&lt;a class="header-anchor" href="#context">#&lt;/a>
+&lt;/h2>&lt;p>At 2i2c, we want to be able to deploy k8s clusters on different cloud providers. In a very simplistic way, for this we use:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Infrastructure as code&lt;/code> to describe, deploy and manage the actual physical infrastructure from the cloud providers&lt;/li>
+&lt;li>Cloud specific CLI to authenticate to this infrastructure&lt;/li>
+&lt;li>
+&lt;a href="https://helm.sh/" target="_blank" rel="noopener" >&lt;code>Helm&lt;/code>&lt;/a> to deploy and manage k8s resources onto this infrastructure&lt;/li>
+&lt;li>And finally
+&lt;a href="https://kubernetes.io/docs/reference/kubectl/" target="_blank" rel="noopener" >&lt;code>kubectl&lt;/code>&lt;/a> to interact with all of these k8s resources&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./2i2c-generic-infra.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+(Main tools used at 2i2c to deploy and manage k8s clusters on different cloud providers)&lt;/p>
+&lt;p>On cloud providers like GCP, AWS, Azure, the Kubernetes support feels like an atomic feature of the cloud provider and works out of the box. But on Jetstream2, k8s support is not such a solid feature anymore.&lt;/p>
+&lt;h2 id="jetstream2-kubernetes-support-stack">
+Jetstream2 Kubernetes support stack
+&lt;a class="header-anchor" href="#jetstream2-kubernetes-support-stack">#&lt;/a>
+&lt;/h2>&lt;p>Jetstream2 is a collection of supercomputers that are part of the
+&lt;a href="https://access-ci.org/" target="_blank" rel="noopener" >ACCESS cyberinfrastructure&lt;/a>. This ACCESS infrastructure groups together super computers like Jetstream2 (but not limited to it), into a mesh that creates the impression of a single, virtual system that scientists can openly access and interactively use.&lt;/p>
+&lt;p>It offers Infrastructure as a Service (IaaS), that allows users to deploy VMs and manage environments dynamically. And the piece that enables this Infrastructure as a Service feature is OpenStack.&lt;/p>
+&lt;h3 id="openstack-and-magnum">
+OpenStack and Magnum
+&lt;a class="header-anchor" href="#openstack-and-magnum">#&lt;/a>
+&lt;/h3>&lt;p>OpenStack is an open source platform made of multiple projects that help build and manage both private and public cloud infrastructure.&lt;/p>
+&lt;p>For our use-case, one of the most relevant OpenStack sub-project is Magnum. Magnum offers container orchestration engines for deploying and managing containers, like Kubernetes, but not limited to it.&lt;/p>
+&lt;p>Initially, Kubernetes support was provided through a project called
+&lt;a href="https://wiki.openstack.org/wiki/Heat" target="_blank" rel="noopener" >HEAT&lt;/a>. However that has proven harder to manage and maintain, and it was extremely hard to upgrade a cluster. So, they’ve migrated towards a new driver called
+&lt;a href="https://docs.openstack.org/magnum-capi-helm/latest/user_docs/index.html" target="_blank" rel="noopener" >Cluster API magnum driver&lt;/a>, which offers a more native k8s integration.&lt;/p>
+&lt;h3 id="cluster-api-and-capi-helm-driver">
+Cluster API and CAPI helm driver
+&lt;a class="header-anchor" href="#cluster-api-and-capi-helm-driver">#&lt;/a>
+&lt;/h3>&lt;p>CAPI itself is k8s project that allows declaring k8s clusters in an easy way.&lt;/p>
+&lt;p>The helm driver on the other hand is what acts like a bridge between OpenStack’s Magnum and Kubernetes’ Cluster API (CAPI). Its main goal is to to manage the lifecycle (create, scale, upgrade, destroy) of Kubernetes-conformant clusters using a declarative API.&lt;/p>
+&lt;p>In order to do this, Cluster API provides an API for being able to manage the various components of a Kubernetes cluster. This conceptually looks like a Kubernetes cluster managing other Kubernetes clusters; the former, named the ‘CAPI management cluster’, is the one providing the API for managing the latter workload clusters.&lt;/p>
+&lt;h3 id="decomposing-the-previous-atomic-feature">
+Decomposing the previous atomic feature
+&lt;a class="header-anchor" href="#decomposing-the-previous-atomic-feature">#&lt;/a>
+&lt;/h3>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./Jetstream2-and-tent.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+(Comparison between Jetstream2 and other cloud providers when it comes to k8s support)&lt;/p>
+&lt;p>Magnum is part of the OpenStack tent and it’s the first layer on top of Jetstream2 towards achieving k8s support.&lt;/p>
+&lt;p>The CAPI helm driver is what’s offering CAPI support. This is the last piece that’s needed to link a k8s cluster down to the hardware where it’s deployed, on Jetstream2.&lt;/p>
+&lt;h2 id="challenges">
+Challenges
+&lt;a class="header-anchor" href="#challenges">#&lt;/a>
+&lt;/h2>&lt;p>The Jetstream2-OpenStack stack is not a simple one. It’s a complex stack of technologies and each of the connection points can be challenging to debug and fix when something doesn&amp;rsquo;t work. Especially when you are one of the first ones that pilots this new magnum driver setup.&lt;/p>
+&lt;p>So, it was expected that we faced some issues along the way. However, we were able to go around them and add Jetstream2 to our service menu. Below is a list of some of the issues that we faced:&lt;/p>
+&lt;ol>
+&lt;li>We have to create terraform resource in sequence which takes longer because of a race condition that makes concurrent nodegroups creation requests to fail&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;a href="https://bugs.launchpad.net/magnum/&amp;#43;bug/2097946" target="_blank" rel="noopener" >bugs.launchpad.net/magnum/+bug/2097946&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>The role and labels of the nodegroups don&amp;rsquo;t get propagated to the actual nodes, so we cannot put our own labels on nodes at once&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/azimuth-cloud/capi-helm-charts/issues/84" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> azimuth-cloud/capi-helm-charts#84&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>The node count and min node count cannot be set to 0 and each nodegroup has to have at least 1 node&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;a href="https://bugs.launchpad.net/magnum/&amp;#43;bug/2098002" target="_blank" rel="noopener" >bugs.launchpad.net/magnum/+bug/2098002&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>A default-worker is created apart from the default-control plane nodegroup and we cannot delete it due to the same issue as in 2.&lt;/li>
+&lt;li>Latest CAPI helm chart version causes autoscaling to stop working in a persistent hub setup, so we had to downgrade it to a previous version&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/5601" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#5601&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">
+Conclusion
+&lt;a class="header-anchor" href="#conclusion">#&lt;/a>
+&lt;/h2>&lt;p>The biggest plus, is the people. We got support from
+&lt;a href="https://github.com/julianpistorius" target="_blank" rel="noopener" >Julian Pistorius&lt;/a>, which has helped us a lot to both fix and validate some of the behaviours we were experiencing. Also, going through the
+&lt;a href="https://jetstream-cloud.org/contact/index.html" target="_blank" rel="noopener" >Jetstream2 support process&lt;/a> was also a pleasant experience because they were super prompt in answering and they were very nice.&lt;/p>
+&lt;p>Jetstream2 has a big plus over the other cloud providers with its openness thought the ACCESS program. This is something very handy to researchers and less costly than other cloud providers. 2i2c being able to offer hubs though this ACCESS program makes things more accessible to more researchers and more cost efficient.&lt;/p>
+&lt;p>Higher complexity comes also with more control over the infrastructure which has its advantages.&lt;/p>
+&lt;p>Leaving the challenges apart, the experience was a nice one and the outcome was positive -&amp;gt; 2i2c is now able to deploy both mybinder.org-like hubs as well as persistent storage hubs on Jetstream2 hardware, from the same cloud-agnostic infrastructure.&lt;/p></description></item><item><title>2025-Q1 reflection: Building a foundation for our new platform and membership model</title><link>https://2i2c.org/blog/2025/q1-reflection/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-reflection/</guid><description>&lt;p>&lt;em>This is a summary of major progress we made in Q1 of 2025. Its goal is to summarize our major accomplishments and important context before we prioritize for Q2. We hope this gives our community stakeholders a more strategic-level insight into our progress and organizational plans. See
 &lt;a href="https://2i2c.org/blog/2025/q1-product-highlights/" >our Product Highlights for 2025Q1&lt;/a> for a product-focused review. Please
 &lt;a href="" >give us feedback&lt;/a> for how we can provide more useful information.&lt;/em>&lt;/p>
 &lt;p>Heading into Q1 2025, we had just completed an organizational re-structuring into new functional areas. These were
@@ -6454,11 +6700,9 @@ We focus on the Jupyter ecosystem and adjacent open source communities (e.g., th
 &lt;li>
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Our Team Compass&lt;/a> contains all of 2i2c&amp;rsquo;s organizational strategy, policy, and team practices.&lt;/li>
 &lt;li>
-&lt;a href="https://2i2c.org/category/updates/" target="_blank" rel="noopener" >Our updates blog series&lt;/a> provides all major organizational updates for our community.&lt;/li>
+&lt;a href="https://2i2c.org/blog" target="_blank" rel="noopener" >Our blog&lt;/a> has updates about our service and organization.&lt;/li>
 &lt;li>
-&lt;a href="https://docs.2i2c.org/about/service/service-objectives.html" target="_blank" rel="noopener" >Our Service Level Objectives&lt;/a> describes our day-to-day goals running the service.&lt;/li>
-&lt;li>
-&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener" >Our Shared Responsibility Model&lt;/a> describes how we collaborate with communities in this hub service.&lt;/li>
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Our service documentation&lt;/a> describes our in more detail.&lt;/li>
 &lt;li>
 &lt;a href="https://infrastructure.2i2c.org/" target="_blank" rel="noopener" >Our Infrastructure Guide&lt;/a> describes all of our cloud infrastructure and engineering practices, with links to our codebase.&lt;/li>
 &lt;/ul>
