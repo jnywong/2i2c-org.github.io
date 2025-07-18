@@ -4,7 +4,7 @@ The Problem
 &lt;a class="header-anchor" href="#the-problem">#&lt;/a>
 &lt;/h2>&lt;p>Two of our the communities we serve (
 &lt;a href="https://nmfs-openscapes.github.io/" target="_blank" rel="noopener" >NMFS Openscapes&lt;/a> and
-&lt;a href="https://book.cryointhecloud.com/intro.html" target="_blank" rel="noopener" >CryoCloud&lt;/a>) reported issues with starting GPU nodes on their hubs. Upon investigation, I discovered that the
+&lt;a href="https://book.cryointhecloud.com" target="_blank" rel="noopener" >CryoCloud&lt;/a>) reported issues with starting GPU nodes on their hubs. Upon investigation, I discovered that the
 &lt;a href="https://github.com/kubernetes/autoscaler" target="_blank" rel="noopener" >cluster autoscaler&lt;/a> seems to not recognize that GPUs were available in the cluster at all suddenly, and hence wasn&amp;rsquo;t provisioning the nodes. A restart of the cluster-autoscaler pod fixed the issue for both these communities.&lt;/p>
 &lt;h2 id="an-incomplete-solution">
 An incomplete solution
@@ -43,7 +43,7 @@ Moving forward
 &lt;li>Leader in the JupyterHub and Binder projects&lt;/li>
 &lt;li>Served as the Infrastructure Architect behind UC Berkeley’s scalable DataHub&lt;/li>
 &lt;li>Former ops engineer at Wikimedia and GNOME.&lt;/li>
-&lt;/ul></description></item><item><title>Simplifying and speeding up Binder builds with BuildKit</title><link>https://2i2c.org/blog/2025/binder-buildkit/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-buildkit/</guid><description>&lt;p>A blog post on the Jupyter blog about a recent experiment to significantly reduce the cost of runnign a node on the mybinder.org federation.&lt;/p></description></item><item><title>2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub</title><link>https://2i2c.org/blog/2025/binder-singlenode/</link><pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-singlenode/</guid><description>&lt;div class="alert alert-note">
+&lt;/ul></description></item><item><title>Simplifying and speeding up Binder builds with BuildKit</title><link>https://2i2c.org/blog/2025/binder-buildkit/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-buildkit/</guid><description>&lt;p>A blog post on the Jupyter blog about a recent experiment to significantly reduce the cost of running a node on the mybinder.org federation.&lt;/p></description></item><item><title>2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub</title><link>https://2i2c.org/blog/2025/binder-singlenode/</link><pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-singlenode/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 If you&amp;rsquo;re interested in supporting &lt;code>mybinder.org&lt;/code> with cloud resources, financial resources, or human resources, please see the
 &lt;p>&lt;a href="https://mybinder.readthedocs.io/en/latest/about/support.html" target="_blank" rel="noopener" >Support Binder&lt;/a> page for how you can help.&lt;/p>
@@ -1010,7 +1010,7 @@ Acknowledgements
 &lt;a href="https://cires.colorado.edu/" target="_blank" rel="noopener" >(CIRES)&lt;/a>&lt;/li>
 &lt;li>*Fisher, M., *T. Stafford, T. Moon, and A. Thurber (2023). QGreenland (v3) [software], National Snow and Ice Data Center.&lt;/li>
 &lt;li>Snow, Tasha, Millstein, Joanna, Scheick, Jessica, Sauthoff, Wilson, Leong, Wei Ji, Colliander, James, Pérez, Fernando, James Munroe, Felikson, Denis, Sutterley, Tyler, &amp;amp; Siegfried, Matthew. (2023).
-&lt;a href="https://book.cryointhecloud.com/intro.html" target="_blank" rel="noopener" >CryoCloud JupyterBook&lt;/a> (2023.01.26). Zenodo.
+&lt;a href="https://book.cryointhecloud.com" target="_blank" rel="noopener" >CryoCloud JupyterBook&lt;/a> (2023.01.26). Zenodo.
 &lt;a href="https://doi.org/10.5281/zenodo.7576602" target="_blank" rel="noopener" >10.5281/zenodo.7576602&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>* Denotes co-equal lead authorship&lt;/p></description></item></channel></rss>

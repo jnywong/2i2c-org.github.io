@@ -79,13 +79,13 @@ Future work
 &lt;li>introducing group-level resource quotas.&lt;/li>
 &lt;/ul>
 &lt;p>What do you think? How would you like to see JupyterHub&amp;rsquo;s group management features evolve? Have you tried deploying this yourself?
-&lt;a href="https://airtable.com/appM2L2x1uglMU0hy/pagWPJDEKTlLd7uMP/form" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p></description></item><item><title>Solving classes of problems, rather than just an instance of a problem (with an example)</title><link>https://2i2c.org/blog/2025/automating-support-upgrades/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/automating-support-upgrades/</guid><description>
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p></description></item><item><title>Solving classes of problems, rather than just an instance of a problem (with an example)</title><link>https://2i2c.org/blog/2025/automating-support-upgrades/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/automating-support-upgrades/</guid><description>
 &lt;h2 id="the-problem">
 The Problem
 &lt;a class="header-anchor" href="#the-problem">#&lt;/a>
 &lt;/h2>&lt;p>Two of our the communities we serve (
 &lt;a href="https://nmfs-openscapes.github.io/" target="_blank" rel="noopener" >NMFS Openscapes&lt;/a> and
-&lt;a href="https://book.cryointhecloud.com/intro.html" target="_blank" rel="noopener" >CryoCloud&lt;/a>) reported issues with starting GPU nodes on their hubs. Upon investigation, I discovered that the
+&lt;a href="https://book.cryointhecloud.com" target="_blank" rel="noopener" >CryoCloud&lt;/a>) reported issues with starting GPU nodes on their hubs. Upon investigation, I discovered that the
 &lt;a href="https://github.com/kubernetes/autoscaler" target="_blank" rel="noopener" >cluster autoscaler&lt;/a> seems to not recognize that GPUs were available in the cluster at all suddenly, and hence wasn&amp;rsquo;t provisioning the nodes. A restart of the cluster-autoscaler pod fixed the issue for both these communities.&lt;/p>
 &lt;h2 id="an-incomplete-solution">
 An incomplete solution
@@ -145,7 +145,7 @@ Moving forward
 &lt;p>To learn more about this work, consider exploring a minimal example on
 &lt;a href="https://docs.showcase.2i2c.cloud/" target="_blank" rel="noopener" >our Showcase Hub&lt;/a>, and check out
 &lt;a href="https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book" target="_blank" rel="noopener" >our service guide&lt;/a>.
-&lt;a href="https://airtable.com/appM2L2x1uglMU0hy/pagWPJDEKTlLd7uMP/form" target="_blank" rel="noopener" >Let us know&lt;/a> what you think!&lt;/p></description></item><item><title>Offering Jetstream2-powered hub support at 2i2c</title><link>https://2i2c.org/blog/2025/jetstream2-persistent-hub/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jetstream2-persistent-hub/</guid><description>&lt;p>When we first committed to offer
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform" target="_blank" rel="noopener" >Let us know&lt;/a> what you think!&lt;/p></description></item><item><title>Offering Jetstream2-powered hub support at 2i2c</title><link>https://2i2c.org/blog/2025/jetstream2-persistent-hub/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jetstream2-persistent-hub/</guid><description>&lt;p>When we first committed to offer
 &lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >Jetstream2&lt;/a> support at 2i2c, Jetstream2,
 &lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a>,
 &lt;a href="https://www.openstack.org/" target="_blank" rel="noopener" >OpenStack&lt;/a>,
@@ -444,7 +444,7 @@ In case you missed it
 &lt;p>We&amp;rsquo;re hopeful that this is a way for 2i2c to scale its impact and lean into its
 &lt;a href="https://2i2c.org/open-technology/" >commitment to open technology&lt;/a>. Chris intends to keep writing about his personal experience via
 &lt;a href="https://chrisholdgraf.com" target="_blank" rel="noopener" >his blog&lt;/a>, and we&amp;rsquo;ll provide updates here for major developments that are relevant to 2i2c&amp;rsquo;s network of communities.
-We&amp;rsquo;re proud to have Chris in this role, and excited for his contributions to the Jupyter community!&lt;/p></description></item><item><title>Simplifying and speeding up Binder builds with BuildKit</title><link>https://2i2c.org/blog/2025/binder-buildkit/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-buildkit/</guid><description>&lt;p>A blog post on the Jupyter blog about a recent experiment to significantly reduce the cost of runnign a node on the mybinder.org federation.&lt;/p></description></item><item><title>Enforcing per-user storage quotas now available on GCP</title><link>https://2i2c.org/blog/2025/per-user-storage-quota-gcp/</link><pubDate>Tue, 25 Feb 2025 14:18:04 +0000</pubDate><guid>https://2i2c.org/blog/2025/per-user-storage-quota-gcp/</guid><description>&lt;p>Building upon our previous work developing
+We&amp;rsquo;re proud to have Chris in this role, and excited for his contributions to the Jupyter community!&lt;/p></description></item><item><title>Simplifying and speeding up Binder builds with BuildKit</title><link>https://2i2c.org/blog/2025/binder-buildkit/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-buildkit/</guid><description>&lt;p>A blog post on the Jupyter blog about a recent experiment to significantly reduce the cost of running a node on the mybinder.org federation.&lt;/p></description></item><item><title>Enforcing per-user storage quotas now available on GCP</title><link>https://2i2c.org/blog/2025/per-user-storage-quota-gcp/</link><pubDate>Tue, 25 Feb 2025 14:18:04 +0000</pubDate><guid>https://2i2c.org/blog/2025/per-user-storage-quota-gcp/</guid><description>&lt;p>Building upon our previous work developing
 &lt;a href="https://2i2c.org/blog/2025/per-user-storage-quota/" target="_blank" rel="noopener" >per-user storage quotas for our AWS infrastructure&lt;/a>, we are pleased to announce that this feature is now available for GCP-hosted hubs!&lt;/p>
 &lt;p>To provide this feature on this vendor, we have updated our infrastructure provisioning system to create persistent disks, and enable automatic backups of the disk for disaster recovery purposes. However, the systems we had already developed for AWS, such as
 &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs" target="_blank" rel="noopener" >&lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a> and our alerting system through
@@ -849,7 +849,7 @@ Allowing readers to &amp;ldquo;bring their own Binders&amp;rdquo;
 &lt;/ul>
 &lt;p>We want a workflow like this to be as seamless and un-complicated as possible. We also want it to follow the same fundamental workflow as the
 &lt;a href="https://docs.2i2c.org/community/content/" target="_blank" rel="noopener" >nbgitpuller-based launch buttons&lt;/a>. Along the way, we realized that we needed to coordinate development across
-&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a>],
+&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a>,
 &lt;a href="https://jupyter.readthedocs.io" target="_blank" rel="noopener" >JupyterHub&lt;/a>, and
 &lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>.&lt;/p>
 &lt;figure id="figure-the-three-projects-jupyter-book-binderhub-and-jupyterhub-that-needed-to-work-together-to-enable-bring-your-own-binderhub-workflows">
@@ -4111,7 +4111,7 @@ Acknowledgements
 &lt;a href="https://cires.colorado.edu/" target="_blank" rel="noopener" >(CIRES)&lt;/a>&lt;/li>
 &lt;li>*Fisher, M., *T. Stafford, T. Moon, and A. Thurber (2023). QGreenland (v3) [software], National Snow and Ice Data Center.&lt;/li>
 &lt;li>Snow, Tasha, Millstein, Joanna, Scheick, Jessica, Sauthoff, Wilson, Leong, Wei Ji, Colliander, James, Pérez, Fernando, James Munroe, Felikson, Denis, Sutterley, Tyler, &amp;amp; Siegfried, Matthew. (2023).
-&lt;a href="https://book.cryointhecloud.com/intro.html" target="_blank" rel="noopener" >CryoCloud JupyterBook&lt;/a> (2023.01.26). Zenodo.
+&lt;a href="https://book.cryointhecloud.com" target="_blank" rel="noopener" >CryoCloud JupyterBook&lt;/a> (2023.01.26). Zenodo.
 &lt;a href="https://doi.org/10.5281/zenodo.7576602" target="_blank" rel="noopener" >10.5281/zenodo.7576602&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>* Denotes co-equal lead authorship&lt;/p></description></item><item><title>Technical Content Specialist</title><link>https://2i2c.org/jobs/2023/technical-content-specialist/</link><pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/jobs/2023/technical-content-specialist/</guid><description>&lt;p>2i2c manages, supports, and builds community-centric infrastructure for interactive computing in the cloud with partner communities in research and education.&lt;/p>
