@@ -1,4 +1,377 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuvaraj (Yuvi) | 2i2c</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><atom:link href="https://2i2c.org/author/yuvaraj-yuvi/index.xml" rel="self" type="application/rss+xml"/><description>Yuvaraj (Yuvi)</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/yuvaraj-yuvi/avatar_huc33b170c6d7c951ba6ff8e7ef074ee49_9242_270x270_fill_q75_lanczos_center.jpeg</url><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link></image><item><title>Solving classes of problems, rather than just an instance of a problem (with an example)</title><link>https://2i2c.org/blog/2025/automating-support-upgrades/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/automating-support-upgrades/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuvaraj (Yuvi) | 2i2c</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><atom:link href="https://2i2c.org/author/yuvaraj-yuvi/index.xml" rel="self" type="application/rss+xml"/><description>Yuvaraj (Yuvi)</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/yuvaraj-yuvi/avatar_huc33b170c6d7c951ba6ff8e7ef074ee49_9242_270x270_fill_q75_lanczos_center.jpeg</url><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link></image><item><title>From scattered effort to strategic impact: How we're systematizing our Foundational open source contributions</title><link>https://2i2c.org/blog/2025/foundational-contributions/</link><pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/foundational-contributions/</guid><description>&lt;p>Over the past year we&amp;rsquo;ve experimented with being more strategic about supporting upstream communities &lt;em>as a team&lt;/em>. This post summarizes our current plan, including team targets and practices we&amp;rsquo;ll continue to pilot. We&amp;rsquo;ll revisit this as we learn more.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Note&lt;/strong>: This document is about the &lt;em>Foundational&lt;/em> contributions we make so that open source communities are healthier and more impactful. It is not about &lt;em>Directed&lt;/em> upstream contributions we make as part of our own product work. See
+&lt;a href="https://2i2c.org/blog/2025/good-citizen/" >On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="the-challenge-why-scattered-individual-efforts-arent-enough">
+The challenge: Why scattered individual efforts aren&amp;rsquo;t enough
+&lt;a class="header-anchor" href="#the-challenge-why-scattered-individual-efforts-arent-enough">#&lt;/a>
+&lt;/h2>&lt;p>Healthy open source communities rely on both individual and institutional contributions.
+2i2c
+&lt;a href="https://2i2c.org/blog/2025/good-citizen/" >aims to be an &lt;em>excellent &amp;ldquo;upstream citizen&amp;rdquo;&lt;/em>&lt;/a>, so we need a structured approach with clear goals and rationale for why it&amp;rsquo;s the best use of our team&amp;rsquo;s time.&lt;/p>
+&lt;p>Without a coordinated approach, we risk two problematic outcomes:&lt;/p>
+&lt;p>&lt;strong>Best case&lt;/strong>: Scattered, individual efforts that are subject to the
+&lt;a href="https://www.jofreeman.com/joreen/tyranny.htm" target="_blank" rel="noopener" >Tyranny of Structurelessness&lt;/a>. We help at the margins but not meaningfully.&lt;/p>
+&lt;p>&lt;strong>Worst case&lt;/strong>: Our organizational capacity inadvertently dominates communities, making 2i2c the sole stakeholder capable of meaningful development and maintenance. We &lt;em>functionally take over the project&lt;/em>.&lt;/p>
+&lt;p>By setting explicit goals, both our member communities and upstream projects can hold us accountable for actions that strengthen rather than undermine community health.&lt;/p>
+&lt;h2 id="our-long-term-goal-multi-stakeholder-resilient-communities">
+Our long-term goal: Multi-stakeholder, resilient communities
+&lt;a class="header-anchor" href="#our-long-term-goal-multi-stakeholder-resilient-communities">#&lt;/a>
+&lt;/h2>&lt;p>With this in mind, we&amp;rsquo;ve chosen the following &lt;em>outcomes&lt;/em> as our major goals for upstream contribution:&lt;/p>
+&lt;style>
+.pull-quote blockquote {
+font-size:1.2em;
+font-style:italic;
+}
+&lt;/style>
+&lt;div class="pull-quote">
+&lt;blockquote>
+&lt;p>We want the Jupyter&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> community to be a &lt;em>multi-stakeholder&lt;/em>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>, &lt;em>diverse&lt;/em>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> community with a very high
+&lt;a href="https://en.wikipedia.org/wiki/Bus_factor" target="_blank" rel="noopener" >&lt;em>bus factor&lt;/em>&lt;/a>, because we believe this is a critical pre-requisite for advancing
+&lt;a href="https://compass.2i2c.org/organization/mission/" target="_blank" rel="noopener" >our mission and value proposition&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;p>We want to build team processes that help upstream communities make progress towards this goal, so everyone can equitably participate with the support they need.&lt;/p>
+&lt;h2 id="two-key-objectives">
+Two key objectives
+&lt;a class="header-anchor" href="#two-key-objectives">#&lt;/a>
+&lt;/h2>&lt;p>Starting with
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a>, we&amp;rsquo;ve identified two objectives that will guide our work:&lt;/p>
+&lt;div class="pull-quote">
+&lt;blockquote>
+&lt;p>&lt;strong>Objective 1&lt;/strong>: Increase the number of casual but returning contributors to the JupyterHub community&lt;/p>
+&lt;p>&lt;strong>Objective 2&lt;/strong>: Increase the number of total maintainers in the JupyterHub community&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;p>We&amp;rsquo;ve chosen these objectives because (1) they have impact, (2) we can make meaningful progress on them, and (3) we can integrate this work into our team&amp;rsquo;s workflow.&lt;/p>
+&lt;p>For each activity below, we&amp;rsquo;ve brainstormed some Key Performance Indicators (KPIs) to track progress and ensure we&amp;rsquo;re learning effectively.&lt;/p>
+&lt;h2 id="four-pilot-activities">
+Four pilot activities
+&lt;a class="header-anchor" href="#four-pilot-activities">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;ll experiment with these four activities&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="#review-prs" >&lt;strong>Review pull requests from non-maintainers&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="#issue-triage" >&lt;strong>Issue Triage office hours&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="#mentoring-maintainers" >&lt;strong>Sponsoring and Mentoring new Maintainers&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="#release-diversity" >&lt;strong>Increase bus factor and diversity of people making releases&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="review-prs">
+Review Pull Requests from non-maintainers
+&lt;a class="header-anchor" href="#review-prs">#&lt;/a>
+&lt;/h3>&lt;p>Imagine two different scenarios:&lt;/p>
+&lt;ol>
+&lt;li>You casually contribute a PR to some OSS project. Someone responds the next day, you have a pleasant back and forth, and it gets merged (or rejected) within a few days.&lt;/li>
+&lt;li>You casually contribute a PR to some OSS project. Nobody responds for a year. Eventually someone leaves a comment. You have forgotten everything, and don&amp;rsquo;t even respond. Much later, your PR gets closed as stale.&lt;/li>
+&lt;/ol>
+&lt;p>Which experience will encourage you to come back and contribute again?&lt;/p>
+&lt;p>It&amp;rsquo;s clearly (1). We should use our institutional capacity to bring the community closer to (1).&lt;/p>
+&lt;p>We&amp;rsquo;ll accomplish this by including the following work item in every sprint:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;code>Review of N PRs by non-maintainers of JupyterHub&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;p>We will build skills (via pairing, training, etc) inside 2i2c, as not everyone will feel comfortable reviewing pull requests for all projects, nor have rights to merge or close PRs. We may also do additional work like new contributor drives, better documentation, and policy advocacy. We will include pull requests of all types, not just code contributions.&lt;/p>
+&lt;h4 id="kpis">
+KPIs
+&lt;a class="header-anchor" href="#kpis">#&lt;/a>
+&lt;/h4>&lt;p>We imagine two KPIs for this activity:&lt;/p>
+&lt;ol>
+&lt;li>Number of PRs merged (or closed) through our sprint planning activity.&lt;/li>
+&lt;li>Number of &lt;em>returning&lt;/em> contributors whose PRs were reviewed by us.&lt;/li>
+&lt;/ol>
+&lt;h3 id="issue-triage">
+Issue Triage office hours
+&lt;a class="header-anchor" href="#issue-triage">#&lt;/a>
+&lt;/h3>&lt;p>Issue Triage involves combing through an upstream repository&amp;rsquo;s issue tracker, engaging with new issues, refining them to be actionable, and signal boosting important ones for team action.
+This is hard for newcomers, as it often requires deep knowledge of various components to understand how to direct an issue or refine it.
+It&amp;rsquo;s also challenging for team members still learning open source community dynamics. We&amp;rsquo;d like to upskill our team members within 2i2c and our upstream open source communities.&lt;/p>
+&lt;p>As part of our sprints, we will run regular &amp;ldquo;Issue Triage&amp;rdquo; office hours.
+We&amp;rsquo;ll begin by upskilling our &lt;em>own 2i2c team members&lt;/em> in effective issue triaging. We&amp;rsquo;ll then explore opening issue triage sessions to the broader upstream community.&lt;/p>
+&lt;h4 id="kpis-1">
+KPIs
+&lt;a class="header-anchor" href="#kpis-1">#&lt;/a>
+&lt;/h4>&lt;ol>
+&lt;li>Number of issues triaged by 2i2c team members.&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ol>
+&lt;h3 id="mentoring-maintainers">
+Sponsoring and Mentoring new Maintainers
+&lt;a class="header-anchor" href="#mentoring-maintainers">#&lt;/a>
+&lt;/h3>&lt;p>OSS communities must grow their &lt;em>contributors&lt;/em> into &lt;em>maintainers&lt;/em>, or they will die.&lt;/p>
+&lt;figure id="figure-xkcd-comic-about-dependency">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;a href="https://xkcd.com/2347/" target="_blank" rel="noopener">&lt;img src="https://imgs.xkcd.com/comics/dependency.png" alt="XKCD comic about dependency" loading="lazy" />&lt;/a>&lt;/div>
+&lt;/div>&lt;figcaption>
+XKCD comic about dependency
+&lt;/figcaption>&lt;/figure>
+&lt;p>Growing new maintainers takes time and effort from both the potential maintainer and existing maintainers who mentor and sponsor them. The focus on sponsorship is important, as
+&lt;a href="https://larahogan.me/blog/what-sponsorship-looks-like/" target="_blank" rel="noopener" >laid out by Lara Hogan&lt;/a>. This work takes years, not months, to manifest.&lt;/p>
+&lt;p>We will build structures to identify potential maintainers and create pathways for them to gain maintainership status. As JupyterHub lacks an explicit maintainer pathway, we will build our own process via these focus areas:&lt;/p>
+&lt;ol>
+&lt;li>Identifying potential candidates for maintainership&lt;/li>
+&lt;li>Identifying potential community work they can do to help get involved (contributing bug fixes, code reviewing, issue triage, helping answer questions, contributing code / documentation, release management, etc)&lt;/li>
+&lt;li>Build pathways for candidates to do (2) as appropriate.&lt;/li>
+&lt;li>Iteratively continue until candidates have done &amp;rsquo;enough&amp;rsquo; work to gain maintainership status.&lt;/li>
+&lt;/ol>
+&lt;p>This work is nebulous but worthwhile. We will coordinate this effort closely with community leaders, recognizing it takes time to actualize.&lt;/p>
+&lt;p>In the Jupyter community, maintainership status is tied to individuals, not to organizations they work for. Nobody should get maintainership status &lt;em>simply&lt;/em> because they work for a specific organization (such as 2i2c). We should look for diverse candidates, ideally funded by different organizations, who are &lt;em>interested&lt;/em> in becoming maintainers.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Note&lt;/strong>: We&amp;rsquo;d also like to start with individuals
+&lt;a href="https://2i2c.org/collaborators/" >in our &lt;strong>collaborator network&lt;/strong>&lt;/a>. For example, we&amp;rsquo;re using an engagement between
+&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> to onboard several team members into these projects.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="kpi">
+KPI
+&lt;a class="header-anchor" href="#kpi">#&lt;/a>
+&lt;/h4>&lt;p>This measurement moves slowly, but is very clearly impactful:&lt;/p>
+&lt;ol>
+&lt;li>Number of people who have become maintainers due to our concerted efforts.&lt;/li>
+&lt;/ol>
+&lt;h3 id="release-diversity">
+Increase bus factor and diversity of people making releases
+&lt;a class="header-anchor" href="#release-diversity">#&lt;/a>
+&lt;/h3>&lt;p>Making releases is often thankless but important to community health. It involves coordinating testing, writing changelogs, and providing upgrade instructions. Institutions can help by dedicating team time to perform this task regularly. To advance the &amp;lsquo;multi-stakeholder&amp;rsquo; and &amp;lsquo;high bus factor&amp;rsquo; aspects of our goal, we will have many different people do releases, via mentorship and sponsorship. This will integrate into our regular workstreams.&lt;/p>
+&lt;h4 id="kpis-2">
+KPIs
+&lt;a class="header-anchor" href="#kpis-2">#&lt;/a>
+&lt;/h4>&lt;ol>
+&lt;li>Number of releases performed by 2i2c engineers&lt;/li>
+&lt;li>Number of releases performed by others with sponsorship / mentorship from 2i2c engineers&lt;/li>
+&lt;/ol>
+&lt;h2 id="criteria-for-upstream-projects-to-support">
+Criteria for upstream projects to support
+&lt;a class="header-anchor" href="#criteria-for-upstream-projects-to-support">#&lt;/a>
+&lt;/h2>&lt;p>Our long-term goal applies to upstream communities that:&lt;/p>
+&lt;ol>
+&lt;li>We strategically &lt;em>depend&lt;/em> on to serve
+&lt;a href="https://2i2c.org/members/" >our member communities&lt;/a> as part of
+&lt;a href="https://2i2c.org/platform/" >our community hub service&lt;/a>&lt;/li>
+&lt;li>We &lt;em>need&lt;/em> to help sustain, given upstream community dynamics&lt;/li>
+&lt;li>We have the &lt;em>ability&lt;/em> to help sustain&lt;/li>
+&lt;/ol>
+&lt;p>For example, Kubernetes satisfies (1) but not (2) or (3), while JupyterLab meets (1) and (2) but not (3) (presently). Currently this policy only applies to JupyterHub, but may change as our organization evolves.&lt;/p>
+&lt;h2 id="how-well-implement-this">
+How we&amp;rsquo;ll implement this
+&lt;a class="header-anchor" href="#how-well-implement-this">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="who-is-responsible">
+Who is responsible
+&lt;a class="header-anchor" href="#who-is-responsible">#&lt;/a>
+&lt;/h3>&lt;p>Implementation is the responsibility of
+&lt;a href="https://compass.2i2c.org/product-and-services/" target="_blank" rel="noopener" >2i2c&amp;rsquo;s Product &amp;amp; Services team&lt;/a>. These activities must integrate into the team&amp;rsquo;s daily practices, not become an external shadow process for some members.&lt;/p>
+&lt;h3 id="how-well-fund-this-work">
+How we&amp;rsquo;ll fund this work
+&lt;a class="header-anchor" href="#how-well-fund-this-work">#&lt;/a>
+&lt;/h3>&lt;p>Foundational upstream support requires significant work and expertise. We plan to fund this through:&lt;/p>
+&lt;ul>
+&lt;li>Fees from
+&lt;a href="https://2i2c.org/members/" >our member communities&lt;/a>. A percentage of our membership fees includes covering the cost of Foundational contributions like this.&lt;/li>
+&lt;li>Targeted contributions from
+&lt;a href="https://2i2c.org/collaborators/" >some of our collaborators&lt;/a>. Some collaborators have funds and want to support open source at a foundational level, in some cases we use funds from these collaborators to cover our costs.&lt;/li>
+&lt;/ul>
+&lt;p>We still need to explore what these efforts cost and mechanisms to recover those costs.&lt;/p>
+&lt;h2 id="next-step-learning-in-public">
+Next step: Learning in public
+&lt;a class="header-anchor" href="#next-step-learning-in-public">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;re excited to experiment with more effective upstream contribution and eager to learn. We&amp;rsquo;ll share our experiences so others can learn from and comment on our process.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >@MinRK&lt;/a> and -
+&lt;a href="https://github.com/bsipocz" target="_blank" rel="noopener" >@bsipocz&lt;/a> for helping review a draft of this!&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/author/chris-holdgraf/" >@choldgraf&lt;/a> for feedback, guidance, and editing for this post and the team practices in it.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >JupyterBook&lt;/a>, and
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Project Jupyter&lt;/a> for teaching us a lot about open source over the years.&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Currently this is particularly JupyterHub and Jupyter-wide leadership. We&amp;rsquo;re
+&lt;a href="https://2i2c.org/blog/2025/jb-for-communities/" >exploring how to incorporate JupyterBook into our service&lt;/a> and are thus investing Foundation contributions there as well.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>With different kinds and sizes of organizations (companies, non-profits, universities, etc) and individuals being stakeholders. We want to avoid a single organization monopolizing power within any community.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>Across the power spectrum - from users to bug reporters to casual contributors to maintainers to people on governance duty&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>&lt;strong>Implementation note&lt;/strong>: We will not start doing &lt;strong>all&lt;/strong> these immediately! We will consult with the rest of the team, and start these 1 at a time so we can build these processes sustainably and equitably.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>This requires a definition of &amp;ldquo;an issue that has been triaged&amp;rdquo;, and to our knowledge no such definition exists. We&amp;rsquo;d like to learn how to measure something abstract like &amp;ldquo;issue triage&amp;rdquo; - perhaps it is something specific putting it on a board for further action or applying a label, or something more abstract like &amp;ldquo;increasing how clear and actionable the issue is&amp;rdquo;. We&amp;rsquo;ll explore this when we start to make progress towards this objective.&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/yuvaraj-yuvi/</guid><description>&lt;p>Building participatory open infrastructure for scientific &amp;amp; educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let&amp;rsquo;s eliminate accidental complexities wherever we find them.&lt;/p>
+&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>10+ years experience building open infrastructure for scientific and educational communities&lt;/li>
+&lt;li>Jupyter Distinguished Contributor&lt;/li>
+&lt;li>Leader in the JupyterHub and Binder projects&lt;/li>
+&lt;li>Served as the Infrastructure Architect behind UC Berkeley’s scalable DataHub&lt;/li>
+&lt;li>Former ops engineer at Wikimedia and GNOME.&lt;/li>
+&lt;/ul></description></item><item><title>On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions</title><link>https://2i2c.org/blog/2025/good-citizen/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/good-citizen/</guid><description>&lt;p>Any organization building on open source faces a fundamental tension: how do you serve the needs of your organizational stakeholders while also acting as a responsible steward of the upstream projects you depend on?
+This is harder than it looks - simply &amp;ldquo;making PRs&amp;rdquo; leaves a number of open source needs unaddressed, and can burn out both your team members and the open source maintainers. We think about this a lot at 2i2c, and want to share our framework to navigate this challenge intentionally.&lt;/p>
+&lt;p>Here are a few questions we&amp;rsquo;ve been grappling with:&lt;/p>
+&lt;ul>
+&lt;li>How do we tie general upstream maintenance to value delivered to our user communities?&lt;/li>
+&lt;li>How can we scope upstream support so that it doesn&amp;rsquo;t detract from our service needs and product strategy?&lt;/li>
+&lt;li>How can we encourage team members to work on the most impactful aspects of upstream support?&lt;/li>
+&lt;li>How can we intentionally and equitably support open source communities as a team, rather than a collection of individuals?&lt;/li>
+&lt;/ul>
+&lt;p>Along the way, we realized there are &lt;strong>two very different kinds of upstream contributions&lt;/strong>:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Directed Contributions&lt;/strong>: A contribution driven by the needs of our member communities and product roadmap. We call these &amp;ldquo;Directed&amp;rdquo; contributions because they address a targeted need driven by one stakeholder (us!).&lt;/li>
+&lt;li>&lt;strong>Foundational contributions&lt;/strong>: A contribution driven by the needs of the upstream community. We call these &amp;ldquo;Foundational contributions&amp;rdquo; because they&amp;rsquo;re meant to provide the healthy foundation on which a community can operate and grow.&lt;/li>
+&lt;/ol>
+&lt;p>Historically we have conflated these types of contributions, but we think it&amp;rsquo;s key that we treat them differently.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Note&lt;/strong>: For a more practical guide that describes the systems we&amp;rsquo;ve set up to accomplish &lt;em>Foundational&lt;/em> upstream contributions, see
+&lt;a href="https://2i2c.org/blog/2025/foundational-contributions/" >From scattered effort to strategic impact: How we&amp;rsquo;re systematizing our Foundational open source contributions&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="everybody-has-an-open-source-hat-and-a-stakeholder-hat">
+Everybody has an open source hat and a stakeholder hat
+&lt;a class="header-anchor" href="#everybody-has-an-open-source-hat-and-a-stakeholder-hat">#&lt;/a>
+&lt;/h2>&lt;p>Open source teams&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> are usually two kinds of teams that overlap heavily:&lt;/p>
+&lt;ol>
+&lt;li>A collection of &lt;em>stakeholders working together&lt;/em> on the open source project, each with their own goals and interests.&lt;/li>
+&lt;li>An &lt;em>open source team&lt;/em> with a shared goal and strategy for the open source project.&lt;/li>
+&lt;/ol>
+&lt;p>In this case, stakeholders can be individuals or companies. They use and contribute to the open source project because it advances their own interests. For example, an enthusiast contributing to a project because it brings them joy, or a company contributing to a project because they build a product that depends on the open source technology.&lt;/p>
+&lt;p>However, for open source projects to be successful they also need their own unique identity, goals, strategy for impact, and system of work. This allows a diverse collection of stakeholders to &lt;em>work together effectively&lt;/em> and &lt;em>create impactful technology&lt;/em>. This team is made up of the same stakeholders described above, but with a responsibility to lead and support the open source team, rather than just serve their individual interests as stakeholders.&lt;/p>
+&lt;p>Thus, any open source stakeholder has two hats: they are both &lt;em>representatives of a stakeholder&lt;/em> and &lt;em>members of an open source team&lt;/em>. While it&amp;rsquo;s possible to &lt;em>align the interests&lt;/em> of these two groups, we think it&amp;rsquo;s still important to &lt;em>distinguish between them&lt;/em>.&lt;/p>
+&lt;h2 id="directed-contributions-benefit-the-stakeholder-you-represent">
+Directed Contributions benefit the stakeholder you represent
+&lt;a class="header-anchor" href="#directed-contributions-benefit-the-stakeholder-you-represent">#&lt;/a>
+&lt;/h2>&lt;p>A &lt;em>Directed Contribution&lt;/em> is primarily driven by the needs of a stakeholder in an open source project. To use 2i2c as an example, let&amp;rsquo;s take a quote from 2i2c&amp;rsquo;s value proposition:&lt;/p>
+&lt;blockquote>
+&lt;p>2i2c serves a global network of community hubs for interactive learning and discovery&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;em>Community&lt;/em> here does &lt;strong>not&lt;/strong> refer to open source upstream software provider communities (like JupyterHub or Kubernetes), but instead to downstream &lt;em>user communities&lt;/em> (like
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>,
+&lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a>, or
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>).&lt;/p>
+&lt;p>When 2i2c makes a Directed Contribution, it means we are trying to &lt;em>deliver value to one or more of our member communities&lt;/em> by making an upstream contribution.&lt;/p>
+&lt;p>Satisfying community needs often involves directly working on the software they use. Driven by our
+&lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate&lt;/a> principles, this means we mostly work on software that is not proprietary to 2i2c nor solely owned by us permanently - but by contributing to an upstream software community. These are all Directed Contributions.&lt;/p>
+&lt;p>Some illustrative examples:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/oauthenticator/pull/719" target="_blank" rel="noopener" >Allow login to be gated on OAuth2 granted scopes&lt;/a> was a feature we added to support one of our communities&amp;rsquo; auth flow (
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a>)&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/pangeo-data/pangeo-docker-images/pull/426" target="_blank" rel="noopener" >Changing how &lt;code>.pyc&lt;/code> files are kept in images&lt;/a> was work we did as a result of a support ticket investigating spawn timeout issues in the
+&lt;a href="https://leap.columbia.edu/" target="_blank" rel="noopener" >LEAP&lt;/a> hub.&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/531" target="_blank" rel="noopener" >Adding landing pages functionality to Jupyter Book and MyST&lt;/a> was work we did to support member communities like
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;p>The fact that these are open source contributions is &lt;em>incidental&lt;/em>. We are &lt;em>primarily&lt;/em> doing this work to deliver value to &lt;em>our community network&lt;/em>.&lt;/p>
+&lt;h3 id="we-plan-directed-contributions-according-to-our-roadmap-and-member-feedback">
+We plan Directed Contributions according to our roadmap and member feedback
+&lt;a class="header-anchor" href="#we-plan-directed-contributions-according-to-our-roadmap-and-member-feedback">#&lt;/a>
+&lt;/h3>&lt;p>Directed Contributions naturally align with 2i2c&amp;rsquo;s overall goals and strategy, so we use our
+&lt;a href="https://compass.2i2c.org/product-and-services/" target="_blank" rel="noopener" >product processes&lt;/a> for planning and delivering on them. However, we also want to provide transparency to upstream communities so that they understand who is driving the contributions that we&amp;rsquo;re making.&lt;/p>
+&lt;p>With that in mind, here are a few ways that Directed Contributions relate to our practices:&lt;/p>
+&lt;ul>
+&lt;li>Directed Contributions should be defined by our product roadmap and prioritization processes.&lt;/li>
+&lt;li>We allocate engineering time for these upstream contributions as part of our product lifecycle, &lt;em>including the extra coordination and communication work needed to work at the pace of the upstream community&lt;/em>.&lt;/li>
+&lt;li>We cross-link 2i2c product initiatives to upstream issues and pull-requests wherever we can to provide transparency about why we&amp;rsquo;re making a contribution.&lt;/li>
+&lt;li>We communicate this work via our blog so that 2i2c&amp;rsquo;s member communities know about the contributions we&amp;rsquo;ve made on their behalf.&lt;/li>
+&lt;/ul>
+&lt;h2 id="foundational-contributions-support-a-healthy-open-source-community">
+Foundational Contributions support a healthy open source community
+&lt;a class="header-anchor" href="#foundational-contributions-support-a-healthy-open-source-community">#&lt;/a>
+&lt;/h2>&lt;p>However, contributions can&amp;rsquo;t always be driven by a stakeholder&amp;rsquo;s needs or the open source team will not have an identity or support structure of its own. Here&amp;rsquo;s another excerpt from our value proposition:&lt;/p>
+&lt;blockquote>
+&lt;p>We need infrastructure services that are driven by community needs and values, that follow the same open source science practices we wish to see in others, and that believe in the power of shared community resources and knowledge.&lt;/p>
+&lt;/blockquote>
+&lt;p>Being a &amp;ldquo;healthy upstream citizen&amp;rdquo; is core to 2i2c&amp;rsquo;s mission, and is also a way to help communities we rely on remain healthy. Some of our contributions should be &lt;em>Foundational&lt;/em> rather than &lt;em>Directed&lt;/em>. This means doing things that keep the overall ecosystem healthy even if it does not &lt;em>directly&lt;/em> address a specific member community need. The &lt;em>presence&lt;/em> of a healthy open source ecosystem is a value to our member communities in-and-of itself.&lt;/p>
+&lt;p>Defining &amp;ldquo;Foundational&amp;rdquo; needs is difficult, because open source teams tend to have less structure and formally-stated goals and needs than most organizations. In 2i2c&amp;rsquo;s case, we focus our Foundational Contributions around &lt;em>maintaining the health of the open source ecosystem&lt;/em>.&lt;/p>
+&lt;p>It includes things like:&lt;/p>
+&lt;ol>
+&lt;li>Grow and guide new contributors to grow team capacity&lt;/li>
+&lt;li>Help making releases&lt;/li>
+&lt;li>Provide code review&lt;/li>
+&lt;li>Fix broken CI&lt;/li>
+&lt;li>Write documentation and tutorials&lt;/li>
+&lt;li>Manage and run meetings&lt;/li>
+&lt;li>Align open source teams on goals and strategy&lt;/li>
+&lt;/ol>
+&lt;p>However, the real point is that these actions need to be driven by &lt;em>the upstream project&amp;rsquo;s goals and needs&lt;/em>, not by 2i2c&amp;rsquo;s needs.&lt;/p>
+&lt;p>Here are a few common examples of contributions that are &lt;em>not considered&lt;/em> Foundational for our team:&lt;/p>
+&lt;ol>
+&lt;li>Opening a PR to add a major feature to an upstream project.&lt;/li>
+&lt;li>Creating a brand new project in an open source organization in order to scratch your own itch.&lt;/li>
+&lt;li>Engaging in reactive open-source work that isn&amp;rsquo;t driven by a clear strategy or goal (e.g., randomly responding to the last few GitHub issue comments you happened to notice)&lt;/li>
+&lt;/ol>
+&lt;h3 id="we-plan-foundational-contributions-alongside-our-engineering-roadmap">
+We plan Foundational Contributions alongside our engineering roadmap
+&lt;a class="header-anchor" href="#we-plan-foundational-contributions-alongside-our-engineering-roadmap">#&lt;/a>
+&lt;/h3>&lt;p>Foundational Contributions are important to 2i2c both for strategic and tactical reasons. However, when left as unstructured time (as we have historically), it runs into all the problems of unstructured work - it happens in non-strategic ways, it isn&amp;rsquo;t evenly balanced across team members, it is more or less accessible depending on your personal comfort level and skills, etc.&lt;/p>
+&lt;p>With that in mind, here are a few ways that Foundational Contributions relate to our practices:&lt;/p>
+&lt;ul>
+&lt;li>We need to &lt;em>own Foundational Contributions as a team&lt;/em>, rather than asking individuals to identify and do this work on their own.&lt;/li>
+&lt;li>We need to define team &lt;em>goals&lt;/em> and &lt;em>strategy&lt;/em> to define the impact we want to have, and what kind of work leads to that impact.&lt;/li>
+&lt;li>We need a team system for identifying and prioritizing the most impactful Foundational Contributions to perform.&lt;/li>
+&lt;li>This system must spread the responsibility of Foundational Contributions across our whole product team.&lt;/li>
+&lt;li>It means we need to give people support and training to do this effectively. For example, helping team members grow into roles that involve upstream work, rotating certain types of contributions across team members, etc.&lt;/li>
+&lt;/ul>
+&lt;p>To ensure this work is intentional and equitable across our team, we encourage Foundational contributions to happen within this framework. Contributions that falls outside of it is treated as a valued, but separate, personal contribution.&lt;/p>
+&lt;h2 id="whats-next">
+What&amp;rsquo;s next
+&lt;a class="header-anchor" href="#whats-next">#&lt;/a>
+&lt;/h2>&lt;p>By distinguishing between Directed and Foundational contributions, we can align and balance our immediate product needs with our long-term commitment to community health. We believe this framework allows organizations like ours to be better partners. We&amp;rsquo;d love feedback about this process, how we can improve it, and what others have learned along the way.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>By &amp;ldquo;open source&amp;rdquo; we are focusing on multi-stakeholder open source projects with participatory and inclusive leadership and contributions. This wouldn&amp;rsquo;t apply to an organization- or person-specific open source project.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.</title><link>https://2i2c.org/blog/2025/doepy-yuvi/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/doepy-yuvi/</guid><description>&lt;p>Our Technical Lead
+&lt;a href="" >Yuvi Panda&lt;/a> recently gave a talk at the
+&lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >doepy meetup&lt;/a> about JupyterHub&amp;rsquo;s interest in moving beyond the &amp;ldquo;single-user notebook application&amp;rdquo; and towards a more flexible approach to enabling administrators to deploy many different types of applications and environments.&lt;/p>
+&lt;p>Check out a video of the talk here:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vsbHMvvsFw8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>This is an important step for the JupyterHub project in order to support the many different kinds of workflows that data scientists need to use in their work. We hope that this generates more interest in the JupyterHub project and gives us useful feedback to guide the team&amp;rsquo;s understanding of this direction.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=vsbHMvvsFw8" target="_blank" rel="noopener" >YouTube video of this talk&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/JupyterHub.20in.202025.3A.20Not.20just.20for.20Jupyter.20Notebooks/near/537708184" target="_blank" rel="noopener" >Jupyter Chat about this talk&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7364763956525092868" target="_blank" rel="noopener" >LinkedIn post announcing the talk&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.linkedin.com/posts/cameron-riddell_we-dont-use-this-code-loved-having-yuvi-activity-7369421556516601859-qOxw?utm_medium=ios_app&amp;amp;rcm=ACoAADSgbM8BXeDyQi3bGVtD7qmmJg9b20KhG6A&amp;amp;utm_source=social_share_send&amp;amp;utm_campaign=copy_link" target="_blank" rel="noopener" >LinkedIn post describing the talk&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >The doepy team&lt;/a> for inviting Yuvi to give this talk.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >The JupyterHub team&lt;/a> for working with us on this strategy.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/members/" >2i2c&amp;rsquo;s network of member communities&lt;/a> whose fees support our Foundational open source engagement.&lt;/li>
+&lt;/ul></description></item><item><title>Solving classes of problems, rather than just an instance of a problem (with an example)</title><link>https://2i2c.org/blog/2025/automating-support-upgrades/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/automating-support-upgrades/</guid><description>
 &lt;h2 id="the-problem">
 The Problem
 &lt;a class="header-anchor" href="#the-problem">#&lt;/a>
@@ -35,15 +408,25 @@ Structured solutions
 &lt;h2 id="moving-forward">
 Moving forward
 &lt;a class="header-anchor" href="#moving-forward">#&lt;/a>
-&lt;/h2>&lt;p>While we have been &lt;em>implicitly&lt;/em> trying to solve whole classes of issues rather than individual instances of an issue as a team for a while, I want us to &lt;em>explicitly&lt;/em> do it from now on. Communicating this out to our communities is an important part of that, as is internal team training. This blog post is the former, and we are continually working on the latter :)&lt;/p></description></item><item><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/yuvaraj-yuvi/</guid><description>&lt;p>Building participatory open infrastructure for scientific &amp;amp; educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let&amp;rsquo;s eliminate accidental complexities wherever we find them.&lt;/p>
-&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>10+ years experience building open infrastructure for scientific and educational communities&lt;/li>
-&lt;li>Jupyter Distinguished Contributor&lt;/li>
-&lt;li>Leader in the JupyterHub and Binder projects&lt;/li>
-&lt;li>Served as the Infrastructure Architect behind UC Berkeley’s scalable DataHub&lt;/li>
-&lt;li>Former ops engineer at Wikimedia and GNOME.&lt;/li>
-&lt;/ul></description></item><item><title>Simplifying and speeding up Binder builds with BuildKit</title><link>https://2i2c.org/blog/2025/binder-buildkit/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-buildkit/</guid><description>&lt;p>A blog post on the Jupyter blog about a recent experiment to significantly reduce the cost of running a node on the mybinder.org federation.&lt;/p></description></item><item><title>2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub</title><link>https://2i2c.org/blog/2025/binder-singlenode/</link><pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-singlenode/</guid><description>&lt;div class="alert alert-note">
+&lt;/h2>&lt;p>While we have been &lt;em>implicitly&lt;/em> trying to solve whole classes of issues rather than individual instances of an issue as a team for a while, I want us to &lt;em>explicitly&lt;/em> do it from now on. Communicating this out to our communities is an important part of that, as is internal team training. This blog post is the former, and we are continually working on the latter :)&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> communities for working with us closely on infrastructure to identify improvements like this.&lt;/li>
+&lt;/ul></description></item><item><title>Simplifying and speeding up Binder builds with BuildKit</title><link>https://2i2c.org/blog/2025/binder-buildkit/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-buildkit/</guid><description>&lt;p>Chris and Yuvi recently wrote
+&lt;a href="https://blog.jupyter.org/simplifying-and-speeding-up-binder-builds-with-buildkit-d44f96582994" target="_blank" rel="noopener" >a blog post on the Jupyter blog&lt;/a> about a recent experiment to significantly reduce the cost of running a node on the mybinder.org federation.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> provides support for some of our work with the Binder project.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for working with us to get this new node deployed for mybinder.org.&lt;/li>
+&lt;/ul></description></item><item><title>2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub</title><link>https://2i2c.org/blog/2025/binder-singlenode/</link><pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-singlenode/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 If you&amp;rsquo;re interested in supporting &lt;code>mybinder.org&lt;/code> with cloud resources, financial resources, or human resources, please see the
 &lt;p>&lt;a href="https://mybinder.readthedocs.io/en/latest/about/support.html" target="_blank" rel="noopener" >Support Binder&lt;/a> page for how you can help.&lt;/p>
@@ -87,10 +470,10 @@ Deploying BinderHub on a single-node VM is cheaper and simpler
 &lt;figure id="figure-comparison-of-rough-monthly-costs-across-different-cloud-providers-for-similar-vm-instances-these-are-rough-estimates-based-on-cloud-provider-pricing-pages-for-an-on-demand-vm-with-around-190gb-ram-pricing-pages-hetzner-cloudhttpswwwhetznercomcloud-300-microsoft-azurehttpsazurecomeda6294b08dfa49639f74caad1630bbe4-1300-google-cloud-platformhttpscloudgooglecomproductscalculatorhlendlcjhdavjrwlrbevpeumpnqzawtvrrmkxuumtnalv0t0rnnu5pmhpav1eywlrnmfphsxppve1rqve9praigirdrtq3qtywqy1dnum5ltq3qkqtqtm3ms05mjbcqju1qjngrjg-1500-amazon-web-serviceshttpscalculatorawsestimateida3bddb8bdbfa2058b941b669e408141e7fd18da4-1600">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Comparison of rough monthly costs across different cloud providers for similar VM instances. These are rough estimates based on cloud provider pricing pages for an on-demand VM with around 190GB RAM. Pricing pages: [Hetzner Cloud](https://www.hetzner.com/cloud) ~$300, [Microsoft Azure](https://azure.com/e/da6294b08dfa49639f74caad1630bbe4) ~$1,300, [Google Cloud Platform](https://cloud.google.com/products/calculator?hl=en&amp;amp;dl=CjhDaVJrWlRBeVpEUmpNQzAwTVRrMkxUUmtNalV0T0RnNU5pMHpaV1EyWlRnMFpHSXpPVE1RQVE9PRAIGiRDRTQ3QTYwQy1DNUM5LTQ3QkQtQTM3MS05MjBCQjU1QjNGRjg) ~$1,500, [Amazon Web Services](https://calculator.aws/#/estimate?id=a3bddb8bdbfa2058b941b669e408141e7fd18da4) ~$1,600." srcset="
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp 400w,
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_c2893908494f67146ba04b558b8584c1.webp 760w,
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp"
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_a97d3a2cc01d69e748ff6cdd73a8195e.webp 400w,
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_70c7d648b80153fb33bd84196702bda4.webp 760w,
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_a97d3a2cc01d69e748ff6cdd73a8195e.webp"
 width="760"
 height="540"
 loading="lazy" data-zoomable />&lt;/div>
@@ -140,10 +523,10 @@ If your single VM is much cheaper, it might still be the cheapest option. In the
 &lt;figure id="figure-sessions-launched-on-mybinderorgs-federation-over-the-past-ten-days-the-yellow-area-represents-sessions-run-on-2i2cmybinderorg-they-now-make-up-the-majority-of-launches-on-mybinderorg-prior-to-this-gesismybinderorg-was-the-only-remaining-federation-member">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Sessions launched on mybinder.org&amp;#39;s federation over the past ten days. The yellow area represents sessions run on `2i2c.mybinder.org`. They now make up the majority of launches on mybinder.org. Prior to this, `gesis.mybinder.org` was the only remaining federation member." srcset="
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp 400w,
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_60d33ca4f5b10dd4a2e0daa491ee21c6.webp 760w,
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp"
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_3da468561744d0f716672253d58b10f0.webp 400w,
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_c6e0913b4252dd59d82a4055e9738576.webp 760w,
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_3da468561744d0f716672253d58b10f0.webp"
 width="760"
 height="455"
 loading="lazy" data-zoomable />&lt;/div>
@@ -175,6 +558,15 @@ If you&amp;rsquo;re interested in supporting &lt;code>mybinder.org&lt;/code> wit
 &lt;p>&lt;a href="https://mybinder.readthedocs.io/en/latest/about/support.html" target="_blank" rel="noopener" >Support Binder&lt;/a> page for how you can help.&lt;/p>
 &lt;/div>
 &lt;/div>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for helping us set up this new node.&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/members/" >our member communities&lt;/a> whose fees currently support this work.&lt;/li>
+&lt;/ul>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -278,7 +670,8 @@ We&amp;rsquo;d love feedback
 &lt;hr>
 &lt;p>&lt;strong>Acknowledgements&lt;/strong>: &lt;em>The creation of this policy and the rationale behind it was led by
 &lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi Panda&lt;/a> with feedback from 2i2c&amp;rsquo;s team. This blog post was co-written with
-&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>NASA VEDA &amp; 2i2c Update for Q4 2024 (Oct-Dec 2024)</title><link>https://2i2c.org/blog/2025/veda-update-q4-2024/</link><pubDate>Tue, 07 Jan 2025 15:18:37 -0800</pubDate><guid>https://2i2c.org/blog/2025/veda-update-q4-2024/</guid><description>&lt;p>A non-exhaustive list of things 2i2c and
+&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a>. Strategic work like this is supported by a grant from
+&lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a>&lt;/em>.&lt;/p></description></item><item><title>NASA VEDA &amp; 2i2c Update for Q4 2024 (Oct-Dec 2024)</title><link>https://2i2c.org/blog/2025/veda-update-q4-2024/</link><pubDate>Tue, 07 Jan 2025 15:18:37 -0800</pubDate><guid>https://2i2c.org/blog/2025/veda-update-q4-2024/</guid><description>&lt;p>A non-exhaustive list of things 2i2c and
 &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> did with the
 &lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> project last quarter!&lt;/p>
 &lt;h2 id="automated-backups-and-alerting-with-jupyterhub-home-nfs">
@@ -333,6 +726,15 @@ Other updates
 &lt;li>We are very close to
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/5209" target="_blank" rel="noopener" >rolling out JupyterHub 5.0&lt;/a> and associated changes across all our hubs, which will enable us to eventually offer per-group shared directories!
 &lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA project&lt;/a> for thir ongoing support for this work.&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/devseed/" >DevSeet&lt;/a> for their collaboration and leadership on this project.&lt;/li>
 &lt;/ul></description></item><item><title>`frx-challenges`: A new tool to host data challenges for Frictionless Research Exchanges</title><link>https://2i2c.org/blog/2024/frx/</link><pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/frx/</guid><description>&lt;p>2i2c is pleased to announce the &lt;code>frx-challenges&lt;/code> project, a new open source tool to help communities host data challenges on shared infrastructure:&lt;/p>
 &lt;p>
 &lt;a href="https://github.com/2i2c-org/frx-challenges" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/frx-challenges&lt;/a>&lt;/p>
@@ -340,10 +742,10 @@ Other updates
 &lt;figure id="figure-an-example-leaderboard-for-a-data-challenge-taken-from-the-cellmap-challengehttpscellmapchallengejaneliaorg-users-make-submissions-that-are-run-against-secure-and-private-infrastructure-and-data-and-provides-feedback-about-the-submissions-performance-learn-more-about-the-frx-challenges-project-here-https2i2corgfrx-challenges">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;#39;s performance. Learn more about the FRX challenges project here: https://2i2c.org/frx-challenges/" srcset="
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp 400w,
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_be703c3a967b80309a261be425d99de3.webp 760w,
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp"
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_ee579eedac01dcd34d5748aaae5eb014.webp 400w,
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_692532b48c8d5ab59e590c0e714e84e9.webp 760w,
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_ee579eedac01dcd34d5748aaae5eb014.webp"
 width="75%"
 height="417"
 loading="lazy" data-zoomable />&lt;/div>
@@ -398,7 +800,8 @@ Why facilitate data challenges?
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
-&lt;/h2>&lt;p>Thanks to the Howard Hughes Medical Institute (HHMI) for collaborating with us on the
+&lt;/h2>&lt;p>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/hhmi/" >Howard Hughes Medical Institute&lt;/a> (HHMI) for collaborating with us on the
 &lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >Cellmap Challenge&lt;/a>, which led to the creation of this project.&lt;/p>
 &lt;p>Thanks to Kristen Ratan and
 &lt;a href="https://strategiesos.org/about/" target="_blank" rel="noopener" >Strategies for Open Science&lt;/a> (Stratos) for enabling this collaboration, and providing strategic guidance and support.&lt;/p></description></item><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a
@@ -461,16 +864,14 @@ Credit
 &lt;a class="header-anchor" href="#credit">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>The project was initiated with funding generously provided by
-&lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a> in cooperation with NFDI4DS (project number:
-&lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>) and
-&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a> (see our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier blog post&lt;/a>).&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> (see our
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >earlier blog post&lt;/a>).&lt;/li>
 &lt;li>
 &lt;a href="https://developmentseed.org/team/sanjay-bhangar/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> and
 &lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a> from
 &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> for advocating for this project and contributing heavily to it.&lt;/li>
 &lt;li>The
-&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> project (in particular,
+&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> project (in particular,
 &lt;a href="https://github.com/freitagb/" target="_blank" rel="noopener" >Brian Freitag&lt;/a> and
 &lt;a href="https://github.com/wildintellect" target="_blank" rel="noopener" >Alex Mandel&lt;/a>), for continued funding (in the form of engineering time) plus being early adopters!&lt;/li>
 &lt;/ul></description></item><item><title>Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA</title><link>https://2i2c.org/blog/2024/veda-devseed-collab/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/veda-devseed-collab/</guid><description>&lt;p>&lt;em>Thank you to Sajjad Anwar and Sanjay Bhangar for contributing to this post.&lt;/em>&lt;/p>
@@ -478,10 +879,10 @@ Credit
 &lt;figure id="figure-the-veda-dashboardhttpswwwearthdatanasagovdashboard">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Landing page of the public-facing NASA VEDA dashboard" srcset="
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_71bfd2bbcb0414a641ccf9d2497f1383.webp 400w,
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_a2f03ffcfc01d10b92d3b5359ab49521.webp 760w,
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_71bfd2bbcb0414a641ccf9d2497f1383.webp"
+/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_0c346142ccc9fb3d33c505813b73ecdd.webp 400w,
+/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_d1509b93338ce6bee9dcdedbe51f26c9.webp 760w,
+/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_0c346142ccc9fb3d33c505813b73ecdd.webp"
 width="760"
 height="490"
 loading="lazy" data-zoomable />&lt;/div>
@@ -491,7 +892,7 @@ The
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>The 2i2c team are proud to continue our strong working collaboration with
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, following our previous work on launching the
+&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>, following our previous work on launching the
 &lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >US GHG center&lt;/a> (also see the
 &lt;a href="https://developmentseed.org/blog/2023-12-14-ghg-center" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >the Visualization, Exploration and Data Analysis (VEDA) project&lt;/a>.&lt;/p>
@@ -546,10 +947,10 @@ Better Profile Selection
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Default profile list page" srcset="
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_33f71f9278500a92b225887bc823fa03.webp 400w,
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_21c5e15271c50f03d7308c09feec74d4.webp 760w,
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_33f71f9278500a92b225887bc823fa03.webp"
+/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_f55ed283a1bbb45a4002b7db6646d205.webp 400w,
+/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_a96b242c08a12d0156109234e3f2269d.webp 760w,
+/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_f55ed283a1bbb45a4002b7db6646d205.webp"
 width="734"
 height="760"
 loading="lazy" data-zoomable />&lt;/div>
@@ -599,10 +1000,10 @@ Acknowledgements
 &lt;figure id="figure-surface-biology-and-geology-vitals-workshop">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Cover slide from the SBG Workshop" srcset="
-/blog/2024/openscapes-sbg-workshop/featured_huf29df529f4de839560527c41e2ef79d6_1556547_e60381fabc34b292288815fa849fa79a.webp 400w,
-/blog/2024/openscapes-sbg-workshop/featured_huf29df529f4de839560527c41e2ef79d6_1556547_41fe3b6a6008389ea8e4b365234393c4.webp 760w,
-/blog/2024/openscapes-sbg-workshop/featured_huf29df529f4de839560527c41e2ef79d6_1556547_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/featured_huf29df529f4de839560527c41e2ef79d6_1556547_e60381fabc34b292288815fa849fa79a.webp"
+/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_81f857b51daa1aca4a2de354a9020ee1.webp 400w,
+/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_786bb3400878e74ec50331db2192a249.webp 760w,
+/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_81f857b51daa1aca4a2de354a9020ee1.webp"
 width="760"
 height="476"
 loading="lazy" data-zoomable />&lt;/div>
@@ -626,10 +1027,10 @@ Surface Biology and Geology: VITALS Workshop
 &lt;figure id="figure-plot-of-the-canopy-water-content-over-the-jack-and-laura-dangermond-preserve-santa-barbara-ca-from-a-vitals-workshop-jupyter-notebookhttpsnasagithubiovitalspython03_emit_cwc_from_reflectancehtml">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Santa Barbara, CA." srcset="
-/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu17534299388d7f44f9478d2afb93b75f_419573_0a946d0b9244cc5b48d856eb3e1682b1.webp 400w,
-/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu17534299388d7f44f9478d2afb93b75f_419573_68a0faf5e752a866e2d6f354ded30654.webp 760w,
-/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu17534299388d7f44f9478d2afb93b75f_419573_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu17534299388d7f44f9478d2afb93b75f_419573_0a946d0b9244cc5b48d856eb3e1682b1.webp"
+/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_d893568d95e870664fbed01c909ac38f.webp 400w,
+/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_b8db493d7219802231e43b5f83cc2182.webp 760w,
+/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_d893568d95e870664fbed01c909ac38f.webp"
 width="739"
 height="601"
 loading="lazy" data-zoomable />&lt;/div>
@@ -653,10 +1054,10 @@ Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Sa
 &lt;figure id="figure-feedback-from-brianna-lind-lp-daac">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Slack message from Bri Lind" srcset="
-/blog/2024/openscapes-sbg-workshop/slack_hu56599f01021c8680039361b5a15363da_65875_a971937fdc3274fd3b610b9624055556.webp 400w,
-/blog/2024/openscapes-sbg-workshop/slack_hu56599f01021c8680039361b5a15363da_65875_c701b6ceed40db32e36d0cc8c537fcc8.webp 760w,
-/blog/2024/openscapes-sbg-workshop/slack_hu56599f01021c8680039361b5a15363da_65875_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/slack_hu56599f01021c8680039361b5a15363da_65875_a971937fdc3274fd3b610b9624055556.webp"
+/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_ba09f4df240787c9a04d2d27bc2c5a5b.webp 400w,
+/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_095056e86e2035dc6c4a5a38c3ed7a5a.webp 760w,
+/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_ba09f4df240787c9a04d2d27bc2c5a5b.webp"
 width="760"
 height="219"
 loading="lazy" data-zoomable />&lt;/div>
@@ -682,10 +1083,10 @@ Acknowledgements
 &lt;figure id="figure-the-hhmi-spyglass-tutorialhttpsspyglasshhmi2i2ccloud">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="HHMI Spyglass tutorial" srcset="
-/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_86c408a60ebca8bf8dc746e1ea9819c3.webp 400w,
-/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_a54ca150839b6f45415b0c718177c538.webp 760w,
-/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_86c408a60ebca8bf8dc746e1ea9819c3.webp"
+/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_598303ce9fab37b82985827d80811661.webp 400w,
+/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_be7fedce8169ff93e4d1bb453a589d91.webp 760w,
+/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_598303ce9fab37b82985827d80811661.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -765,12 +1166,13 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://www.hhmi.org/" target="_blank" rel="noopener" >Howard Hughes Medical Institute&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/hhmi/" >Howard Hughes Medical Institute&lt;/a>&lt;/li>
 &lt;li>National Institute of Mental Health (NIMH), grant number RF1MH130623&lt;/li>
 &lt;li>
 &lt;a href="https://github.com/jupyterhub/kubespawner" target="_blank" rel="noopener" >kubespawner&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a>&lt;/li>
+&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a> and the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
 &lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>,
 &lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener" >Jenny Wong&lt;/a>,
@@ -787,7 +1189,7 @@ Acknowledgements
 &lt;a href="https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >multiple environments&lt;/a> available for users to choose from, but this still puts admins in the critical path for environment customization.&lt;/p>
 &lt;p>Our
 &lt;a href="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/" target="_blank" rel="noopener" >collaboration&lt;/a> with
-&lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a>,
 &lt;a href="https://www.nfdi4datascience.de" target="_blank" rel="noopener" >NFDI4DS&lt;/a>, and
 &lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>, aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.&lt;/p>
 &lt;h2 id="what-does-a-binderhub-do-exactly">
@@ -832,7 +1234,7 @@ A Standalone &lt;code>binderhub-service&lt;/code> helm chart
 &lt;a href="https://github.com/jupyterhub/team-compass/issues/519" target="_blank" rel="noopener" >jupyterhub-contrib&lt;/a> organization (once it is created), or it can become the upstream helm chart for BinderHub if enough work can be done in BinderHub to allow it to serve use cases like mybinder.org.&lt;/p>
 &lt;p>As part of this work, we also added a way for BinderHub to run in
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1647" target="_blank" rel="noopener" >API only mode&lt;/a>, so we can fully turn off the UI &lt;em>and&lt;/em> launching ability of BinderHub. This change decoupled the
-&lt;a href="" >three responsibilities of BinderHub&lt;/a> we discussed previously, allowing us to bring our own UI and JupyterHub. BinderHub could now be used &lt;em>purely&lt;/em> for its scalable image building features, which is exactly what we want!&lt;/p>
+&lt;a href="#what-does-a-binderhub-do-exactly" >three responsibilities of BinderHub&lt;/a> we discussed previously, allowing us to bring our own UI and JupyterHub. BinderHub could now be used &lt;em>purely&lt;/em> for its scalable image building features, which is exactly what we want!&lt;/p>
 &lt;h2 id="sustainably-extending-kubespawners-profilelist">
 Sustainably extending KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code>
 &lt;a class="header-anchor" href="#sustainably-extending-kubespawners-profilelist">#&lt;/a>
@@ -918,6 +1320,8 @@ Want to try this out?
 &lt;a href="" >contact me&lt;/a> with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
 &lt;p>Want to set this up on your own JupyterHub? There is some
 &lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a> documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
+&lt;p>We also have user facing documentation on using this service on
+&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/#dynamic-image-building" target="_blank" rel="noopener" >docs.2i2c.org&lt;/a>.&lt;/p>
 &lt;h2 id="future-work">
 Future work
 &lt;a class="header-anchor" href="#future-work">#&lt;/a>
@@ -961,14 +1365,21 @@ Credit
 &lt;a href="https://github.com/jupyter/docker-stacks/issues/1019" target="_blank" rel="noopener" >ARM-compatible images&lt;/a> alongside the standard x86 images, making it easier for users with ARM-based systems (like M1 Macs) to use these environments. However, building and hosting these ARM images comes with additional cloud computing costs that were being personally covered by
 &lt;a href="https://github.com/mathbunnyru" target="_blank" rel="noopener" >@mathbunnyru&lt;/a>, one of the project&amp;rsquo;s maintainers.&lt;/p>
 &lt;p>A part of 2i2c&amp;rsquo;s mission is supporting upstream communities that we rely on, especially where the upstream project has limited resources. For this reason, we&amp;rsquo;ve decided to support Jupyter Docker Stack&amp;rsquo;s ARM building costs, with a total budget of &lt;code>$2000&lt;/code> (approximately &lt;code>$150&lt;/code> per month). As a regular user and beneficiary of the Jupyter Docker Stacks, we believe it&amp;rsquo;s important to contribute to the maintenance and sustainability of this crucial piece of infrastructure that benefits the entire Jupyter community.&lt;/p>
-&lt;p>We hope this support helps the Docker Stacks project remain healthy, and continue providing high-quality, multi-architecture images that work across different computing platforms. We&amp;rsquo;ll revisit this decision as the landscape of technology providers changes and other options arise.&lt;/p></description></item><item><title>A QGIS desktop in the cloud with JupyterHub</title><link>https://2i2c.org/blog/2023/qgis-greenland/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/qgis-greenland/</guid><description>&lt;p>
+&lt;p>We hope this support helps the Docker Stacks project remain healthy, and continue providing high-quality, multi-architecture images that work across different computing platforms. We&amp;rsquo;ll revisit this decision as the landscape of technology providers changes and other options arise.&lt;/p>
+&lt;h2 id="acknowledgments">
+Acknowledgments
+&lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Project Jupyter&lt;/a> (particularly the &lt;code>jupyter-stacks&lt;/code> team) for this project.&lt;/li>
+&lt;/ul></description></item><item><title>A QGIS desktop in the cloud with JupyterHub</title><link>https://2i2c.org/blog/2023/qgis-greenland/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/qgis-greenland/</guid><description>&lt;p>
 &lt;figure id="figure-the-qgreenland-researcher-workshophttpsqgreenland-workshop-2023-researchergithubio">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="QGreenland Researcher Workshop" srcset="
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_63636efae00e19afc0bcbdd4f04eb656.webp 400w,
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_72463046c0b96c1e8771f1694c76eac1.webp 760w,
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_63636efae00e19afc0bcbdd4f04eb656.webp"
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp 400w,
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_9436f231da2c0221d6b03477aee6170c.webp 760w,
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -977,7 +1388,8 @@ The
 &lt;a href="https://qgreenland-workshop-2023-researcher.github.io/" target="_blank" rel="noopener" >QGreenland Researcher Workshop&lt;/a>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
-&lt;p>JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA CryoCloud hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.&lt;/p>
+&lt;p>JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.&lt;/p>
 &lt;h2 id="qgreenland-overview">
 QGreenland Overview
 &lt;a class="header-anchor" href="#qgreenland-overview">#&lt;/a>
@@ -990,7 +1402,8 @@ Workshop Success
 &lt;ul>
 &lt;li>Accessibility: Participants from across the world could access the same powerful GIS tools through a web browser, eliminating the need for complex local installations while enhancing reproducibility&lt;/li>
 &lt;li>Cloud block storage: Using a JupyterHub in the cloud allowed for faster data access than a traditional NFS file store by provisioning each user with an elastic block store disk, reducing load times from 5 minutes to under 3 seconds.&lt;/li>
-&lt;li>Cost Efficiency: Utilizing the CryoCloud JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.&lt;/li>
+&lt;li>Cost Efficiency: Utilizing the
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.&lt;/li>
 &lt;/ul>
 &lt;h2 id="conclusion">
 Conclusion
