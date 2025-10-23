@@ -1,4 +1,403 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2999 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/2025/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2999 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>A thank you to CZI for its impact on 2i2c and Jupyter</title><link>https://2i2c.org/blog/2025/czi-retrospective/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/czi-retrospective/</guid><description>&lt;p>As I attend the
+&lt;a href="https://chanzuckerberg.com/science/programs-resources/open-science/" target="_blank" rel="noopener" >CZI Open Science&lt;/a> 2025 meeting, it’s a good moment to reflect on the many ways CZI has positively impacted both 2i2c and the Jupyter Project.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_88d7f2172655d1104b8412a7a835b4e8.webp 400w,
+/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_a3c28a81bc5b1955a51321ea2f296345.webp 760w,
+/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_88d7f2172655d1104b8412a7a835b4e8.webp"
+width="760"
+height="421"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The funders who support organizations like 2i2c and Jupyter have a difficult task. In the day-to-day work of building open infrastructure, it’s easy to focus on the next challenge or grant, and lose sight of the cumulative, long-term impact of strategic support. This post is an attempt to pause and celebrate that impact.&lt;/p>
+&lt;p>CZI has played a unique role in the open source and open science ecosystem since its creation. It has taken an approach to funding and coalition-building that has genuinely changed how many think about supporting open source. Their model has driven an incredible amount of impact, and I&amp;rsquo;m very grateful for our collaboration.&lt;/p>
+&lt;p>Here are a few ways their support has stood out.&lt;/p>
+&lt;p>&lt;em>This was collected quickly, so please let us know of other ways we may have missed! And most importantly, we&amp;rsquo;re only trying to gather a high level view here, so we&amp;rsquo;re including many efforts where all the work was led by teams and organizations &lt;em>other&lt;/em> than 2i2c/Jupyter. The
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter Community&lt;/a> has many leaders that are part of this effort as well.&lt;/em>&lt;/p>
+&lt;h2 id="strengthening-the-foundations-of-jupyter">
+Strengthening the foundations of Jupyter
+&lt;a class="header-anchor" href="#strengthening-the-foundations-of-jupyter">#&lt;/a>
+&lt;/h2>&lt;p>Through its Essential Open Source Software for Science (EOSS) program, CZI has funded several initiatives in the
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter ecosystem&lt;/a> that have strengthened the project in foundational ways. Here are a few that stand out:&lt;/p>
+&lt;p>&lt;strong>JupyterHub&amp;rsquo;s Contributor in Residence:&lt;/strong> Allowed JupyterHub to
+&lt;a href="https://blog.jupyter.org/lessons-learned-from-jupyters-contributor-in-residence-pilot-427e2b361a7b" target="_blank" rel="noopener" >explore a new maintenance and community support model&lt;/a> and support maintainer growth. Georgiana&amp;rsquo;s journey from this program to becoming 2i2c&amp;rsquo;s first engineer shows how CZI&amp;rsquo;s investment in people creates lasting impact.&lt;/p>
+&lt;p>&lt;strong>Community Strategic Lead:&lt;/strong> Focused on
+&lt;a href="https://chanzuckerberg.com/eoss/proposals/jupyterhub-community-strategic-lead/" target="_blank" rel="noopener" >diversity, equity, and inclusion at a strategic level&lt;/a>. This created space for us to rethink &lt;em>how&lt;/em> we build our teams to be more accessible and equitable. It helped us create pathways for underrepresented groups to become community leaders and led to a key partnership with
+&lt;a href="https://book.the-turing-way.org/" target="_blank" rel="noopener" >The Turing Way&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Real-Time Collaboration:&lt;/strong> Built the foundation for
+&lt;a href="https://chanzuckerberg.com/eoss/proposals/real-time-collaboration-in-jupyter/" target="_blank" rel="noopener" >collaborative notebook editing&lt;/a>, which is very useful for remote scientific collaboration. This was complex technical work that involved collaboration with many stakeholders. It laid a foundation that Jupyter continues to build upon, and may facilitate AI-based workflows in unexpected ways.&lt;/p>
+&lt;p>&lt;strong>Jupyter Accessibility:&lt;/strong> Funded key improvements in
+&lt;a href="https://jupyter-accessibility.readthedocs.io/en/latest/funding/czi-grant-roadmap.html" target="_blank" rel="noopener" >accessibility for JupyterLab and the broader Jupyter stack&lt;/a>, including WCAG compliance, automated testing, and documentation. This was one of the first times an open source community received significant support for accessibility and internationalization, highlighting CZI&amp;rsquo;s leadership.&lt;/p>
+&lt;p>They also enabled a wide variety of contributions throughout the Jupyter ecosystem that can be traced back to the capacity that CZI&amp;rsquo;s funding provided for core support alongside broader initiatives.&lt;/p>
+&lt;h2 id="enabling-2i2c-to-grow-from-an-idea-to-an-organization">
+Enabling 2i2c to grow from an idea to an organization
+&lt;a class="header-anchor" href="#enabling-2i2c-to-grow-from-an-idea-to-an-organization">#&lt;/a>
+&lt;/h2>&lt;p>CZI also played a key role in 2i2c&amp;rsquo;s birth, growth, direction, and impact. When 2i2c was only an idea, the possibily of initial support from CZI was pivotal in helping us turn it into a reality. Then as the organization took shape and started to grow, this support gave us the strategic capacity to develop key frameworks for
+&lt;a href="" >healthy open source contribution practices&lt;/a>,
+&lt;a href="" >our value propositions&lt;/a>, and ideas around
+&lt;a href="" >community network funding&lt;/a>. It was a stepping stone towards building out our own
+&lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >sustainability model via membership&lt;/a>.&lt;/p>
+&lt;p>Here are a few milestone moments:&lt;/p>
+&lt;p>&lt;strong>Our Seed funding (2020)&lt;/strong> CZI provided core support to bootstrap 2i2c from its inception, funding organizational capacity rather than just technical deliverables. This was critical, enabling strategic partnerships, community coordination, and 2i2c&amp;rsquo;s first hires (Georgiana Dolocan, formerly the CZI-funded
+&lt;a href="https://blog.jupyter.org/the-jupyterhub-and-binder-contributor-in-residence-56708d1e3069" target="_blank" rel="noopener" >JupyterHub Contributor in Residence&lt;/a>, and Chris Holdgraf, 2i2c&amp;rsquo;s Executive Director). This was the primary funding that drove our creation and operations for the first three years. We
+&lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener" >published a comprehensive report and retrospective&lt;/a> documenting the impact of this seed funding.&lt;/p>
+&lt;p>&lt;strong>Catalyzing Global Communities (2022)&lt;/strong> This collaborative grant brought together six organizations (2i2c, The Carpentries, CSCCE, IOI, MetaDocencia, Open Life Science) to
+&lt;a href="" >provide cloud infrastructure and training for communities in Latin America and Africa&lt;/a>. The project emphasized &amp;ldquo;train the trainers&amp;rdquo; approaches and community co-leadership. It was a much bigger challenge than we all realized, and the relationships between our organizations grew stronger as a result.&lt;/p>
+&lt;p>&lt;strong>Strategic Support for Sustainability (2024)&lt;/strong> CZI provided a
+&lt;a href="" >bridge funding gift to sustain 2i2c&amp;rsquo;s mission&lt;/a> during a critical growth phase. This gave us the runway to refine our service model and explore paths to financial sustainability. Combined with funding from
+&lt;a href="" >The Navigation Fund&lt;/a>, this gave 2i2c approximately two years for strategic planning.&lt;/p>
+&lt;h3 id="what-makes-czis-approach-different">
+What Makes CZI&amp;rsquo;s Approach Different?
+&lt;a class="header-anchor" href="#what-makes-czis-approach-different">#&lt;/a>
+&lt;/h3>&lt;p>Here are a few things that have stood out to me about CZI&amp;rsquo;s unique approach to funding:&lt;/p>
+&lt;p>&lt;strong>Funding the foundation of open infrastructure:&lt;/strong> Through its EOSS program, CZI recognized that science was building on open source infrastructure that was often under-supported. Explicitly targeting that foundation demonstrated the need to fund core technology, not just new innovation.&lt;/p>
+&lt;p>&lt;strong>Funding communities, not just code:&lt;/strong> CZI made efforts to support projects that invested in social infrastructure, recognizing that building open source is a deeply social process that needs social skills and capacity to succeed.&lt;/p>
+&lt;p>&lt;strong>Funding connections in a network:&lt;/strong> CZI took a network approach, actively building connections &lt;em>between&lt;/em> its grantees. It flew us together annually for its open science meeting, made targeted efforts for collaborative grants, and connected grantees to work together.&lt;/p>
+&lt;p>&lt;strong>Actively growing that network:&lt;/strong> CZI made clear efforts to bring in new participants, particularly from communities in Latin America and Africa, and was thoughtful about respecting the agency and leadership of these communities.&lt;/p>
+&lt;p>&lt;strong>Developing its own expertise and understanding:&lt;/strong> CZI also &lt;em>builds its own tooling&lt;/em>, often in partnership with open source projects. This gives its team empathy for our challenges and a deeper institutional understanding of the open source world, leading to more impactful contributions.&lt;/p>
+&lt;h2 id="thank-you-czi">
+Thank You, CZI
+&lt;a class="header-anchor" href="#thank-you-czi">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;re profoundly grateful to CZI for their support for 2i2c, Jupyter, and the broader open source ecosystem. Their investments have enabled Jupyter to serve millions of scientists more effectively, allowed 2i2c to grow from an idea to the organization it is today, and enabled contributions that benefit the entire open science ecosystem.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/blog/2025/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_d6b358b9298eeb7676c7d53cb2805bc5.webp 400w,
+/blog/2025/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_cf7a3d6665a08ac37896e2cbc2690212.webp 760w,
+/blog/2025/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://2i2c.org/blog/2025/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_d6b358b9298eeb7676c7d53cb2805bc5.webp"
+width="293"
+height="220"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Thanks, CZI, for all the work you&amp;rsquo;ve done!&lt;/p></description></item><item><title>A helpful contribution to our JupyterHub SSH README from OpenScapes</title><link>https://2i2c.org/blog/2025/openscapes-readme-contribution/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-readme-contribution/</guid><description>&lt;p>We love when collaborators contribute back to the tools we maintain! Andy Teucher from
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> recently
+&lt;a href="https://github.com/yuvipanda/jupyter-sshd-proxy/pull/11" target="_blank" rel="noopener" >fixed a documentation issue&lt;/a> in &lt;code>jupyter-sshd-proxy&lt;/code> that benefits everyone using the tool.&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/yuvipanda/jupyter-sshd-proxy" target="_blank" rel="noopener" >&lt;code>jupyter-sshd-proxy&lt;/code>&lt;/a> is a tool originally created by Yuvi to help 2i2c communities connect to their JupyterHub instances via SSH. Andy ran into an issue when using it with the VS Code fork that uses the
+&lt;a href="https://github.com/jeanp413/open-remote-ssh" target="_blank" rel="noopener" >&lt;code>open-remote-ssh&lt;/code>&lt;/a> extension - it failed unless double quotes were used around the authorization token in the &lt;code>ProxyCommand&lt;/code>.&lt;/p>
+&lt;p>Through experimentation, Andy figured out the fix and
+&lt;a href="https://github.com/yuvipanda/jupyter-sshd-proxy/pull/11" target="_blank" rel="noopener" >contributed it back to the README&lt;/a>. Now everyone using this tool will have clearer documentation.&lt;/p>
+&lt;p>While small, we think this is a nice example of a
+&lt;a href="https://2i2c.org/blog/2025/foundational-contributions/" >&amp;ldquo;Foundational contributions&amp;rdquo;&lt;/a> from a community:&lt;/p>
+&lt;ul>
+&lt;li>2i2c creates and maintains open source tools to help our communities&lt;/li>
+&lt;li>Our communities use those tools and run into issues&lt;/li>
+&lt;li>They debug, figure out solutions, and contribute improvements back&lt;/li>
+&lt;li>Everyone benefits from the improvements&lt;/li>
+&lt;/ul>
+&lt;p>This is exactly how we want 2i2c to help our communities - by making it easy for them to contribute back to the ecosystem and strengthen the tools everyone relies on.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://github.com/ateucher" target="_blank" rel="noopener" >Andy Teucher&lt;/a> for the contribution and debugging!&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> for being great collaborators places where can work with people like Andy&lt;/li>
+&lt;/ul></description></item><item><title>Communities learning from one another - Project Pythia and ICESat-2 Hackweeks</title><link>https://2i2c.org/blog/2025/pythia-icesat2-synergy/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/pythia-icesat2-synergy/</guid><description>&lt;p>We wanted to share a short vignette about two of our communities learning from one another.&lt;/p>
+&lt;p>At the latest
+&lt;a href="https://docs.google.com/document/d/e/2PACX-1vQWQrgHs_G5XyNH5GTFYydH_woUZcyZibdxPUWLpqFUYs20WM93kdx5onwOaizC_3-tfnbreMNQbYAp/pub" target="_blank" rel="noopener" >Project Pythia community meeting&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> met with representatives from
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >ICESat-2&lt;/a> to share learning about notebooks and cookbooks in educational settings.&lt;/p>
+&lt;p>Anthony Arendt from UW&amp;rsquo;s eScience Institute shared how they&amp;rsquo;ve used educational notebooks in their hackweek programs. The discussion explored ways to improve cookbooks, especially for large collections that require different computational environments, sparking ideas about higher-level abstractions for organizing educational content. There is a lot of overlap in the needs and workflows of these communities, and we&amp;rsquo;re hopeful they can find ways to re-use one another&amp;rsquo;s ideas, content, and infrastructure.&lt;/p>
+&lt;p>One of our service goals is to make it easier for our member communities to &lt;em>learn from one another&lt;/em> - using standardized tools and infrastructure means we can learn what works, what doesn&amp;rsquo;t, and collectively improve our workflows more quickly. We&amp;rsquo;re working on ways to encourage this kind of interaction in our member networks, so we wanted to celebrate this little win.&lt;/p>
+&lt;h2 id="learn-more-about-these-communities">
+Learn more about these communities
+&lt;a class="header-anchor" href="#learn-more-about-these-communities">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> - An educational resource for geoscience computing with open-source Python&lt;/li>
+&lt;li>
+&lt;a href="https://cookbooks.projectpythia.org/" target="_blank" rel="noopener" >Project Pythia Cookbooks&lt;/a> - Domain-specific example workflows for geoscience&lt;/li>
+&lt;li>
+&lt;a href="https://icesat-2.hackweek.io/" target="_blank" rel="noopener" >ICESat-2 Hackweeks&lt;/a> - Collaborative learning events combining tutorials, peer learning, and team projects&lt;/li>
+&lt;/ul></description></item><item><title>TIL: A few ways to track web traffic for open source projects</title><link>https://2i2c.org/blog/2025/web-traffic-tracking-open-source/</link><pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/web-traffic-tracking-open-source/</guid><description>&lt;p>Understanding how people discover and navigate your project&amp;rsquo;s web presence is valuable for open source communities, but there are a lot of options out there and many maintainers may not know about them. Recently Chris did some research to improve the web analytics for
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter&lt;/a>, and learned about several options for tracking web traffic&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Here&amp;rsquo;s a quick report of what stood out.&lt;/p>
+&lt;h2 id="three-analytics-tools-we-found-helpful">
+Three analytics tools we found helpful
+&lt;a class="header-anchor" href="#three-analytics-tools-we-found-helpful">#&lt;/a>
+&lt;/h2>&lt;p>&lt;strong>
+&lt;a href="https://plausible.io/" target="_blank" rel="noopener" >Plausible.io&lt;/a>&lt;/strong> - A privacy-friendly, GDPR-compliant analytics service&lt;/p>
+&lt;ul>
+&lt;li>Clean interface with public dashboards (see
+&lt;a href="https://plausible.io/jupyter.org" target="_blank" rel="noopener" >Jupyter&amp;rsquo;s dashboard&lt;/a>)&lt;/li>
+&lt;li>Paid service but offers 15% discount for open source projects&lt;/li>
+&lt;li>Cost scales with traffic volume. It can get expensive for a project as big as Jupyter!&lt;/li>
+&lt;li>This is the service we ultimately ended up using&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>
+&lt;a href="https://docs.readthedocs.com/platform/stable/traffic-analytics.html" target="_blank" rel="noopener" >ReadTheDocs Analytics&lt;/a>&lt;/strong> - Built-in traffic tracking for documentation sites&lt;/p>
+&lt;ul>
+&lt;li>Available as a free add-on for ReadTheDocs projects, it provides traffic data specific to documentation pages.&lt;/li>
+&lt;li>There&amp;rsquo;s no additional cost if already using ReadTheDocs, though if you&amp;rsquo;re on a business plan you may need to pay for it.&lt;/li>
+&lt;li>The analytics are a bit barebones, but quite useful for learning where your readers are navigating.&lt;/li>
+&lt;li>Enable in &lt;code>Settings&lt;/code> &amp;gt; &lt;code>Addons&lt;/code> &amp;gt; &lt;code>Analytics&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>
+&lt;a href="https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository" target="_blank" rel="noopener" >GitHub Repository Analytics&lt;/a>&lt;/strong> - Native analytics in GitHub.&lt;/p>
+&lt;ul>
+&lt;li>Shows clones, views, and referring sites. This is also fairly barebones, but it&amp;rsquo;s really useful to see who is actually looking at your repository.&lt;/li>
+&lt;li>Free for all GitHub repositories.&lt;/li>
+&lt;li>Access via &lt;code>Insights&lt;/code> &amp;gt; &lt;code>Traffic&lt;/code> on any repository.&lt;/li>
+&lt;/ul>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter/jupyter.github.io/issues/815" target="_blank" rel="noopener" >GitHub issue coordinating Jupyter&amp;rsquo;s analytics work&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://plausible.io/jupyter.org" target="_blank" rel="noopener" >Plausible.io public dashboard for jupyter.org&lt;/a> (this might be down for now, but we&amp;rsquo;re working to bring it back up)&lt;/li>
+&lt;li>
+&lt;a href="https://docs.readthedocs.com/platform/stable/traffic-analytics.html" target="_blank" rel="noopener" >ReadTheDocs Analytics documentation&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://docs.github.com/en/rest/metrics/traffic?apiVersion=2022-11-28" target="_blank" rel="noopener" >GitHub Traffic Analytics API&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks in particular to
+&lt;a href="https://github.com/jasongrout" target="_blank" rel="noopener" >Jason Grout&lt;/a> from the
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter Executive Council&lt;/a> for collaborating on this investigation and helping test these tools.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Chris has been
+&lt;a href="" >serving on the Jupyter Executive Council&lt;/a> as a
+&lt;a href="" >Foundational contribution&lt;/a>. This was related to that effort!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Celebrating BIDS as 2i2c's first premier member at UC Berkeley</title><link>https://2i2c.org/blog/2025/bids-premier-membership-event/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/bids-premier-membership-event/</guid><description>&lt;p>We&amp;rsquo;re celebrating
+&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS (the Berkeley Institute for Data Science)&lt;/a> as 2i2c&amp;rsquo;s first premier member at an event at UC Berkeley on &lt;strong>Thursday, October 15th&lt;/strong>. If you&amp;rsquo;re in the Berkeley area, we&amp;rsquo;d love for you to join us!
+&lt;a href="https://events.berkeley.edu/BIDS/event/306419-ospo-monthly-meetup-launching-the-bids-membership-of-" target="_blank" rel="noopener" >Event page here&lt;/a>.&lt;/p>
+&lt;p>This is a milestone for 2i2c and demonstrates BIDS&amp;rsquo;s commitment to open infrastructure and partnership. As our first premier member under our
+&lt;a href="https://2i2c.org/join/" >new membership model&lt;/a>, BIDS is helping us build a more sustainable path forward while strengthening our collaboration for shared impact in open science.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://events.berkeley.edu/BIDS/event/306419-ospo-monthly-meetup-launching-the-bids-membership-of-" target="_blank" rel="noopener" >Event page and registration&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7381377448354988032" target="_blank" rel="noopener" >LinkedIn announcement&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://bsky.app/profile/ucbids.bsky.social/post/3m2mnocu2wc2m" target="_blank" rel="noopener" >Bluesky announcement&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/join/" >Our membership tiers and information page&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/" >Other collaborators in our network&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> for funding the strategic roles that have led to this new membership model.&lt;/li>
+&lt;/ul></description></item><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/2025/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
+&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder.org usage dashboards&lt;/a> and provides a
+&lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >daily-published dataset&lt;/a> that researchers and communities use to understand how Binder is being used across different domains and scientific communities.&lt;/p>
+&lt;p>While updating our
+&lt;a href="" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3462" target="_blank" rel="noopener" >deployed a fix&lt;/a> that eliminates the temporary files entirely - the code now generates the HTML index as a string in memory and uploads directly.&lt;/p>
+&lt;figure id="figure-the-mybinderorg-analytics-archivehttpsarchiveanalyticsmybinderorg-shows-a-list-of-daily-usage-reports-that-anybody-can-download">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.png" alt="The [mybinder.org analytics archive](https://archive.analytics.mybinder.org) shows a list of daily usage reports that anybody can download." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The
+&lt;a href="https://archive.analytics.mybinder.org" target="_blank" rel="noopener" >mybinder.org analytics archive&lt;/a> shows a list of daily usage reports that anybody can download.
+&lt;/figcaption>&lt;/figure>
+&lt;p>Fortunately, we didn&amp;rsquo;t lose any data! Thanks to some smart design decisions, the daily analytics files were being collected properly the entire time, only the index page listing them was broken. You can find
+&lt;a href="https://archive.analytics.mybinder.org" target="_blank" rel="noopener" >the full archive here&lt;/a>.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3462" target="_blank" rel="noopener" >Pull request with the fix&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder.org usage dashboards&lt;/a>&lt;/li>
+&lt;li>The
+&lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >&lt;code>binder-data/&lt;/code> repository&lt;/a> is where we aggregate and publish archive data to be more accessible.&lt;/li>
+&lt;li>
+&lt;a href="" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for their collaboration on mybinder.org infrastructure&lt;/li>
+&lt;/ul></description></item><item><title>Impact report from 2i2c's Binder federation instance</title><link>https://2i2c.org/blog/2025/binder-report/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-report/</guid><description>&lt;p>The
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> service provides reproducible and interactive computational environments for the open science community. It is financially supported by a
+&lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >federation of BinderHubs&lt;/a>.
+2i2c is part of the team that manages mybinder.org, and we&amp;rsquo;re committed to supporting this critical infrastructure for open science and reproducibility.&lt;/p>
+&lt;p>We developed a more
+&lt;a href="" >cost-efficient process for deploying BinderHub on a single VM&lt;/a> and are now running a BinderHub at
+&lt;a href="https://2i2c.mybinder.org" target="_blank" rel="noopener" >2i2c.mybinder.org&lt;/a>.
+This post highlights the impact we&amp;rsquo;ve had through our support of the mybinder.org federation, we&amp;rsquo;ll update it periodically.&lt;/p>
+&lt;h2 id="usage-over-time">
+Usage over time
+&lt;a class="header-anchor" href="#usage-over-time">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Binder launches" srcset="
+/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_bd3dc558251d8d2f9ceb45632df1537f.webp 400w,
+/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_43138623992843945bb647029e00a3e0.webp 760w,
+/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_bd3dc558251d8d2f9ceb45632df1537f.webp"
+width="760"
+height="673"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>&lt;em>Here are weekly launches on mybinder.org. Launches from &lt;code>2i2c.mybinder.org&lt;/code> are in red. Source:
+&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder analytics dashboard&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>In Q1 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>417,048 reproducible sessions&lt;/strong>. In this time, mybinder.org was primarily driven by our
+&lt;a href="" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
+&lt;p>&lt;strong>In Q2 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>249,750 reproducible sessions&lt;/strong>. In this time, we worked with
+&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to deploy their BinderHub instance on the same Hetzner node setup, which let us distribute more of Binder&amp;rsquo;s load onto them.&lt;/p>
+&lt;p>&lt;strong>In Q3 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>118,083 reproducible sessions&lt;/strong>. We experienced a typical summer dip in sessions, had to
+&lt;a href="" >fix the analytics dashboard&lt;/a> as well as
+&lt;a href="" >fix a TCP scanning abuse case&lt;/a> that briefly brought down the 2i2c node.&lt;/p>
+&lt;h2 id="where-weve-made-improvements">
+Where we&amp;rsquo;ve made improvements
+&lt;a class="header-anchor" href="#where-weve-made-improvements">#&lt;/a>
+&lt;/h2>&lt;p>As part of this effort, we&amp;rsquo;ve made several improvements to the Binder and JupyterHub ecosystem. Here are a few links where you can read more:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="" >Deploying BinderHub on a single VM with k3s&lt;/a> - Our approach to making BinderHub deployment cheaper and simpler&lt;/li>
+&lt;li>
+&lt;a href="" >Hetzner cloud infrastructure experience&lt;/a> - Cost-effective cloud hosting for mybinder.org&lt;/li>
+&lt;li>
+&lt;a href="" >Combating TCP scanning abuse on mybinder.org&lt;/a> - Developing anti-abuse tools to prevent an abuse use-case.&lt;/li>
+&lt;li>
+&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >Improving Binder&amp;rsquo;s usage dashboard&lt;/a> - This helps us create posts like these and is useful to others as well.&lt;/li>
+&lt;li>
+&lt;a href="" >Integrating BinderHub with JupyterHub&lt;/a> - Working with
+&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to bring Binder&amp;rsquo;s dynamic image building capabilities to persistent JupyterHubs, empowering users to manage their own environments&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This work is made possible by:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> for their continued support as mybinder.org federation members&lt;/li>
+&lt;li>The
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for collaboration and support&lt;/li>
+&lt;li>Our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose fees support this work&lt;/li>
+&lt;/ul></description></item><item><title>Combating tcp scanning on mybinder.org with the tcpflowkiller</title><link>https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/</guid><description>&lt;p>We&amp;rsquo;ve deployed a new tool to &lt;code>mybinder.org&lt;/code> that automatically detects and stops port scanning activity, helping us maintain service reliability while being responsible citizens of the internet.&lt;/p>
+&lt;p>Port scanning is a common part of network-based exploits, and many server hosts prohibit this activity (including Hetzner, where the 2i2c &lt;code>mybinder.org&lt;/code> infrastructure lives). We developed a little tool called
+&lt;a href="https://github.com/cryptnono/cryptnono/pull/46" target="_blank" rel="noopener" >tcpflowkiller&lt;/a> as part of the
+&lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a> project (our anti-abuse set of tools for hosted JupyterHub and Binder infrastructure) to automatically kill processes that exhibit port scanning behavior. This reduces the likelihood of triggering our server host&amp;rsquo;s abuse policies and helps keep &lt;code>mybinder.org&lt;/code> running reliably.&lt;/p>
+&lt;h2 id="why-this-matters">
+Why this matters
+&lt;a class="header-anchor" href="#why-this-matters">#&lt;/a>
+&lt;/h2>&lt;p>As providers of public compute, it&amp;rsquo;s our responsibility to make sure people can&amp;rsquo;t use our infrastructure to abuse others. This is part of being responsible citizens of the internet. It also saves us time in dealing with outages because cloud providers (understandably) block access when they suspect there is abuse.&lt;/p>
+&lt;p>Hetzner and similar hosts have many benefits (including
+&lt;a href="" >significant cost savings&lt;/a>), and tools like tcpflowkiller help keep hubs and binders running smoothly on such hosts, which have different abuse policies than the big commercial cloud providers.&lt;/p>
+&lt;p>AWS and other cloud providers have proprietary ways to combat abuse (like
+&lt;a href="https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html" target="_blank" rel="noopener" >AWS GuardDuty&lt;/a>). We could have spent our time investing in developing rules there. Instead, contributing to cryptnono helps provide the same set of features in a cloud-agnostic way, in line with
+&lt;a href="https://2i2c.org/open-practices/" target="_blank" rel="noopener" >our principles&lt;/a> of supporting open infrastructure that gives communities control over their infrastructure.&lt;/p>
+&lt;p>This tool
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3436" target="_blank" rel="noopener" >has now been deployed to mybinder.org&lt;/a>, and we&amp;rsquo;ll monitor its effectiveness over time. We may roll this out to 2i2c public BinderHubs in the future based on patterns we observe.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/cryptnono/cryptnono/pull/46" target="_blank" rel="noopener" >tcpflowkiller pull request&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3436" target="_blank" rel="noopener" >mybinder.org deployment&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://en.wikipedia.org/wiki/Port_scanner" target="_blank" rel="noopener" >Port scanning on Wikipedia&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> for their continued support of &lt;code>mybinder.org&lt;/code> and to
+&lt;a href="https://github.com/rgaiacs" target="_blank" rel="noopener" >Raniere Silva&lt;/a> for collaborating on this deployment with us.&lt;/li>
+&lt;/ul></description></item><item><title>TIL: GitHub Action secrets are only available from non-forked repositories</title><link>https://2i2c.org/blog/2025/github-action-secrets-forked-repositories/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/github-action-secrets-forked-repositories/</guid><description>&lt;p>If you&amp;rsquo;ve worked with GitHub Actions in open source projects, you might encounter a hard-to-debug error where repository secrets are simply &lt;em>empty&lt;/em>. That&amp;rsquo;s probably because the PR is from a forked repository! Here&amp;rsquo;s a little learning we had after losing a bunch of time figuring this out:&lt;/p>
+&lt;h2 id="our-pr-from-a-fork-was-using-empty-strings-for-repository-secrets">
+Our PR from a fork was using empty strings for repository secrets
+&lt;a class="header-anchor" href="#our-pr-from-a-fork-was-using-empty-strings-for-repository-secrets">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/executablebooks/github-activity" target="_blank" rel="noopener" >&lt;code>github-activity&lt;/code>&lt;/a> is a tool we help maintain for
+&lt;a href="https://github-activity.readthedocs.io/en/latest/#how-we-define-contributors-in-the-reports" target="_blank" rel="noopener" >generating changelogs from a wider variety of contributions&lt;/a> than GitHub&amp;rsquo;s defaults. We needed to set a secret to raise the API rate limits for the tool&amp;rsquo;s tests. These tests pull data from repositories outside of the &lt;code>github-activity&lt;/code> repository itself, which quickly hit GitHub&amp;rsquo;s rate limits without authentication.&lt;/p>
+&lt;p>The problem seemed straightforward at first: we added the secret, but the workflow was acting as if the secret didn&amp;rsquo;t exist at all. After updating the code to explicitly check for empty strings, we discovered the authentication token was actually &lt;em>an empty string&lt;/em>, even though it had been set.&lt;/p>
+&lt;p>After some debugging, we uncovered the root cause: &lt;strong>the PR was opened from a fork of &lt;code>github-activity&lt;/code>&lt;/strong>. GitHub intentionally
+&lt;a href="https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets" target="_blank" rel="noopener" >makes secrets appear as empty strings when a PR originates from a forked repository&lt;/a>. This is a security measure to prevent unauthorized access to sensitive credentials.&lt;/p>
+&lt;h2 id="a-quick-fix-re-open-the-pr-from-the-base-repository">
+A quick fix: re-open the PR from the base repository
+&lt;a class="header-anchor" href="#a-quick-fix-re-open-the-pr-from-the-base-repository">#&lt;/a>
+&lt;/h2>&lt;p>The immediate fix was simple: re-open the PR from a branch in the base repository rather than from the fork. This worked perfectly, but it&amp;rsquo;s not a sustainable solution for open source projects that rely on community contributions from forks.
+We don&amp;rsquo;t want to create a dynamic where maintainers have different PR workflows because they&amp;rsquo;re operating on the base repository.&lt;/p>
+&lt;h2 id="how-use-secrets-with-forked-repositories-in-a-safe-ish-way">
+How use secrets with forked repositories in a safe-ish way
+&lt;a class="header-anchor" href="#how-use-secrets-with-forked-repositories-in-a-safe-ish-way">#&lt;/a>
+&lt;/h2>&lt;p>If you need to make secrets available to PRs from forks, there are a few approaches we learned about, each with security trade-offs:&lt;/p>
+&lt;h3 id="the-pull_request_target-workflow">
+The &lt;code>pull_request_target&lt;/code> workflow
+&lt;a class="header-anchor" href="#the-pull_request_target-workflow">#&lt;/a>
+&lt;/h3>&lt;p>GitHub provides a
+&lt;a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#controlling-changes-from-forks-to-workflows-in-public-repositories" target="_blank" rel="noopener" >&lt;code>pull_request_target&lt;/code> workflow&lt;/a> that can access secrets even when triggered by forked PRs. In this case, GitHub will &lt;strong>always run the test suite on &lt;code>main&lt;/code>&lt;/strong>, instead of any changes your PR introduces.&lt;/p>
+&lt;p>&lt;strong>Why this is dangerous&lt;/strong>: malicious actors could add &lt;em>code&lt;/em> to a PR that exfiltrates your secrets (for example, Python code that prints &lt;code>os.environ[&amp;quot;MY_SECRET&amp;quot;]&lt;/code>).&lt;/p>
+&lt;p>As a result, &lt;strong>only use secrets that you&amp;rsquo;re OK with being public&lt;/strong>. In this case, we generated a read-only token with restricted permissions. However, this is still kinda risky so use at your own peril.&lt;/p>
+&lt;p>If your repository workflows &lt;em>require&lt;/em> a secret that &lt;em>absolutely cannot be public&lt;/em> (e.g., a publishing key for a package repository), try a method like the following:&lt;/p>
+&lt;h3 id="using-github-environments-for-granular-control">
+Using GitHub Environments for granular control
+&lt;a class="header-anchor" href="#using-github-environments-for-granular-control">#&lt;/a>
+&lt;/h3>&lt;p>A safer approach is to use
+&lt;a href="https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments" target="_blank" rel="noopener" >GitHub Environments&lt;/a>, which let you restrict which secrets are available to specific jobs. This way, you can ensure that only non-critical secrets (like those needed for testing) are available to jobs that run on forked PRs, while keeping sensitive secrets (like PyPI publishing tokens) restricted to trusted contexts.&lt;/p>
+&lt;p>This is the approach we implemented in &lt;code>github-activity&lt;/code>, and it provides a good balance between security and community contribution workflows. We created a separate environment for publishing to PyPI so that its secret is never available to the job that runs with &lt;code>pull_request_target&lt;/code>.&lt;/p>
+&lt;h2 id="we-hope-this-saves-you-time">
+We hope this saves you time!
+&lt;a class="header-anchor" href="#we-hope-this-saves-you-time">#&lt;/a>
+&lt;/h2>&lt;p>Hopefully this learning is useful to others who run into the same confusing behavior. We&amp;rsquo;ve added a few improvements to &lt;code>github-activity&lt;/code> to more reliably check for empty strings to surface this kind of condition, but knowing the basic behavior of GitHub environments and forked PRs is even better.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#controlling-changes-from-forks-to-workflows-in-public-repositories" target="_blank" rel="noopener" >GitHub documentation on controlling changes from forks to workflows&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments" target="_blank" rel="noopener" >GitHub Environments for deployment&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Openscapes is hiring a new team member</title><link>https://2i2c.org/blog/2025/openscapes-is-hiring-a-new-team-member/</link><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-is-hiring-a-new-team-member/</guid><description>&lt;p>
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> is hiring a &lt;strong>NASA Openscapes Suborbital Team Member&lt;/strong> to engage with NASA suborbital science teams and support open science practices. This is a &lt;strong>part-time contract position (20 hrs/week) starting as early as December 1, 2025&lt;/strong>, with a 6-month initial term and potential for extension.
+The position is fully remote ($100/hr) with applications due by &lt;strong>October 26, 2025&lt;/strong>.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://openscapes.org/connect#work-with-us" target="_blank" rel="noopener" >Openscapes job posting&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> for their continued work in empowering the research community&lt;/li>
+&lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/2025/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
+&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-users/" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
 &lt;p>A key goal of 2i2c is to make the cloud safe for science. By providing transparent cost monitoring, we give communities the confidence that they won&amp;rsquo;t face unexpected bills and can better understand how their usage patterns translate to cloud costs. This visibility is especially valuable in our shared platform model, where each community gets their own independent hub while benefiting from shared infrastructure expertise.&lt;/p>
 &lt;p>
 &lt;figure >
@@ -24,7 +423,7 @@ Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-users/" target="_blank" rel="noopener" >Community Hub Guide&lt;/a>&lt;/li>
+&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-users/" target="_blank" rel="noopener" >Cost monitoring documentation&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -866,7 +1265,48 @@ You don&amp;rsquo;t need to contribute more to open source, you need to go to th
 What 2i2c has learned while trying to build sustainable relationships with Jupyter&amp;rsquo;s community.
 &lt;a class="header-anchor" href="#what-2i2c-has-learned-while-trying-to-build-sustainable-relationships-with-jupyters-community">#&lt;/a>
 &lt;/h2>&lt;p>2i2c is a non-profit organization that fosters co-creation and collaboration between science communities and open source communities. We are deeply embedded in an international network of research and education communities, as well as open source communities that underlie their infrastructure (particularly in the Jupyter ecosystem). Our technical infrastructure is built entirely with open source components that we contribute to, but do not control. This is a really hard problem to solve!&lt;/p>
-&lt;p>We&amp;rsquo;ve learned a lot in the first four years of our existence. This talk will describe how our organization approaches a healthy and productive open source relationship with the Jupyter (and broader scientific python) ecosystem. It&amp;rsquo;ll cover some of the major mistakes we&amp;rsquo;ve made, lessons learned, and where we think we&amp;rsquo;ve had impact. We aim to make this talk full of practical learnings that others can follow in building sustainable open science organizations that contribute to a healthy and vibrant open source ecosystem. Our goal will be to provide inspiration to others that are interested in building on top of open source projects like Jupyter, and want to do so in a way that is healthy and sustainable.&lt;/p></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
+&lt;p>We&amp;rsquo;ve learned a lot in the first four years of our existence. This talk will describe how our organization approaches a healthy and productive open source relationship with the Jupyter (and broader scientific python) ecosystem. It&amp;rsquo;ll cover some of the major mistakes we&amp;rsquo;ve made, lessons learned, and where we think we&amp;rsquo;ve had impact. We aim to make this talk full of practical learnings that others can follow in building sustainable open science organizations that contribute to a healthy and vibrant open source ecosystem. Our goal will be to provide inspiration to others that are interested in building on top of open source projects like Jupyter, and want to do so in a way that is healthy and sustainable.&lt;/p></description></item><item><title>Open slides: Jupyter Book 2 and MyST at the UC Berkeley Data Science Education Summit</title><link>https://2i2c.org/blog/2025/jb2-berkeley-dsep/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb2-berkeley-dsep/</guid><description>&lt;p>Chris gave a talk about Jupyter Book 2 and MyST at the
+&lt;a href="https://data.berkeley.edu/dsep" target="_blank" rel="noopener" >UC Berkeley Data Science Education Program&lt;/a>&amp;rsquo;s annual meeting. It covered the next direction for the Jupyter Book project, and its recent adoption of the
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Document Engine&lt;/a> for Jupyter Book 2.&lt;/p>
+&lt;p>You can
+&lt;a href="https://docs.google.com/presentation/d/1rHQudFtfk8ATu3Pmc1lFGDDAlCmAo8KGIk7ybTbTw6c/edit?slide=id.g2f14b3524cb_0_886#slide=id.g2f14b3524cb_0_886" target="_blank" rel="noopener" >view the full slide deck here&lt;/a>.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Slide from the presentation showing Jupyter Book 2 and MyST overview" srcset="
+/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_6bbb6be570447b58bf1c8b32ded77fd2.webp 400w,
+/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_7a0803bf6b1b290b1a3508b649c80e45.webp 760w,
+/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_6bbb6be570447b58bf1c8b32ded77fd2.webp"
+width="760"
+height="424"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://docs.google.com/presentation/d/1rHQudFtfk8ATu3Pmc1lFGDDAlCmAo8KGIk7ybTbTw6c/edit?slide=id.g2f14b3524cb_0_886#slide=id.g2f14b3524cb_0_886" target="_blank" rel="noopener" >View the full slide deck&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://blog.jupyterbook.org/posts/2024-11-15-jupyter-book-2-alpha/" target="_blank" rel="noopener" >Learn about Jupyter Book 2&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/jb-for-communities/" >See how we&amp;rsquo;re using Jupyter Book for communities&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2 documentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding some of our work on the Jupyter Book and MyST ecosystem&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> for collaborating with us on adapting and deploying Jupyter Book for education and organizing this summit&lt;/li>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book project&lt;/a> for collaborating with us on these strategic efforts over the last years&lt;/li>
+&lt;/ul></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
 &lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
