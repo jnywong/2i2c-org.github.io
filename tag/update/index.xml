@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Update | 2i2c</title><link>https://2i2c.org/tag/update/</link><atom:link href="https://2i2c.org/tag/update/index.xml" rel="self" type="application/rss+xml"/><description>Update</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Update</title><link>https://2i2c.org/tag/update/</link></image><item><title>Our Product and Service goals for Q3 2025</title><link>https://2i2c.org/blog/2025/q3-goals/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q3-goals/</guid><description>&lt;p>As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Update | 2i2c</title><link>https://2i2c.org/tag/update/</link><atom:link href="https://2i2c.org/tag/update/index.xml" rel="self" type="application/rss+xml"/><description>Update</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Update</title><link>https://2i2c.org/tag/update/</link></image><item><title>Refactoring Jupyter Book 2 documentation ahead of a major release</title><link>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</guid><description>&lt;p>Documentation is what turns open source code into products that people actually want to use. We recently spent a few days refactoring the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> documentation to prepare for the upcoming Jupyter Book 2 release, and we&amp;rsquo;re excited about how much clearer the docs have become!&lt;/p>
+&lt;h2 id="what-we-did">
+What we did
+&lt;a class="header-anchor" href="#what-we-did">#&lt;/a>
+&lt;/h2>&lt;p>We restructured the docs using the
+&lt;a href="https://diataxis.fr/" target="_blank" rel="noopener" >Diataxis framework&lt;/a> to better organize content by user type and task:&lt;/p>
+&lt;ul>
+&lt;li>Reorganized into clear topic areas with landing pages for easier navigation&lt;/li>
+&lt;li>Added missing content like the feature voting table and contributing guides&lt;/li>
+&lt;li>Created upgrade guidance to help users understand the relationship between Jupyter Book 2 and MyST&lt;/li>
+&lt;/ul>
+&lt;p>This work helps users find what they need faster and gives the project a stronger foundation to build on going forward.&lt;/p>
+&lt;h2 id="why-were-excited-about-it">
+Why we&amp;rsquo;re excited about it
+&lt;a class="header-anchor" href="#why-were-excited-about-it">#&lt;/a>
+&lt;/h2>&lt;p>Better documentation reduces maintainer burden by helping users answer their own questions, and it makes the project more welcoming and useful to new contributors. We hope this makes Jupyter Book more accessible to everyone and lays a good foundation for the new release!&lt;/p>
+&lt;p>We&amp;rsquo;re also excited because so many others helped provide edits and comments!&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book/pull/2422" target="_blank" rel="noopener" >PR implementing the refactor&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book/blob/next/docs/contribute/docs.md" target="_blank" rel="noopener" >Documentation principles we developed&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2 documentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://github.com/rlanzafame" target="_blank" rel="noopener" >@rlanzafame&lt;/a>,
+&lt;a href="https://github.com/FreekPols" target="_blank" rel="noopener" >@FreekPols&lt;/a>, and
+&lt;a href="https://github.com/bsipocz" target="_blank" rel="noopener" >@bsipocz&lt;/a> for their helpful reviews, edits, and feedback on the PR!&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>, and the Berkeley educational projects are our primary member communities using MyST and
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>. Their support covers the cost of these kinds of foundational contributions.&lt;/li>
+&lt;/ul></description></item><item><title>Our Product and Service goals for Q3 2025</title><link>https://2i2c.org/blog/2025/q3-goals/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q3-goals/</guid><description>&lt;p>As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our
 &lt;a href="https://2i2c.org/blog/2025/q2-product-goals/" >product goals from the previous quarter here&lt;/a>.&lt;/p>
 &lt;p>The themes below offer a high-level snapshot of where we aim to evolve our offerings in the coming months.&lt;/p>
 &lt;blockquote>
@@ -66,7 +107,7 @@ Group-level resource monitoring
 &lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >jupyterhub-groups-exporter&lt;/a>, allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this
+&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this
 &lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >blog post announcing &lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="improve-creating-and-sharing-custom-environments">
@@ -74,10 +115,10 @@ Improve creating and sharing custom environments
 &lt;a class="header-anchor" href="#improve-creating-and-sharing-custom-environments">#&lt;/a>
 &lt;/h2>&lt;p>Last year we introduced
 &lt;a href="https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/" target="_blank" rel="noopener" >customizable servers via profile lists&lt;/a>. We&amp;rsquo;re building on that - servers can now be configured to
-&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in our &lt;strong>
-&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/" target="_blank" rel="noopener" >dynamic image building quick start guide&lt;/a>&lt;/strong>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >dynamic image building quick start guide&lt;/a>&lt;/strong>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="co-located-narrative-content-with-out-of-the-box-jupyter-book-support">
 Co-located narrative content with out-of-the-box Jupyter Book support
@@ -86,7 +127,7 @@ Co-located narrative content with out-of-the-box Jupyter Book support
 &lt;a href="http://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for all of our member communities. Our communities can rapidly build interactive starter documentation and provide users with a rich, interactive, and informative onboarding experience. With a suite of customizable landing-page layouts, colour themes, and component galleries ready to match a community&amp;rsquo;s branding, it&amp;rsquo;s now easier than ever to couple a hub with its own co-located narrative content.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See
 &lt;a href="https://2i2c.org/blog/2025/jb-for-communities/" target="_blank" rel="noopener" >this blog post for an announcement&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="a-better-onboarding-experience-for-our-communities">
@@ -117,7 +158,7 @@ Acknowledgements
 &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> for core support to 2i2c which funds this strategic and organizational work.&lt;/li>
 &lt;/ul></description></item><item><title>2025-Q1 reflection: Building a foundation for our new platform and membership model</title><link>https://2i2c.org/blog/2025/q1-reflection/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-reflection/</guid><description>&lt;p>&lt;em>This is a summary of major progress we made in Q1 of 2025. Its goal is to summarize our major accomplishments and important context before we prioritize for Q2. We hope this gives our community stakeholders a more strategic-level insight into our progress and organizational plans. See
 &lt;a href="https://2i2c.org/blog/2025/q1-product-highlights/" >our Product Highlights for 2025Q1&lt;/a> for a product-focused review. Please
-&lt;a href="" >give us feedback&lt;/a> for how we can provide more useful information.&lt;/em>&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/q1-reflection/mailto:hello@2i2c.org" >give us feedback&lt;/a> for how we can provide more useful information.&lt;/em>&lt;/p>
 &lt;p>Heading into Q1 2025, we had just completed an organizational re-structuring into new functional areas. These were
 &lt;a href="https://compass.2i2c.org/product-and-services/" target="_blank" rel="noopener" >Products and Services&lt;/a>,
 &lt;a href="https://compass.2i2c.org/biz-dev/" target="_blank" rel="noopener" >Business Development&lt;/a>, and

@@ -1,8 +1,135 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Upstream-Impact | 2i2c</title><link>https://2i2c.org/category/upstream-impact/</link><atom:link href="https://2i2c.org/category/upstream-impact/index.xml" rel="self" type="application/rss+xml"/><description>Upstream-Impact</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Upstream-Impact</title><link>https://2i2c.org/category/upstream-impact/</link></image><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/2025/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Upstream-Impact | 2i2c</title><link>https://2i2c.org/category/upstream-impact/</link><atom:link href="https://2i2c.org/category/upstream-impact/index.xml" rel="self" type="application/rss+xml"/><description>Upstream-Impact</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Upstream-Impact</title><link>https://2i2c.org/category/upstream-impact/</link></image><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/2025/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter blog&lt;/a> on how his &amp;ldquo;maintainer intuition&amp;rdquo; about reviewable pull requests grew into the open-source
+&lt;a href="https://github.com/jupyter/pr-triage-board-bot" target="_blank" rel="noopener" >&lt;code>pr-triage-board-bot&lt;/code>&lt;/a>, a reusable workflow that keeps GitHub Project boards curated for the JupyterHub, JupyterLab, and GeoJupyter communities.
+&lt;a href="https://2i2c.org/blog/2025/pr-triage-boards/../foundational-contributions/" >Foundational contributions&lt;/a> are rellay important to 2i2c. This is a great example of building clever technical systems that help maintainers prioritize the social work of facilitating contributions to keep ecosystems healthy.&lt;/p>
+&lt;figure id="figure-the-jupyterhub-pr-triage-boardhttpsgithubcomorgsjupyterhubprojects4views9">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The [JupyterHub PR Triage board](https://github.com/orgs/jupyterhub/projects/4/views/9)." srcset="
+/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_0f0a6e755f2ce0c16c487d7c7d936d24.webp 400w,
+/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_db6b5eae52bd3533a354139bfb522b31.webp 760w,
+/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_0f0a6e755f2ce0c16c487d7c7d936d24.webp"
+width="760"
+height="367"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The
+&lt;a href="https://github.com/orgs/jupyterhub/projects/4/views/9" target="_blank" rel="noopener" >JupyterHub PR Triage board&lt;/a>.
+&lt;/figcaption>&lt;/figure>
+&lt;p>Our favorite quote shares the vibe and cultural principles that drive this effort:&lt;/p>
+&lt;blockquote class="pull-quote">
+&lt;p>If the author of the PR is a newish contributor, I want to encourage them to stick around by being responsive to their gift. All PRs are gifts that we may or may not choose to accept, but should do so with grace.&lt;/p>
+&lt;cite>&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a>&lt;/cite>
+&lt;/blockquote>
+&lt;p>Yuvi frames the problem here:&lt;/p>
+&lt;blockquote>
+&lt;p>Reviewing PRs is a critical way that maintainers keep an open source project moving forward, but identifying PRs that can productively be merged is hard.&lt;/p>
+&lt;/blockquote>
+&lt;p>And notes that &lt;em>human scalability&lt;/em> is often a big bottleneck:&lt;/p>
+&lt;blockquote>
+&lt;p>One key bottleneck we identified in the process was Step 2. In particular, I was relying on my maintainer intuition to pick a single PR that I believe can be merged, so others in the team can do review work. I started exploring what this intuition is, and if it can be scaled.&lt;/p>
+&lt;/blockquote>
+&lt;p>Here&amp;rsquo;s his list of &amp;ldquo;intuitions&amp;rdquo; that he uses to choose PRs to work on:&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>PRs that aren’t too big, and are a reasonable size that can be merged within a 2 week window&lt;/li>
+&lt;li>CI tests passing, so at least our automated checks haven’t caught any issues with it
+Features or bug fixes that I believe add value to the project and move us in the right direction towards being able to support our users as they need (this is the hardest!)&lt;/li>
+&lt;li>If the author of the PR is a newish contributor, as I want to encourage them to stick around by being responsive to their gift. All PRs are gifts that we may or may not choose to accept, but should do so with grace.&lt;/li>
+&lt;li>How long ago the PR was opened. There is such a big difference between a response to your PR 2 days after you make it vs 2 months vs 2 years. I prioritized newer PRs.&lt;/li>
+&lt;li>What kind of contribution is it primarily? Different engineers on our team have different skillsets (JS, Python, etc) and I wanted to match the PR to what the engineer preferred code reviewing.&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;p>And the board essentially tries to capture many of these intuitions by signal-boosting them in one place:&lt;/p>
+&lt;blockquote>
+&lt;p>we can roughly say ‘Pick a PR that looks good to you from the top of the “First Time Contributor” or “Seasoned Contributor” list’, and that relieves me from being the bottleneck quite a bit.&lt;/p>
+&lt;/blockquote>
+&lt;p>Read more in the original article:
+&lt;a href="https://blog.jupyter.org/scaling-maintainer-intuition-with-pull-request-triage-boards-779f2387498b" target="_blank" rel="noopener" >Scaling &amp;ldquo;Maintainer Intuition&amp;rdquo; with Pull Request Triage Boards&lt;/a>.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Project Jupyter&lt;/a> for trusting us to incubate and now donate the bot code to the broader ecosystem.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/geojupyter/" >GeoJupyter&lt;/a> contributors who tested the triage views and fed real maintainer workflows back into the design.&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jasongrout" target="_blank" rel="noopener" >Jason Grout&lt;/a>,
+&lt;a href="https://github.com/rgaiacs" target="_blank" rel="noopener" >Raniere Silva&lt;/a>, and
+&lt;a href="https://github.com/mfisher87" target="_blank" rel="noopener" >Matt Fisher&lt;/a> for spotting the experiment early and helping it land across multiple orgs.&lt;/li>
+&lt;/ul></description></item><item><title>Creating a re-usable redirect generator for Jupyter Book 1 migrations</title><link>https://2i2c.org/blog/2025/jb1-redirect-generator/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb1-redirect-generator/</guid><description>&lt;p>When migrating documentation from
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 1 to Jupyter Book 2, URL structures change dramatically and break external links. We spent some time createing a re-usable tool to solve this problem across multiple projects.&lt;/p>
+&lt;p>You can check out the tool below:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter-book/jb1-redirect-generator" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter-book/jb1-redirect-generator&lt;/a>&lt;/p>
+&lt;p>It&amp;rsquo;s designed to be run in a self-contained way by putting the dependencies in &lt;code>script&lt;/code> metadata at the top.
+This means you can run it like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">uv run https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/main/generate_redirects.py
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This let&amp;rsquo;s you generate redirects from JB1 -&amp;gt; JB2 URL structures and dump them in a &lt;code>_build/html&lt;/code> folder with your JB2 built pages.&lt;/p>
+&lt;p>We tested this out by converting the
+&lt;a href="https://jupyter.org/governance" target="_blank" rel="noopener" >Jupyter Governance docs&lt;/a> to Jupyter Book 2 and running it there.
+You can find a noxfile that runs these commands here:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/noxfile.py#L25-L37" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/noxfile.py#L25-L37&lt;/a>&lt;/p>
+&lt;p>And its use in a GitHub Workflow here:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/.github/workflows/deploy.yml#L39-L44" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/.github/workflows/deploy.yml#L39-L44&lt;/a>&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jb1-redirect-generator" target="_blank" rel="noopener" >jb1-redirect-generator repository&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter/governance/pull/307" target="_blank" rel="noopener" >Jupyter governance PR using the new script&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Refactoring Jupyter Book 2 documentation ahead of a major release</title><link>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</guid><description>&lt;p>Documentation is what turns open source code into products that people actually want to use. We recently spent a few days refactoring the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> documentation to prepare for the upcoming Jupyter Book 2 release, and we&amp;rsquo;re excited about how much clearer the docs have become!&lt;/p>
+&lt;h2 id="what-we-did">
+What we did
+&lt;a class="header-anchor" href="#what-we-did">#&lt;/a>
+&lt;/h2>&lt;p>We restructured the docs using the
+&lt;a href="https://diataxis.fr/" target="_blank" rel="noopener" >Diataxis framework&lt;/a> to better organize content by user type and task:&lt;/p>
+&lt;ul>
+&lt;li>Reorganized into clear topic areas with landing pages for easier navigation&lt;/li>
+&lt;li>Added missing content like the feature voting table and contributing guides&lt;/li>
+&lt;li>Created upgrade guidance to help users understand the relationship between Jupyter Book 2 and MyST&lt;/li>
+&lt;/ul>
+&lt;p>This work helps users find what they need faster and gives the project a stronger foundation to build on going forward.&lt;/p>
+&lt;h2 id="why-were-excited-about-it">
+Why we&amp;rsquo;re excited about it
+&lt;a class="header-anchor" href="#why-were-excited-about-it">#&lt;/a>
+&lt;/h2>&lt;p>Better documentation reduces maintainer burden by helping users answer their own questions, and it makes the project more welcoming and useful to new contributors. We hope this makes Jupyter Book more accessible to everyone and lays a good foundation for the new release!&lt;/p>
+&lt;p>We&amp;rsquo;re also excited because so many others helped provide edits and comments!&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book/pull/2422" target="_blank" rel="noopener" >PR implementing the refactor&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book/blob/next/docs/contribute/docs.md" target="_blank" rel="noopener" >Documentation principles we developed&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2 documentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://github.com/rlanzafame" target="_blank" rel="noopener" >@rlanzafame&lt;/a>,
+&lt;a href="https://github.com/FreekPols" target="_blank" rel="noopener" >@FreekPols&lt;/a>, and
+&lt;a href="https://github.com/bsipocz" target="_blank" rel="noopener" >@bsipocz&lt;/a> for their helpful reviews, edits, and feedback on the PR!&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>, and the Berkeley educational projects are our primary member communities using MyST and
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>. Their support covers the cost of these kinds of foundational contributions.&lt;/li>
+&lt;/ul></description></item><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/2025/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder.org usage dashboards&lt;/a> and provides a
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >daily-published dataset&lt;/a> that researchers and communities use to understand how Binder is being used across different domains and scientific communities.&lt;/p>
 &lt;p>While updating our
-&lt;a href="" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
+&lt;a href="https://2i2c.org/blog/2025/mybinder-analytics-fix/../binder-report-q3/" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
 &lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3462" target="_blank" rel="noopener" >deployed a fix&lt;/a> that eliminates the temporary files entirely - the code now generates the HTML index as a string in memory and uploads directly.&lt;/p>
 &lt;figure id="figure-the-mybinderorg-analytics-archivehttpsarchiveanalyticsmybinderorg-shows-a-list-of-daily-usage-reports-that-anybody-can-download">
 &lt;div class="d-flex justify-content-center">
@@ -24,7 +151,7 @@ Learn more
 &lt;li>The
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >&lt;code>binder-data/&lt;/code> repository&lt;/a> is where we aggregate and publish archive data to be more accessible.&lt;/li>
 &lt;li>
-&lt;a href="" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/blog/2025/mybinder-analytics-fix/../binder-report-q3/" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -37,7 +164,7 @@ Acknowledgements
 &lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >federation of BinderHubs&lt;/a>.
 2i2c is part of the team that manages mybinder.org, and we&amp;rsquo;re committed to supporting this critical infrastructure for open science and reproducibility.&lt;/p>
 &lt;p>We developed a more
-&lt;a href="" >cost-efficient process for deploying BinderHub on a single VM&lt;/a> and are now running a BinderHub at
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../binder-singlenode/" >cost-efficient process for deploying BinderHub on a single VM&lt;/a> and are now running a BinderHub at
 &lt;a href="https://2i2c.mybinder.org" target="_blank" rel="noopener" >2i2c.mybinder.org&lt;/a>.
 This post highlights the impact we&amp;rsquo;ve had through our support of the mybinder.org federation, we&amp;rsquo;ll update it periodically.&lt;/p>
 &lt;h2 id="usage-over-time">
@@ -59,27 +186,27 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>&lt;em>Here are weekly launches on mybinder.org. Launches from &lt;code>2i2c.mybinder.org&lt;/code> are in red. Source:
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder analytics dashboard&lt;/a>.&lt;/em>&lt;/p>
 &lt;p>&lt;strong>In Q1 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>417,048 reproducible sessions&lt;/strong>. In this time, mybinder.org was primarily driven by our
-&lt;a href="" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../binder-singlenode/" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
 &lt;p>&lt;strong>In Q2 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>249,750 reproducible sessions&lt;/strong>. In this time, we worked with
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to deploy their BinderHub instance on the same Hetzner node setup, which let us distribute more of Binder&amp;rsquo;s load onto them.&lt;/p>
 &lt;p>&lt;strong>In Q3 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>118,083 reproducible sessions&lt;/strong>. We experienced a typical summer dip in sessions, had to
-&lt;a href="" >fix the analytics dashboard&lt;/a> as well as
-&lt;a href="" >fix a TCP scanning abuse case&lt;/a> that briefly brought down the 2i2c node.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../mybinder-analytics-fix/" >fix the analytics dashboard&lt;/a> as well as
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../mybinder-antiabuse-scanning/" >fix a TCP scanning abuse case&lt;/a> that briefly brought down the 2i2c node.&lt;/p>
 &lt;h2 id="where-weve-made-improvements">
 Where we&amp;rsquo;ve made improvements
 &lt;a class="header-anchor" href="#where-weve-made-improvements">#&lt;/a>
 &lt;/h2>&lt;p>As part of this effort, we&amp;rsquo;ve made several improvements to the Binder and JupyterHub ecosystem. Here are a few links where you can read more:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="" >Deploying BinderHub on a single VM with k3s&lt;/a> - Our approach to making BinderHub deployment cheaper and simpler&lt;/li>
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../binder-singlenode/" >Deploying BinderHub on a single VM with k3s&lt;/a> - Our approach to making BinderHub deployment cheaper and simpler&lt;/li>
 &lt;li>
-&lt;a href="" >Hetzner cloud infrastructure experience&lt;/a> - Cost-effective cloud hosting for mybinder.org&lt;/li>
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../jetstream-binderhub/" >Hetzner cloud infrastructure experience&lt;/a> - Cost-effective cloud hosting for mybinder.org&lt;/li>
 &lt;li>
-&lt;a href="" >Combating TCP scanning abuse on mybinder.org&lt;/a> - Developing anti-abuse tools to prevent an abuse use-case.&lt;/li>
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../mybinder-antiabuse-scanning/" >Combating TCP scanning abuse on mybinder.org&lt;/a> - Developing anti-abuse tools to prevent an abuse use-case.&lt;/li>
 &lt;li>
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >Improving Binder&amp;rsquo;s usage dashboard&lt;/a> - This helps us create posts like these and is useful to others as well.&lt;/li>
 &lt;li>
-&lt;a href="" >Integrating BinderHub with JupyterHub&lt;/a> - Working with
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../../2024/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub&lt;/a> - Working with
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to bring Binder&amp;rsquo;s dynamic image building capabilities to persistent JupyterHubs, empowering users to manage their own environments&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
@@ -102,7 +229,7 @@ Why this matters
 &lt;a class="header-anchor" href="#why-this-matters">#&lt;/a>
 &lt;/h2>&lt;p>As providers of public compute, it&amp;rsquo;s our responsibility to make sure people can&amp;rsquo;t use our infrastructure to abuse others. This is part of being responsible citizens of the internet. It also saves us time in dealing with outages because cloud providers (understandably) block access when they suspect there is abuse.&lt;/p>
 &lt;p>Hetzner and similar hosts have many benefits (including
-&lt;a href="" >significant cost savings&lt;/a>), and tools like tcpflowkiller help keep hubs and binders running smoothly on such hosts, which have different abuse policies than the big commercial cloud providers.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/../binder-singlenode/" >significant cost savings&lt;/a>), and tools like tcpflowkiller help keep hubs and binders running smoothly on such hosts, which have different abuse policies than the big commercial cloud providers.&lt;/p>
 &lt;p>AWS and other cloud providers have proprietary ways to combat abuse (like
 &lt;a href="https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html" target="_blank" rel="noopener" >AWS GuardDuty&lt;/a>). We could have spent our time investing in developing rules there. Instead, contributing to cryptnono helps provide the same set of features in a cloud-agnostic way, in line with
 &lt;a href="https://2i2c.org/open-practices/" target="_blank" rel="noopener" >our principles&lt;/a> of supporting open infrastructure that gives communities control over their infrastructure.&lt;/p>
@@ -225,7 +352,7 @@ Acknowledgements
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> provides strategic funding support for 2i2c which covers major open source leadership contributions like this.&lt;/li>
 &lt;/ul></description></item><item><title>Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.</title><link>https://2i2c.org/blog/2025/doepy-yuvi/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/doepy-yuvi/</guid><description>&lt;p>Our Technical Lead
-&lt;a href="" >Yuvi Panda&lt;/a> recently gave a talk at the
+&lt;a href="https://2i2c.org/blog/2025/doepy-yuvi/../../authors/yuvi-panda/_index.md" >Yuvi Panda&lt;/a> recently gave a talk at the
 &lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >doepy meetup&lt;/a> about JupyterHub&amp;rsquo;s interest in moving beyond the &amp;ldquo;single-user notebook application&amp;rdquo; and towards a more flexible approach to enabling administrators to deploy many different types of applications and environments.&lt;/p>
 &lt;p>Check out a video of the talk here:&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -603,7 +730,7 @@ Others can join the mybinder.org federation using this approach as well
 Anybody want to fund this?
 &lt;a class="header-anchor" href="#anybody-want-to-fund-this">#&lt;/a>
 &lt;/h2>&lt;p>If you&amp;rsquo;re interested in making open science infrastructure like Binder more scalable and sustainable, we&amp;rsquo;d love to find more resources to both sustain this node and cover more development time to run this experiment.
-&lt;a href="" >Feel free to reach out here&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/binder-singlenode/mailto:hello@2i2c.org" >Feel free to reach out here&lt;/a>.&lt;/p>
 &lt;p>If you have access to VMs and object storage, and are interested in running a mybinder.org federation member using the methods described here, check out
 &lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/blob/72a1a34509e2c43aec788f602250c58d9d849a13/docs/source/deployment/k3s.md" target="_blank" rel="noopener" >our brief guide for deploying a BinderHub with K3s&lt;/a>.&lt;/p>
 &lt;p>If you&amp;rsquo;re generally interested in supporting &lt;code>mybinder.org&lt;/code> with cloud resources, financial resources, or human resources, please see the
@@ -664,7 +791,7 @@ Allowing readers to &amp;ldquo;bring their own Binders&amp;rdquo;
 &lt;li>From the professor&amp;rsquo;s book, the student can choose to launch an interactive Binder sessions on &lt;em>their university&amp;rsquo;s Binder&lt;/em>, allowing them to interact with the book&amp;rsquo;s content on their own infrastructure.&lt;/li>
 &lt;/ul>
 &lt;p>We want a workflow like this to be as seamless and un-complicated as possible. We also want it to follow the same fundamental workflow as the
-&lt;a href="https://docs.2i2c.org/community/content/" target="_blank" rel="noopener" >nbgitpuller-based launch buttons&lt;/a>. Along the way, we realized that we needed to coordinate development across
+&lt;a href="https://docs.2i2c.org/user/sharing/files" target="_blank" rel="noopener" >nbgitpuller-based launch buttons&lt;/a>. Along the way, we realized that we needed to coordinate development across
 &lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a>,
 &lt;a href="https://jupyter.readthedocs.io" target="_blank" rel="noopener" >JupyterHub&lt;/a>, and
 &lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>.&lt;/p>

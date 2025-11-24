@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jenny Wong | 2i2c</title><link>https://2i2c.org/author/jenny-wong/</link><atom:link href="https://2i2c.org/author/jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/jenny-wong/avatar_huc2333c99a5a6960f14279231c17feb93_40255_270x270_fill_q75_lanczos_center.jpg</url><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link></image><item><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/jenny-wong/</guid><description>&lt;p>Jenny is an Open Source Applications Engineer focused on delivering the Platform and Services roadmap for 2i2c. Her previous work has included the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. She&amp;rsquo;s built community-based training materials for interactive cloud-native workflows. Jenny is responsible for building user-centered open source applications that ensure the alignment of Product and Services value streams to the needs of the communities we serve.&lt;/p>
 &lt;p>As a former research software engineer, Jenny has considerable experience supporting researchers with writing documentation, creating video tutorials, and designing and delivering training for advanced research computing. Jenny is also a qualified Software Carpentries Instructor.&lt;/p>
-&lt;p>Jenny&amp;rsquo;s background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled &amp;ldquo;A slurry model of the F-layer in the Earth&amp;rsquo;s core&amp;rdquo;.&lt;/p></description></item><item><title>Openscapes runs airborne data machine learning workshop with 401 participants from 68 countries</title><link>https://2i2c.org/blog/2025/openscapes-workshop/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-workshop/</guid><description>&lt;p>Openscapes recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!&lt;/p>
-&lt;p>The impact of 2i2c&amp;rsquo;s service meant that participants from all over the world could easily access standardized compute and NASA Earthdata data in the cloud for a seamless learning experience.&lt;/p>
+&lt;p>Jenny&amp;rsquo;s background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled &amp;ldquo;A slurry model of the F-layer in the Earth&amp;rsquo;s core&amp;rdquo;.&lt;/p></description></item><item><title>NASA Openscapes mentors run airborne data machine learning workshop with 401 participants from 68 countries</title><link>https://2i2c.org/blog/2025/openscapes-workshop/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-workshop/</guid><description>&lt;p>NASA Openscapes mentors recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!&lt;/p>
+&lt;p>They gave participants computational environments on a community hub managed by 2i2c to teach skills in data science like image classification with airborne spectroscopy and accessing data from NASA JPL
+&lt;a href="https://www.earthdata.nasa.gov/data/projects/aviris" target="_blank" rel="noopener" >AVIRIS-NG data&lt;/a> from Earthdata cloud.&lt;/p>
+&lt;p>We&amp;rsquo;re proud to enable participants from all over the world to easily access standardized compute and NASA Earthdata data in the cloud for a seamless learning experience.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
@@ -13,15 +15,18 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;p>Thank you to the
-&lt;a href="https://openscapes.org/" target="_blank" rel="noopener" >Openscapes&lt;/a> team for sharing this post with us, and&lt;/p>
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> team for sharing this post with us, and&lt;/p>
 &lt;ul>
 &lt;li>Michele Thornton&lt;/li>
 &lt;li>Rupesh Shrestha&lt;/li>
 &lt;/ul>
 &lt;p>for authoring the blog post.&lt;/p>
 &lt;/li>
+&lt;li>
+&lt;p>NASA Openscapes mentors for running a great workshop&lt;/p>
+&lt;/li>
 &lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/2025/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-users/" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
 &lt;p>A key goal of 2i2c is to make the cloud safe for science. By providing transparent cost monitoring, we give communities the confidence that they won&amp;rsquo;t face unexpected bills and can better understand how their usage patterns translate to cloud costs. This visibility is especially valuable in our shared platform model, where each community gets their own independent hub while benefiting from shared infrastructure expertise.&lt;/p>
 &lt;p>
 &lt;figure >
@@ -47,7 +52,7 @@ Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-users/" target="_blank" rel="noopener" >Cost monitoring documentation&lt;/a>&lt;/li>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >Cost monitoring documentation&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -63,7 +68,7 @@ Acknowledgements
 &lt;/ul></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>
 &lt;figure >
@@ -306,7 +311,7 @@ Note that this feature is currently available to AWS hosted hubs only and will b
 Accessing the cloud cost dashboard
 &lt;a class="header-anchor" href="#accessing-the-cloud-cost-dashboard">#&lt;/a>
 &lt;/h2>&lt;p>Community Champions can view the Cloud Cost dashboard from their Grafana instance (please see the
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account" target="_blank" rel="noopener" >Service Guide&lt;/a> for how to gain access).&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >Service Guide&lt;/a> for how to gain access).&lt;/p>
 &lt;p>From the main menu of Grafana, navigate to &lt;em>Dashboards &amp;gt; Cloud cost dashboards &amp;gt; Cloud cost attribution&lt;/em> to view the dashboard.&lt;/p>
 &lt;h2 id="understanding-the-cloud-cost-dashboard">
 Understanding the cloud cost dashboard
@@ -323,13 +328,13 @@ Understanding the cloud cost dashboard
 &lt;source src="https://2i2c.org/blog/2024/aws-cost-attribution/demo.mp4" type="video/mp4">
 &lt;/video>
 &lt;p>For more detailed information on the data that each panel displays, please consult our
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#understanding-the-cloud-cost-dashboard" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#understanding-the-cloud-cost-dashboard" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
 &lt;h2 id="sharing-cost-reports">
 Sharing cost reports
 &lt;a class="header-anchor" href="#sharing-cost-reports">#&lt;/a>
 &lt;/h2>&lt;p>The dashboard can be shared with other community members and stakeholders so they can understand usage and cost patterns. Community Champions can export data to a CSV file, or they can generate a snapshot of the Grafana dashboard and share a public link.&lt;/p>
 &lt;p>For instructions on how to export data from the dashboard, please see our
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#sharing-cost-reports" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#sharing-cost-reports" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
 &lt;h2 id="next-steps">
 Next steps
 &lt;a class="header-anchor" href="#next-steps">#&lt;/a>
@@ -374,7 +379,7 @@ Catalyst Project community partners using accessible cloud infrastructure for op
 &lt;p>A key part of the project is engaging with Community Partners in Africa and Latin America: Institutions, organizations, and individuals who are undertaking bioscientific research projects that require cloud computing infrastructure. As collaborators on the Catalyst Project, Community Partners can access and use 2i2c’s open science cloud services, and also receive training from 2i2c, The Carpentries, MetaDocencia, and OLS to support their work.
 &lt;a href="https://catalystproject.cloud/current-community-partners.html" target="_blank" rel="noopener" >Community Partners&lt;/a> also play a vital role in shaping an evolving governance model for the Catalyst Project to help sustain, scale, and maximize impact in Latin America, Africa, and under-served communities around the world.&lt;/p>
 &lt;p>In a new collection of blog posts (that we hope will expand over the next couple of months!) we’re highlighting the work of the Catalyst Project Community Partners. This post is a gateway to learning more about the Catalyst Project and its Community Partners. If you have any questions or feedback about the project, please
-&lt;a href="" >send an email to the core team&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/catalyst-partner-highlights/mailto:catalyst-project-core-team@googlegroups.com" >send an email to the core team&lt;/a>.&lt;/p>
 &lt;h2 id="highlighting-the-catalyst-project-community-partners">
 Highlighting the Catalyst Project Community Partners
 &lt;a class="header-anchor" href="#highlighting-the-catalyst-project-community-partners">#&lt;/a>
@@ -562,7 +567,7 @@ Previous years
 &lt;li>
 &lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >&lt;code>nbgitpuller&lt;/code>&lt;/a> allows students to synchronise lesson content with an organizational GitHub repository that is collaboratively maintained by the lesson instructors.&lt;/li>
 &lt;li>
-&lt;a href="https://docs.2i2c.org/user/topics/data/sharing/" target="_blank" rel="noopener" >Shared data file storage&lt;/a> with read-only access for learners and read-write access for instructors&lt;/li>
+&lt;a href="https://docs.2i2c.org/user/data/sharing" target="_blank" rel="noopener" >Shared data file storage&lt;/a> with read-only access for learners and read-write access for instructors&lt;/li>
 &lt;li>Access to an abundance of neuroimaging data hosted in cloud object storage
 &lt;ul>
 &lt;li>
@@ -594,7 +599,7 @@ This year
 Next year
 &lt;a class="header-anchor" href="#next-year">#&lt;/a>
 &lt;/h3>&lt;p>One thing we have learned is that 2i2c automatically
-&lt;a href="https://docs.2i2c.org/admin/howto/control-user-server/#stop-user-servers-after-inactivity" target="_blank" rel="noopener" >shuts down a user server after one hour of inactivity&lt;/a> by default to ensure efficient resource usage and limit runaway cloud costs. Naturally, we are seeing increasing demand from learners for longer and more complex analyses. In response to this, we are keen to explore how the
+&lt;a href="https://docs.2i2c.org/admin/user-management/control-user-server#stop-user-servers-after-inactivity" target="_blank" rel="noopener" >shuts down a user server after one hour of inactivity&lt;/a> by default to ensure efficient resource usage and limit runaway cloud costs. Naturally, we are seeing increasing demand from learners for longer and more complex analyses. In response to this, we are keen to explore how the
 &lt;a href="https://github.com/minrk/jupyter-keepalive" target="_blank" rel="noopener" >&lt;code>jupyter-keepalive&lt;/code>&lt;/a> extension can keep the server alive for long-running processes.&lt;/p>
 &lt;p>We are pleased that learners have made great progress in making use of cloud-native, open-source workflows for analyzing human neuroscience data. We are keen to benefit from lessons learned this year and are looking forward to collaborating with 2i2c once again to deliver the NeuroHackademy Summer School in 2025.&lt;/p>
 &lt;p>Watch this space next year!&lt;/p>
@@ -1057,7 +1062,7 @@ The importance of diverse &lt;em>leadership&lt;/em>
 &lt;/h2>&lt;p>However, over the past few months, we have reflected on our organization&amp;rsquo;s structure and future plans. In particular, we recognize that there is a worrying lack of women in staff leadership roles. This imbalance does not live up to our values of diversity in our team and service.&lt;/p>
 &lt;p>We need to do better.&lt;/p>
 &lt;p>2i2c is at a moment of maturation and growth as an organization, kicked off by
-&lt;a href="" >our organizational audit from 2023&lt;/a> as well as
+&lt;a href="https://2i2c.org/blog/2024/dei-leadership-strategy/../2023/organizational-report/index.md" >our organizational audit from 2023&lt;/a> as well as
 &lt;a href="https://2i2c.org/blog/2024/report-czi/" >our three-year retrospective&lt;/a>.
 We believe that improving the diversity of leadership throughout the organization is a necessary part of that maturation over the next three years.&lt;/p>
 &lt;p>Below are a few ideas for how we aim to make improvements, and we invite feedback from others who are interested in helping us improve this aspect of our organization.&lt;/p>
@@ -1128,7 +1133,7 @@ Can I use this ephemeral hub service?
 &lt;li>For the
 &lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a> you will need to be member of a NASA community. This requires a GitHub account for membership of the GitHub Team
 &lt;a href="https://github.com/orgs/2i2c-nasa-binder-access/teams/big-binder-team" target="_blank" rel="noopener" >2i2c-nasa-binder-access:big-binder-team&lt;/a> for authorization. Please send us an email at
-&lt;a href="" >binder-requests@2i2c.org&lt;/a> to be added to the GitHub Team.&lt;/li>
+&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/mailto:binder-requests@2i2c.org" >binder-requests@2i2c.org&lt;/a> to be added to the GitHub Team.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -1289,7 +1294,7 @@ Day 2
 &lt;li>&lt;input disabled="" type="checkbox"> Cookbooks frequently cross-referenced materials from other cookbooks to build upon pre-existing knowledge, but this was not easy to author and the reader experience was not as smooth as it could be.&lt;/li>
 &lt;/ul>
 &lt;p>Following the announcement that
-&lt;a href="" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
+&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/../myst-jupyter-book/index" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
 &lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a> ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
 &lt;p>In the second half of the day, we decided to use the hackathon to explore migrating the Pythia cookbooks from using a Sphinx-based to a MyST-based document structure and engine. Within one afternoon, the group migrated four cookbooks to use MyST MD&lt;/p>
 &lt;ol>

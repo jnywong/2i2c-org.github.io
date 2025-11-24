@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterbook | 2i2c</title><link>https://2i2c.org/tag/jupyterbook/</link><atom:link href="https://2i2c.org/tag/jupyterbook/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterbook</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterbook</title><link>https://2i2c.org/tag/jupyterbook/</link></image><item><title>Open slides: Jupyter Book 2 and MyST at the UC Berkeley Data Science Education Summit</title><link>https://2i2c.org/blog/2025/jb2-berkeley-dsep/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb2-berkeley-dsep/</guid><description>&lt;p>Chris gave a talk about Jupyter Book 2 and MyST at the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterbook | 2i2c</title><link>https://2i2c.org/tag/jupyterbook/</link><atom:link href="https://2i2c.org/tag/jupyterbook/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterbook</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterbook</title><link>https://2i2c.org/tag/jupyterbook/</link></image><item><title>Creating a re-usable redirect generator for Jupyter Book 1 migrations</title><link>https://2i2c.org/blog/2025/jb1-redirect-generator/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb1-redirect-generator/</guid><description>&lt;p>When migrating documentation from
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 1 to Jupyter Book 2, URL structures change dramatically and break external links. We spent some time createing a re-usable tool to solve this problem across multiple projects.&lt;/p>
+&lt;p>You can check out the tool below:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter-book/jb1-redirect-generator" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter-book/jb1-redirect-generator&lt;/a>&lt;/p>
+&lt;p>It&amp;rsquo;s designed to be run in a self-contained way by putting the dependencies in &lt;code>script&lt;/code> metadata at the top.
+This means you can run it like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">uv run https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/main/generate_redirects.py
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This let&amp;rsquo;s you generate redirects from JB1 -&amp;gt; JB2 URL structures and dump them in a &lt;code>_build/html&lt;/code> folder with your JB2 built pages.&lt;/p>
+&lt;p>We tested this out by converting the
+&lt;a href="https://jupyter.org/governance" target="_blank" rel="noopener" >Jupyter Governance docs&lt;/a> to Jupyter Book 2 and running it there.
+You can find a noxfile that runs these commands here:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/noxfile.py#L25-L37" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/noxfile.py#L25-L37&lt;/a>&lt;/p>
+&lt;p>And its use in a GitHub Workflow here:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/.github/workflows/deploy.yml#L39-L44" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/.github/workflows/deploy.yml#L39-L44&lt;/a>&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jb1-redirect-generator" target="_blank" rel="noopener" >jb1-redirect-generator repository&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter/governance/pull/307" target="_blank" rel="noopener" >Jupyter governance PR using the new script&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Refactoring Jupyter Book 2 documentation ahead of a major release</title><link>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</guid><description>&lt;p>Documentation is what turns open source code into products that people actually want to use. We recently spent a few days refactoring the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> documentation to prepare for the upcoming Jupyter Book 2 release, and we&amp;rsquo;re excited about how much clearer the docs have become!&lt;/p>
+&lt;h2 id="what-we-did">
+What we did
+&lt;a class="header-anchor" href="#what-we-did">#&lt;/a>
+&lt;/h2>&lt;p>We restructured the docs using the
+&lt;a href="https://diataxis.fr/" target="_blank" rel="noopener" >Diataxis framework&lt;/a> to better organize content by user type and task:&lt;/p>
+&lt;ul>
+&lt;li>Reorganized into clear topic areas with landing pages for easier navigation&lt;/li>
+&lt;li>Added missing content like the feature voting table and contributing guides&lt;/li>
+&lt;li>Created upgrade guidance to help users understand the relationship between Jupyter Book 2 and MyST&lt;/li>
+&lt;/ul>
+&lt;p>This work helps users find what they need faster and gives the project a stronger foundation to build on going forward.&lt;/p>
+&lt;h2 id="why-were-excited-about-it">
+Why we&amp;rsquo;re excited about it
+&lt;a class="header-anchor" href="#why-were-excited-about-it">#&lt;/a>
+&lt;/h2>&lt;p>Better documentation reduces maintainer burden by helping users answer their own questions, and it makes the project more welcoming and useful to new contributors. We hope this makes Jupyter Book more accessible to everyone and lays a good foundation for the new release!&lt;/p>
+&lt;p>We&amp;rsquo;re also excited because so many others helped provide edits and comments!&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book/pull/2422" target="_blank" rel="noopener" >PR implementing the refactor&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book/blob/next/docs/contribute/docs.md" target="_blank" rel="noopener" >Documentation principles we developed&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2 documentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://github.com/rlanzafame" target="_blank" rel="noopener" >@rlanzafame&lt;/a>,
+&lt;a href="https://github.com/FreekPols" target="_blank" rel="noopener" >@FreekPols&lt;/a>, and
+&lt;a href="https://github.com/bsipocz" target="_blank" rel="noopener" >@bsipocz&lt;/a> for their helpful reviews, edits, and feedback on the PR!&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>, and the Berkeley educational projects are our primary member communities using MyST and
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>. Their support covers the cost of these kinds of foundational contributions.&lt;/li>
+&lt;/ul></description></item><item><title>Open slides: Jupyter Book 2 and MyST at the UC Berkeley Data Science Education Summit</title><link>https://2i2c.org/blog/2025/jb2-berkeley-dsep/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb2-berkeley-dsep/</guid><description>&lt;p>Chris gave a talk about Jupyter Book 2 and MyST at the
 &lt;a href="https://data.berkeley.edu/dsep" target="_blank" rel="noopener" >UC Berkeley Data Science Education Program&lt;/a>&amp;rsquo;s annual meeting. It covered the next direction for the Jupyter Book project, and its recent adoption of the
 &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Document Engine&lt;/a> for Jupyter Book 2.&lt;/p>
 &lt;p>You can
@@ -45,7 +111,7 @@ Acknowledgements
 &lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for our community members. This allows communities to create and share knowledge bases together for their community workflows. This post describes the motivation behind this new functionality, and how you can learn more about the project.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by following
-&lt;a href="https://docs.2i2c.org/sharing/documentation/" target="_blank" rel="noopener" >our documentation and sharing guide&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/sharing/documentation" target="_blank" rel="noopener" >our documentation and sharing guide&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>A core component of our mission to make research and education more &lt;em>impactful&lt;/em>, &lt;em>accessible&lt;/em>, and &lt;em>delightful&lt;/em> is leveraging our unique
 &lt;a href="https://2i2c.org/communities/" target="_blank" rel="noopener" >global network of communities&lt;/a> to make meaningful improvements to the open-source tools that power their work. Learning from one community can then provide value to our entire network, e.g.,
@@ -70,12 +136,12 @@ Acknowledgements
 &lt;p>To take advantage of this feature, communities can use the
 &lt;a href="https://github.com/2i2c-org/community-docs-template" target="_blank" rel="noopener" >&lt;code>2i2c-org/community-docs-template&lt;/code>&lt;/a> to deploy a Jupyter Book site to GitHub Pages. This template demonstrates simple usage of Jupyter Book 2 for computational content and landing page creation, and establishes the necessary CD workflows for web publication. Meanwhile, 2i2c can update our domain name management to point the &lt;code>docs.hub.2i2c.cloud&lt;/code> nested subdomain to the newly deployed documentation.&lt;/p>
 &lt;p>For more information, see
-&lt;a href="https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book" target="_blank" rel="noopener" >our community documentation for deploying Jupyter Books&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/sharing/documentation" target="_blank" rel="noopener" >our community documentation for deploying Jupyter Books&lt;/a>.&lt;/p>
 &lt;p>Developing these new capabilities taught us a lot about what makes building &amp;ldquo;good&amp;rdquo; community documentation so difficult. A wide range of bespoke website-building tools and integration quirks previously made it challenging for communities to both keep documentation current with internal changes and keep up with necessary software updates. We also learned that by trading bespoke complexity for simplicity and readability, we could build a solution that scales to multiple communities, with a consequently reduced maintenance burden.&lt;/p>
 &lt;p>With these improvements, we have initiated a conversation about what a more unified &amp;ldquo;look and feel&amp;rdquo; for our network might entail, and how it might benefit our communities. Much more can be done to build on this first step, and we are eager to gather feedback on how to improve these features for users.&lt;/p>
 &lt;p>To learn more about this work, consider exploring a minimal example on
 &lt;a href="https://docs.showcase.2i2c.cloud/" target="_blank" rel="noopener" >our Showcase Hub&lt;/a>, and check out
-&lt;a href="https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book" target="_blank" rel="noopener" >our service guide&lt;/a>.
+&lt;a href="https://docs.2i2c.org/user/sharing/documentation" target="_blank" rel="noopener" >our service guide&lt;/a>.
 &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform" target="_blank" rel="noopener" >Let us know&lt;/a> what you think!&lt;/p></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
 &lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
 &lt;div class="d-flex justify-content-center">
@@ -129,7 +195,7 @@ Day 2
 &lt;li>&lt;input disabled="" type="checkbox"> Cookbooks frequently cross-referenced materials from other cookbooks to build upon pre-existing knowledge, but this was not easy to author and the reader experience was not as smooth as it could be.&lt;/li>
 &lt;/ul>
 &lt;p>Following the announcement that
-&lt;a href="" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
+&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/../myst-jupyter-book/index" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
 &lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a> ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
 &lt;p>In the second half of the day, we decided to use the hackathon to explore migrating the Pythia cookbooks from using a Sphinx-based to a MyST-based document structure and engine. Within one afternoon, the group migrated four cookbooks to use MyST MD&lt;/p>
 &lt;ol>
