@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>2026 Strategy Update: An increased focus on co-creation</title><link>https://2i2c.org/blog/strategy-update-after-2025/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strategy-update-after-2025/</guid><description>&lt;p>As we wrapped up 2025, we felt compelled to incorporate what we learned over the year into our strategic direction, and to update our organizational documentation accordingly. Here&amp;rsquo;s a quick rundown of what we learned and how we&amp;rsquo;re adjusting.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
+We commit to
+&lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and
+&lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
+As part of this effort, we&amp;rsquo;re shifting our strategy to
+&lt;a href="https://2i2c.org/blog/public-roadmap/../strategy-update-2026/" >lean more heavily into co-creation&lt;/a> with member communities and open source communities.&lt;/p>
+&lt;p>Today we&amp;rsquo;re excited to share a first step towards making our development process more participatory, transparent, and useful: &lt;strong>we&amp;rsquo;re opening up our initiatives roadmap&lt;/strong>.
+You can find it here:&lt;/p>
+&lt;p>👉
+&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >2i2c.org/roadmap&lt;/a>&lt;/p>
+&lt;p>You can find all of our roadmap initiatives in this GitHub repository (please comment and engage with us there!):&lt;/p>
+&lt;p>👉
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/initiatives&lt;/a>&lt;/p>
+&lt;p>Moving forward, the roadmap will be a key part of our
+&lt;a href="https://2i2c.org/membership/" >service to member organizations&lt;/a>.&lt;/p>
+&lt;h2 id="why-were-opening-up-our-roadmap">
+Why we&amp;rsquo;re opening up our roadmap
+&lt;a class="header-anchor" href="#why-were-opening-up-our-roadmap">#&lt;/a>
+&lt;/h2>&lt;p>At 2i2c,
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >initiatives drive most of our work&lt;/a>.
+They represent major chunks of value with multiple steps needed to implement and unlock it.
+They range from making core infrastructure improvements to our member network, to making upstream contributions that enable new functionality on behalf of our member communities.
+While initiatives are generally public, they are spread across many places, and we&amp;rsquo;ve managed their prioritization, sequencing, and refinement in internal team spaces.
+This made it difficult for others to follow along, signal-boost, and potentially support initiatives they wanted to see done.&lt;/p>
+&lt;p>For this reason, we decided to build a
+&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >public view of our initiatives roadmap&lt;/a>. This reflects our current team priorities and what is coming down the pipeline.&lt;/p>
+&lt;p>We&amp;rsquo;ve also put our platform initiatives in a
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >public repository&lt;/a>. This gives us a public space for member communities (or anybody else) to discuss, collaborate, and support ideas in the open.&lt;/p>
+&lt;p>By opening this up, we hope to accomplish these goals:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Make it easier for everyone to see and influence our priorities&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier for member organizations to fund or collaborate on work&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier for open source communities to see what&amp;rsquo;s driving our contributions&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier to give credit to member communities that fund work&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;p>In short, we want to &lt;strong>model what sustainable open development can look like&lt;/strong>.
+Our hope is that this will both create more transparency and trust with our stakeholder communities, and invite them to tell us how we can best use our team capacity.&lt;/p>
+&lt;h2 id="we-hope-to-use-a-shared-roadmap-to-funnel-more-resources-into-open-source">
+We hope to use a shared roadmap to funnel more resources into open source
+&lt;a class="header-anchor" href="#we-hope-to-use-a-shared-roadmap-to-funnel-more-resources-into-open-source">#&lt;/a>
+&lt;/h2>&lt;p>We also hope we can leverage this as a &lt;strong>shared roadmap across our member communities&lt;/strong> that helps focus our attention and drive fundraising for our work.
+To begin, we&amp;rsquo;re inviting any
+&lt;a href="https://2i2c.org/members/" >member community&lt;/a> to provide financial support for these items as a way to influence our timelines and priorities, and we&amp;rsquo;re exploring ways to facilitate fractional co-funding across our member communities to help share the cost of development across many organizations.&lt;/p>
+&lt;p>This is an early experiment in collaborative and radically transparent development, and we will iterate and learn as we get feedback from member communities.
+We&amp;rsquo;re excited to see where this goes!&lt;/p>
+&lt;p>Please
+&lt;a href="https://2i2c.org/blog/public-roadmap/mailto:hello@2i2c.org" >give feedback on this idea&lt;/a>. If you&amp;rsquo;re interested in being a member organization of 2i2c,
+&lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >reach out to us about membership&lt;/a>.&lt;/p></description></item><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>. He is on the
+&lt;a href="https://ec.jupyter.org" target="_blank" rel="noopener" >Jupyter Executive Council&lt;/a> as well as the
+&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation Board&lt;/a>. He has been a co-lead of several projects within the Jupyter ecosystem for over ten years (particularly the
+&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team" target="_blank" rel="noopener" >JupyterHub and Binder projects&lt;/a>, as well as the
+&lt;a href="https://jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book project&lt;/a>). He’s interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows to make science more impactful and inclusive.&lt;/p>
+&lt;p>He was previously a post-doctoral researcher in the Department of Statistics at
+&lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a>, and a Community Architect with the
+&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Division of Data Science&lt;/a> at Berkeley. His background is in cognitive and computational neuroscience, where he used
+&lt;a href="https://www.nature.com/articles/ncomms13654" target="_blank" rel="noopener" >predictive models to understand the auditory system&lt;/a> in the human brain.&lt;/p>
+&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>10+ years leading and building open source projects, open infrastructure teams and services&lt;/li>
+&lt;li>Jupyter Distinguished Contributor&lt;/li>
+&lt;li>Co-led JupyterHub, Binder, and Jupyter Book&lt;/li>
+&lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
+&lt;/ul></description></item><item><title>New Jupyter Book / MyST stack release (Jan 2026)</title><link>https://2i2c.org/blog/jupyter-book-release-jan-2026/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-release-jan-2026/</guid><description>&lt;p>The MyST/Jupyter Book stack shipped new releases this week. Release pages:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/mystmd/releases/tag/mystmd%401.8.0" target="_blank" rel="noopener" >mystmd 1.8.0&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/releases/tag/myst-to-react%401.1.0" target="_blank" rel="noopener" >myst-theme 1.1.0&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book/releases/tag/v2.1.1" target="_blank" rel="noopener" >Jupyter Book 2.1.1&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="where-we-contributed">
+Where we contributed
+&lt;a class="header-anchor" href="#where-we-contributed">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;ve spent extra time lately trying to fix bugs and generally improve stability, reliability, and UX papercuts.
+Here are some of the things we focused on:&lt;/p>
+&lt;ul>
+&lt;li>Extra review time to get in
+&lt;a href="https://github.com/jupyter-book/mystmd/pull/2428" target="_blank" rel="noopener" >concurrent executions in mystmd&lt;/a>&lt;/li>
+&lt;li>Fixing broken edit URL logic so our community
+&lt;a href="https://github.com/jupyter-book/mystmd/pull/2642" target="_blank" rel="noopener" >&amp;ldquo;edit buttons&amp;rdquo; worked again&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/757" target="_blank" rel="noopener" >Standardized link styles&lt;/a> so users know what to expect from links&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/747" target="_blank" rel="noopener" >Added extra hover metadata for github issues and PRs&lt;/a> for communities that often link to their GitHub issues&lt;/li>
+&lt;li>Made all of these releases and wrote up the release notes!&lt;/li>
+&lt;/ul>
+&lt;p>Most of our contributions were foundational in nature - we fixed a bunch of bugs, did review on the PRs of others, and managed the release process itself. Check out the changelogs for more details!&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> - their memberships cover the cost of
+&lt;a href="https://2i2c.org/blog/jupyter-book-release-jan-2026/../../2025/foundational-contributions/" >foundational upstream contributions&lt;/a> to projects like these.&lt;/p>
+&lt;p>Particular thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> which currently supports much of our upstream contributions in Jupyter Book.&lt;/p></description></item><item><title>2026 Strategy Update: An increased focus on co-creation</title><link>https://2i2c.org/blog/strategy-update-after-2025/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strategy-update-after-2025/</guid><description>&lt;p>As we wrapped up 2025, we felt compelled to incorporate what we learned over the year into our strategic direction, and to update our organizational documentation accordingly. Here&amp;rsquo;s a quick rundown of what we learned and how we&amp;rsquo;re adjusting.&lt;/p>
 &lt;p>&lt;em>You can check out all of
 &lt;a href="https://compass.2i2c.org/organization/#core-strategy" target="_blank" rel="noopener" >our core strategy documentation&lt;/a> in our Team Compass.&lt;/em>&lt;/p>
 &lt;h2 id="the-macro-view-from-2025">
@@ -78,23 +174,7 @@ What we&amp;rsquo;re watching for in 2026
 &lt;/h2>&lt;p>2026 is going to be a pivotal year for the organization - I suspect it&amp;rsquo;ll force us to either double down on our current sustainability model, or to pivot towards something that is lighter given the new funding realities that the sector is facing. We are watching for whether research institutions begin cancelling or scaling back their contract work &lt;em>en-masse&lt;/em>, and we&amp;rsquo;re also being mindful for whether our assumptions about a &amp;ldquo;shared roadmap&amp;rdquo; across our communities are actually delivering the value to them that we&amp;rsquo;d expect.&lt;/p>
 &lt;p>We&amp;rsquo;re excited to lean into this more active and collaborative aspect of our service. We&amp;rsquo;re confident this will be more impactful for our member organizations, and for the broader ecosystem. We&amp;rsquo;ll keep folks updated with our progress via
 &lt;a href="https://2i2c.org/blog" target="_blank" rel="noopener" >our blog&lt;/a> and
-&lt;a href="https://2i2c.org/mailing-list" target="_blank" rel="noopener" >our mailing list&lt;/a> as always.&lt;/p></description></item><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of
-&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>. He is on the
-&lt;a href="https://ec.jupyter.org" target="_blank" rel="noopener" >Jupyter Executive Council&lt;/a> as well as the
-&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation Board&lt;/a>. He has been a co-lead of several projects within the Jupyter ecosystem for over ten years (particularly the
-&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team" target="_blank" rel="noopener" >JupyterHub and Binder projects&lt;/a>, as well as the
-&lt;a href="https://jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book project&lt;/a>). He’s interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows to make science more impactful and inclusive.&lt;/p>
-&lt;p>He was previously a post-doctoral researcher in the Department of Statistics at
-&lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a>, and a Community Architect with the
-&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Division of Data Science&lt;/a> at Berkeley. His background is in cognitive and computational neuroscience, where he used
-&lt;a href="https://www.nature.com/articles/ncomms13654" target="_blank" rel="noopener" >predictive models to understand the auditory system&lt;/a> in the human brain.&lt;/p>
-&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>10+ years leading and building open source projects, open infrastructure teams and services&lt;/li>
-&lt;li>Jupyter Distinguished Contributor&lt;/li>
-&lt;li>Co-led JupyterHub, Binder, and Jupyter Book&lt;/li>
-&lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
-&lt;/ul></description></item><item><title>Creating a re-usable redirect generator for Jupyter Book 1 migrations</title><link>https://2i2c.org/blog/jb1-redirect-generator/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jb1-redirect-generator/</guid><description>&lt;p>When migrating documentation from
+&lt;a href="https://2i2c.org/mailing-list" target="_blank" rel="noopener" >our mailing list&lt;/a> as always.&lt;/p></description></item><item><title>Creating a re-usable redirect generator for Jupyter Book 1 migrations</title><link>https://2i2c.org/blog/jb1-redirect-generator/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jb1-redirect-generator/</guid><description>&lt;p>When migrating documentation from
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 1 to Jupyter Book 2, URL structures change dramatically and break external links. We spent some time createing a re-usable tool to solve this problem across multiple projects.&lt;/p>
 &lt;p>You can check out the tool below:&lt;/p>
 &lt;p>
@@ -3512,7 +3592,7 @@ Where to follow along
 &lt;div class="about-us">
 &lt;blockquote>
 &lt;p>💡 Follow our work!
-&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a> for updates about 2i2c.
+&lt;a href="https://2i2c.org/mailing-list/" >Sign up for our mailing list&lt;/a> for updates about 2i2c.
 &lt;a href="https://2i2c.org/blog/czi-global-communities-announcement/mailto:hello@2i2c.org" >Send us an e-mail about collaborating or partnering&lt;/a> on a project.
 See our
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a> or our
@@ -4408,7 +4488,7 @@ Get involved
 &lt;/h2>&lt;p>Thanks for your interest in 2i2c and the mission that it hopes to accomplish.
 We hope that this update has been informative and interesting, and we welcome feedback about any of the information provided. If you&amp;rsquo;d like to help with any of the challenges or efforts described above, we welcome all forms of collaboration, and are happy to chat. Please drop us a line at
 &lt;a href="https://2i2c.org/blog/2021-q3-update/mailto:hello@2i2c.org" >&lt;code>hello@2i2c.org&lt;/code>&lt;/a> or
-&lt;a href="https://2i2c.org/#contact" target="_blank" rel="noopener" >contact us about joining our Slack community&lt;/a>. Thanks for reading!&lt;/p></description></item><item><title>2i2c launches next phase in partnership with CS&amp;S</title><link>https://2i2c.org/blog/css-announce/</link><pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/css-announce/</guid><description>&lt;p>&lt;em>This post was originally written for the
+&lt;a href="https://2i2c.org/blog/2021-q3-update/mailto:hello@2i2c.org" >contact us about joining our Slack community&lt;/a>. Thanks for reading!&lt;/p></description></item><item><title>2i2c launches next phase in partnership with CS&amp;S</title><link>https://2i2c.org/blog/css-announce/</link><pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/css-announce/</guid><description>&lt;p>&lt;em>This post was originally written for the
 &lt;a href="https://blog.codeforscience.org/" target="_blank" rel="noopener" >&lt;strong>CS&amp;amp;S blog&lt;/strong>&lt;/a>.&lt;/em>&lt;/p>
 &lt;p>
 &lt;a href="https://2i2c.org/collaborators/css/" >Code for Science &amp;amp; Society&lt;/a> is thrilled to welcome the
@@ -4426,12 +4506,12 @@ We hope that this update has been informative and interesting, and we welcome fe
 &lt;p>Achieving this mission will involve innovation at an infrastructure level, a business model level, and an open source community strategy level, and will be carried out over the coming years. 2i2c’s next steps are to run pilot JupyterHub infrastructure for select communities of practice in research and education, in order to better understand their needs and how these needs fit in with 2i2c’s developing sustainability model. They will also build infrastructure to deploy and customize a federation of JupyterHubs that are community-specific, and that run entirely on open source infrastructure.&lt;/p>
 &lt;p>If you believe that your community would benefit from a hub like this, please
 &lt;a href="https://2i2c.org/blog/css-announce/mailto:hello@2i2c.org" >reach out to the 2i2c team&lt;/a>, or
-&lt;a href="https://2i2c.org/#contact" target="_blank" rel="noopener" >join their mailing list&lt;/a>. Stay tuned as 2i2c builds its sustainable, scalable, and community-driven platform for interactive computing in the cloud.&lt;/p></description></item><item><title>Pilot hubs, new collaborations, and new team members - A six month update</title><link>https://2i2c.org/blog/six-month-update/</link><pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/six-month-update/</guid><description>&lt;p>It has been about six months since 2i2c first began operations (after receiving
+&lt;a href="https://2i2c.org/mailing-list/" >join their mailing list&lt;/a>. Stay tuned as 2i2c builds its sustainable, scalable, and community-driven platform for interactive computing in the cloud.&lt;/p></description></item><item><title>Pilot hubs, new collaborations, and new team members - A six month update</title><link>https://2i2c.org/blog/six-month-update/</link><pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/six-month-update/</guid><description>&lt;p>It has been about six months since 2i2c first began operations (after receiving
 &lt;a href="https://2i2c.org/blog/six-month-update/../czi-core-support" >funding from the Chan Zuckerberg Initiative&lt;/a>).
 In that time we&amp;rsquo;ve made progress along several directions, and wish to use this blog post to provide updates about the ways in which 2i2c has evolved over the first months of its existence.&lt;/p>
 &lt;p>Below are a few major updates from the 2i2c community - as always, if you want to learn more about 2i2c, keep an eye
 &lt;a href="https://2i2c.org/posts" >on our blog&lt;/a> or subscribe to the
-&lt;a href="https://2i2c.org/#contact" >2i2c mailing list&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/mailing-list/" >2i2c mailing list&lt;/a>.&lt;/p>
 &lt;h2 id="early-pilot-jupyterhub-infrastructure">
 Early pilot JupyterHub infrastructure
 &lt;a class="header-anchor" href="#early-pilot-jupyterhub-infrastructure">#&lt;/a>

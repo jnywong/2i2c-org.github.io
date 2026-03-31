@@ -1,4 +1,364 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>April joins the Jupyter Community Building Working Group</title><link>https://2i2c.org/blog/april-jupyter-community-building/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/april-jupyter-community-building/</guid><description>&lt;p>We&amp;rsquo;re pleased to share that our People Operations Lead,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Jenny Wong joins the JupyterHub team</title><link>https://2i2c.org/blog/jenny-jupyterhub-team/</link><pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jenny-jupyterhub-team/</guid><description>&lt;p>We&amp;rsquo;re excited to share that
+&lt;a href="https://2i2c.org/author/jenny-wong" >Jenny Wong&lt;/a> has been
+&lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >invited to join the JupyterHub team&lt;/a> as a contributor and maintainer.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_ddabf68fc6b2a28d89787f12bbfc15bf.webp 400w,
+/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_09171b0e8ae76f6336bbe904eb791b1e.webp 760w,
+/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_ddabf68fc6b2a28d89787f12bbfc15bf.webp"
+width="760"
+height="398"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Jenny&amp;rsquo;s contributions to
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> and
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >grafana-dashboards&lt;/a>, along with her active participation in project meetings and community planning, earned her this recognition from the JupyterHub community. Being invited to a project team means that existing team members have recognized a pattern of high-quality contributions and trust in a person&amp;rsquo;s ability to steward the project.&lt;/p>
+&lt;p>We&amp;rsquo;re particularly excited about this because our mission isn&amp;rsquo;t just about deploying infrastructure - it&amp;rsquo;s about being
+&lt;a href="https://2i2c.org/blog/good-citizen/" >good citizens&lt;/a> in the open source communities we depend on. We invest in upstream contributions, participate in community governance, and aim to build the kind of relationships that strengthen the whole ecosystem. When our team members are welcomed into upstream project teams, it&amp;rsquo;s a signal that we&amp;rsquo;re doing this well.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://compass.hub.jupyter.org/en/latest/team/structure.html" target="_blank" rel="noopener" >JupyterHub team compass&lt;/a> - how the team is structured and how new members are added&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >JupyterHub proposal to add Jenny to the team&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> and
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >grafana-dashboards&lt;/a> - projects Jenny contributes to&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>The
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> community for fostering an open and welcoming project culture&lt;/li>
+&lt;li>Support from our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> gives us the capacity to invest in upstream open source engagement and build relationships like this&lt;/li>
+&lt;/ul></description></item><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
+We commit to
+&lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and
+&lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
+As part of this effort, we&amp;rsquo;re shifting our strategy to
+&lt;a href="https://2i2c.org/blog/public-roadmap/../strategy-update-2026/" >lean more heavily into co-creation&lt;/a> with member communities and open source communities.&lt;/p>
+&lt;p>Today we&amp;rsquo;re excited to share a first step towards making our development process more participatory, transparent, and useful: &lt;strong>we&amp;rsquo;re opening up our initiatives roadmap&lt;/strong>.
+You can find it here:&lt;/p>
+&lt;p>👉
+&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >2i2c.org/roadmap&lt;/a>&lt;/p>
+&lt;p>You can find all of our roadmap initiatives in this GitHub repository (please comment and engage with us there!):&lt;/p>
+&lt;p>👉
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/initiatives&lt;/a>&lt;/p>
+&lt;p>Moving forward, the roadmap will be a key part of our
+&lt;a href="https://2i2c.org/membership/" >service to member organizations&lt;/a>.&lt;/p>
+&lt;h2 id="why-were-opening-up-our-roadmap">
+Why we&amp;rsquo;re opening up our roadmap
+&lt;a class="header-anchor" href="#why-were-opening-up-our-roadmap">#&lt;/a>
+&lt;/h2>&lt;p>At 2i2c,
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >initiatives drive most of our work&lt;/a>.
+They represent major chunks of value with multiple steps needed to implement and unlock it.
+They range from making core infrastructure improvements to our member network, to making upstream contributions that enable new functionality on behalf of our member communities.
+While initiatives are generally public, they are spread across many places, and we&amp;rsquo;ve managed their prioritization, sequencing, and refinement in internal team spaces.
+This made it difficult for others to follow along, signal-boost, and potentially support initiatives they wanted to see done.&lt;/p>
+&lt;p>For this reason, we decided to build a
+&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >public view of our initiatives roadmap&lt;/a>. This reflects our current team priorities and what is coming down the pipeline.&lt;/p>
+&lt;p>We&amp;rsquo;ve also put our platform initiatives in a
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >public repository&lt;/a>. This gives us a public space for member communities (or anybody else) to discuss, collaborate, and support ideas in the open.&lt;/p>
+&lt;p>By opening this up, we hope to accomplish these goals:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Make it easier for everyone to see and influence our priorities&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier for member organizations to fund or collaborate on work&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier for open source communities to see what&amp;rsquo;s driving our contributions&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier to give credit to member communities that fund work&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;p>In short, we want to &lt;strong>model what sustainable open development can look like&lt;/strong>.
+Our hope is that this will both create more transparency and trust with our stakeholder communities, and invite them to tell us how we can best use our team capacity.&lt;/p>
+&lt;h2 id="we-hope-to-use-a-shared-roadmap-to-funnel-more-resources-into-open-source">
+We hope to use a shared roadmap to funnel more resources into open source
+&lt;a class="header-anchor" href="#we-hope-to-use-a-shared-roadmap-to-funnel-more-resources-into-open-source">#&lt;/a>
+&lt;/h2>&lt;p>We also hope we can leverage this as a &lt;strong>shared roadmap across our member communities&lt;/strong> that helps focus our attention and drive fundraising for our work.
+To begin, we&amp;rsquo;re inviting any
+&lt;a href="https://2i2c.org/members/" >member community&lt;/a> to provide financial support for these items as a way to influence our timelines and priorities, and we&amp;rsquo;re exploring ways to facilitate fractional co-funding across our member communities to help share the cost of development across many organizations.&lt;/p>
+&lt;p>This is an early experiment in collaborative and radically transparent development, and we will iterate and learn as we get feedback from member communities.
+We&amp;rsquo;re excited to see where this goes!&lt;/p>
+&lt;p>Please
+&lt;a href="https://2i2c.org/blog/public-roadmap/mailto:hello@2i2c.org" >give feedback on this idea&lt;/a>. If you&amp;rsquo;re interested in being a member organization of 2i2c,
+&lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >reach out to us about membership&lt;/a>.&lt;/p></description></item><item><title>Introducing Jupyter Book 2 at FOSDEM 2026</title><link>https://2i2c.org/blog/fosdem-jupyter-book-2/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/fosdem-jupyter-book-2/</guid><description>&lt;p>Our teammate
+&lt;a href="https://2i2c.org/author/angus-hollands/" >Angus Hollands&lt;/a> gave a talk at FOSDEM 2026:
+&lt;a href="https://fosdem.org/2026/schedule/event/ZY9WYD-introducing-jb-2/" target="_blank" rel="noopener" >Introducing Jupyter Book 2&lt;/a>.&lt;/p>
+&lt;p>The talk shares why the Jupyter Book 2 and MyST stack was rebuilt, and how it supports open, reusable computational publishing workflows.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://video.fosdem.org/2026/aw1120/ZY9WYD-introducing-jb-2.mp4" target="_blank" rel="noopener" >Watch the recording&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://fosdem.org/2026/schedule/event/ZY9WYD-introducing-jb-2/" target="_blank" rel="noopener" >FOSDEM event page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;figure id="figure-slide-from-the-fosdem-2026-session-introducing-jupyter-book-2">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Slide from the FOSDEM 2026 session introducing Jupyter Book 2." srcset="
+/blog/fosdem-jupyter-book-2/featured_huebc44838a5457ae22511d566a17f4261_473619_db1e1bd0968e53a1ce9247cfc095769c.webp 400w,
+/blog/fosdem-jupyter-book-2/featured_huebc44838a5457ae22511d566a17f4261_473619_a782d8f5908a69ccd5d58fcf30c78105.webp 760w,
+/blog/fosdem-jupyter-book-2/featured_huebc44838a5457ae22511d566a17f4261_473619_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/fosdem-jupyter-book-2/featured_huebc44838a5457ae22511d566a17f4261_473619_db1e1bd0968e53a1ce9247cfc095769c.webp"
+width="760"
+height="383"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Slide from the FOSDEM 2026 session introducing Jupyter Book 2.
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://proceedings.scipy.org/articles/hwcj9957" target="_blank" rel="noopener" >Jupyter Book 2 and the MyST Document Stack (SciPy 2025 paper)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book documentation&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book" target="_blank" rel="noopener" >Jupyter Book on GitHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and to
+&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> for supporting deeper
+&lt;a href="https://2i2c.org/blog/fosdem-jupyter-book-2/../../2025/foundational-contributions/" >foundational contributions&lt;/a> like this in Jupyter Book.&lt;/li>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> team for helping out with slide creation and doing all the work Angus spoke about here!&lt;/li>
+&lt;/ul></description></item><item><title>Better sharing UX with nbgitpuller and contextual error handling</title><link>https://2i2c.org/blog/nbgitpuller-better-ux/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nbgitpuller-better-ux/</guid><description>
+&lt;h2 id="tldr">
+TL;DR
+&lt;a class="header-anchor" href="#tldr">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> now has improved UX context-aware error handling. Try out the pre-release
+&lt;a href="https://pypi.org/project/nbgitpuller/1.3.0b1/" target="_blank" rel="noopener" >version 1.3.0b1&lt;/a> and let us know what you think by opening an
+&lt;a href="https://github.com/jupyterhub/nbgitpuller/issues" target="_blank" rel="noopener" >issue&lt;/a> or via the feedback form below 🚀&lt;/p>
+&lt;h2 id="what-is-nbgitpuller">
+What is nbgitpuller?
+&lt;a class="header-anchor" href="#what-is-nbgitpuller">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> is a way to sync &lt;em>content&lt;/em> with &lt;em>compute&lt;/em> through the click of a link. Example use cases include:&lt;/p>
+&lt;ul>
+&lt;li>Interactive research demos, such as
+&lt;a href="https://elifesciences.org/reviewed-preprints/108089" target="_blank" rel="noopener" >Spyglass&lt;/a> (HHMI)&lt;/li>
+&lt;li>Workshops and training scenarios&lt;/li>
+&lt;li>University exams&lt;/li>
+&lt;/ul>
+&lt;p>In the case of
+&lt;a href="https://elifesciences.org/reviewed-preprints/108089" target="_blank" rel="noopener" >Spyglass&lt;/a>, the &lt;em>content&lt;/em> is
+&lt;a href="https://github.com/LorenFrankLab/spyglass-demo" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> LorenFrankLab/spyglass-demo&lt;/a> hosted on GitHub, the &lt;em>compute&lt;/em> is a 2i2c cloud hub hosted at
+&lt;a href="https://spyglass.hhmi.2i2c.cloud/" target="_blank" rel="noopener" >spyglass.hhmi.2i2c.cloud&lt;/a>, and by using the handy
+&lt;a href="https://nbgitpuller.readthedocs.io/en/latest/link.html" target="_blank" rel="noopener" >nbgitpuller link generator&lt;/a>, you can generate
+&lt;a href="https://spyglass.hhmi.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FLorenFrankLab%2Fspyglass-demo&amp;amp;urlpath=lab%2Ftree%2Fspyglass-demo%2Fnotebooks%2F00_HubQuickStart.ipynb&amp;amp;branch=main" target="_blank" rel="noopener" >this nbgitpuller link&lt;/a> to share with others to seamlessly explore content on the desired compute platform with the relevant data and toolchains installed.&lt;/p>
+&lt;h2 id="how-does-nbgitpuller-work">
+How does nbgitpuller work?
+&lt;a class="header-anchor" href="#how-does-nbgitpuller-work">#&lt;/a>
+&lt;/h2>&lt;p>&lt;code>nbgitpuller&lt;/code> is installed in the compute environment. The compute environment now has an &lt;code>/git-pull&lt;/code> endpoint URL that can understand where to pull content from using URL parameters. Syncing content critically depends on &lt;code>git&lt;/code> operations to &lt;code>fetch&lt;/code>, &lt;code>checkout&lt;/code>, &lt;code>clone&lt;/code>, &lt;code>merge&lt;/code>, &lt;code>commit&lt;/code>, etc.&lt;/p>
+&lt;h2 id="when-it-goes-wrong">
+When it goes wrong
+&lt;a class="header-anchor" href="#when-it-goes-wrong">#&lt;/a>
+&lt;/h2>&lt;p>Based on the data sent through by the kind folks running the Berkeley DataHub, there were 2163 logs available, of which:&lt;/p>
+&lt;ul>
+&lt;li>983 (45%) were ‘merge’ conflicts&lt;/li>
+&lt;li>493 (23%) were ‘fetch’ errors&lt;/li>
+&lt;li>467 (22%) were ‘ls-remote’ errors&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./errors_common.png" alt="Bar chart showing the most common errors users faced." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The remaining errors (10%) were mostly ‘checkout’ errors. This represents most &lt;strong>frequent&lt;/strong> errors as seen by students.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./errors_unique.png" alt="Bar chart showing the most unique errors link authors made." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>In the same set of logs, there were 172 &lt;strong>unique&lt;/strong> errors: most ‘ls-remote’ errors come from mistakes in the content repo URL. This represents most uniquely common errors made by instructors.&lt;/p>
+&lt;h2 id="merge-conflicts">
+Merge conflicts
+&lt;a class="header-anchor" href="#merge-conflicts">#&lt;/a>
+&lt;/h2>&lt;p>If the link author changes content after the link consumer clicked a link, then &lt;code>nbgitpuller&lt;/code> needs to sync updates for the consumer on subsequent link clicks. The &lt;code>nbgitpuller&lt;/code> merging strategy makes opinionated choices so that the link consumer &lt;em>never&lt;/em> has to interact with git, and will always preserve the consumer’s working changes.&lt;/p>
+&lt;p>Things can go wrong when&lt;/p>
+&lt;ul>
+&lt;li>Consumers can diverge the git history if they perform a git commit&lt;/li>
+&lt;li>Authors can diverge the git history if they perform force push commits&lt;/li>
+&lt;/ul>
+&lt;h2 id="error-ux-old">
+Error UX (old)
+&lt;a class="header-anchor" href="#error-ux-old">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./ux_old.png" alt="Old UX for merge errors" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Problems with the old UX include:&lt;/p>
+&lt;ul>
+&lt;li>a scary terminal&lt;/li>
+&lt;li>difficulty for the user to figure out what went wrong&lt;/li>
+&lt;li>no suggestion for the user to fix the problem or signpost to continue to the compute platform&lt;/li>
+&lt;/ul>
+&lt;h2 id="error-ux-new">
+Error UX (new)
+&lt;a class="header-anchor" href="#error-ux-new">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./ux_new.png" alt="New UX for merge errors" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>New improvements to the UX include:&lt;/p>
+&lt;ul>
+&lt;li>terminal closed by default, but you can optionally toggle this open&lt;/li>
+&lt;li>there is a copy to clipboard button to easily share the error log from the terminal&lt;/li>
+&lt;li>more user-friendly and context aware helper message is displayed&lt;/li>
+&lt;li>a link to the general documentation for reference&lt;/li>
+&lt;li>a &amp;lsquo;Proceed without syncing&amp;rsquo; button take the user to the compute platform without making any changes&lt;/li>
+&lt;li>in the case of merge errors an extra Backup and resync button option is presented&lt;/li>
+&lt;/ul>
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/nbgitpuller-better-ux/" target="_blank" rel="noopener" class="text-decoration-none">
+&lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
+&lt;div class="fw-bold mb-1">&lt;span style="font-weight:bold">Give us feedback!&lt;/span> Click here to provide feedback that will help us make this more impactful.&lt;/div>
+&lt;/div>
+&lt;/a>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://nbgitpuller.readthedocs.io/en/latest/" target="_blank" rel="noopener" >nbgitpuller documentation&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/initiatives/issues/22" target="_blank" rel="noopener" >Roadmap initiative&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a> and the
+&lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank Classroom&lt;/a> project&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/cal-icor/" >CAL ICOR&lt;/a> for co-funding&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/ericvd-ucb" target="_blank" rel="noopener" >Eric Van Dusen&lt;/a> and
+&lt;a href="https://github.com/sean-morris" target="_blank" rel="noopener" >Sean Morris&lt;/a> for championing this work&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/balajialg" target="_blank" rel="noopener" >Balaji Alwar&lt;/a> for providing the data and sharing feedback&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/nthiery" target="_blank" rel="noopener" >Nicolas M. Thiéry&lt;/a> for feedback on the UX design&lt;/li>
+&lt;/ul></description></item><item><title>New Jupyter Book / MyST stack release (Jan 2026)</title><link>https://2i2c.org/blog/jupyter-book-release-jan-2026/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-release-jan-2026/</guid><description>&lt;p>The MyST/Jupyter Book stack shipped new releases this week. Release pages:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/mystmd/releases/tag/mystmd%401.8.0" target="_blank" rel="noopener" >mystmd 1.8.0&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/releases/tag/myst-to-react%401.1.0" target="_blank" rel="noopener" >myst-theme 1.1.0&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book/releases/tag/v2.1.1" target="_blank" rel="noopener" >Jupyter Book 2.1.1&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="where-we-contributed">
+Where we contributed
+&lt;a class="header-anchor" href="#where-we-contributed">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;ve spent extra time lately trying to fix bugs and generally improve stability, reliability, and UX papercuts.
+Here are some of the things we focused on:&lt;/p>
+&lt;ul>
+&lt;li>Extra review time to get in
+&lt;a href="https://github.com/jupyter-book/mystmd/pull/2428" target="_blank" rel="noopener" >concurrent executions in mystmd&lt;/a>&lt;/li>
+&lt;li>Fixing broken edit URL logic so our community
+&lt;a href="https://github.com/jupyter-book/mystmd/pull/2642" target="_blank" rel="noopener" >&amp;ldquo;edit buttons&amp;rdquo; worked again&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/757" target="_blank" rel="noopener" >Standardized link styles&lt;/a> so users know what to expect from links&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/747" target="_blank" rel="noopener" >Added extra hover metadata for github issues and PRs&lt;/a> for communities that often link to their GitHub issues&lt;/li>
+&lt;li>Made all of these releases and wrote up the release notes!&lt;/li>
+&lt;/ul>
+&lt;p>Most of our contributions were foundational in nature - we fixed a bunch of bugs, did review on the PRs of others, and managed the release process itself. Check out the changelogs for more details!&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> - their memberships cover the cost of
+&lt;a href="https://2i2c.org/blog/jupyter-book-release-jan-2026/../../2025/foundational-contributions/" >foundational upstream contributions&lt;/a> to projects like these.&lt;/p>
+&lt;p>Particular thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> which currently supports much of our upstream contributions in Jupyter Book.&lt;/p></description></item><item><title>STRUDEL enables rapid scientific GUI prototyping in partnership with 2i2c</title><link>https://2i2c.org/blog/strudel-gui-prototyping/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strudel-gui-prototyping/</guid><description>
+&lt;h2 id="what-happened">
+What happened
+&lt;a class="header-anchor" href="#what-happened">#&lt;/a>
+&lt;/h2>&lt;p>The STRUDEL team hosted an all-day workshop with over thirty participants prototyping web applications using the
+&lt;a href="https://strudel.science/strudel-kit/docs/" target="_blank" rel="noopener" >STRUDEL Design System&lt;/a> and AI assistants in a custom hub environment designed and managed by 2i2c. By the end of the day, all of the participants had a working prototype that incorporated their own data (or dummy data) into complex flows facilitated by the STRUDEL Design System.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Workshop participants collaborating" srcset="
+/blog/strudel-gui-prototyping/featured_huf7e1e9dfd2ee4f5cb694679523c404fe_1392808_d79e01eeb4de68e376491e8331f0661d.webp 400w,
+/blog/strudel-gui-prototyping/featured_huf7e1e9dfd2ee4f5cb694679523c404fe_1392808_9dc864e86bb854f3f73993bb02c698f7.webp 760w,
+/blog/strudel-gui-prototyping/featured_huf7e1e9dfd2ee4f5cb694679523c404fe_1392808_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/strudel-gui-prototyping/featured_huf7e1e9dfd2ee4f5cb694679523c404fe_1392808_d79e01eeb4de68e376491e8331f0661d.webp"
+width="760"
+height="505"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>After a brief introduction to STRUDEL, participants were guided on setting up their personal coding environments using the STRUDEL Hub that 2i2c managed. The hub was configured to launch a unique code repository for each participant that was set up pre-workshop on the
+&lt;a href="https://github.com/strudel-workshops" target="_blank" rel="noopener" >strudel-workshops&lt;/a> GitHub organization.&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Having a startup environment was very nice, as often getting a good development environment set up is half the battle for smaller projects.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>The hub used
+&lt;a href="https://code.visualstudio.com/docs/editor/vscode-web" target="_blank" rel="noopener" >VS Code for the Web&lt;/a>, pre-configured with the
+&lt;a href="https://cline.bot/" target="_blank" rel="noopener" >Cline AI assistant extension&lt;/a>. Participants configured Cline with a shared API key generated by the STRUDEL team via
+&lt;a href="https://openrouter.ai/" target="_blank" rel="noopener" >OpenRouter&lt;/a>. OpenRouter enabled the team to load credits into a shared account and API key that, in turn, enabled participants to use premium models inside of Cline.&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Super easy to set up Cline in the VM, I appreciated that&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>The day was split up into four sprints during which participants worked on different parts of their user interface application, with the majority of the participants working entirely in the 2i2c environment.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Workshop activities and prototyping" srcset="
+/blog/strudel-gui-prototyping/group_hud46985bb8ec1b4e2211a99b454dbc197_2234570_27616d80785bb9a9ecaa0041aec2b1cf.webp 400w,
+/blog/strudel-gui-prototyping/group_hud46985bb8ec1b4e2211a99b454dbc197_2234570_d36ffd6cbf156fbeff3015eec70461d9.webp 760w,
+/blog/strudel-gui-prototyping/group_hud46985bb8ec1b4e2211a99b454dbc197_2234570_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/strudel-gui-prototyping/group_hud46985bb8ec1b4e2211a99b454dbc197_2234570_27616d80785bb9a9ecaa0041aec2b1cf.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;I just want to express my gratitude for such an awesome day today. The workshop was really well structured and facilitated, and I learned a lot. Thank you so much for letting me come!&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="why-were-excited-about-this">
+Why we&amp;rsquo;re excited about this
+&lt;a class="header-anchor" href="#why-were-excited-about-this">#&lt;/a>
+&lt;/h2>&lt;p>We think it&amp;rsquo;s a great example of setting up a complex environment once, and then providing rapid access to these environments via a centralized hub.&lt;/p>
+&lt;p>This setup accelerated prototyping by removing the burden of setting up a development environment. The setup enabled participants, many of whom had never coded a web application or used an AI coding assistant before, to work seamlessly towards the goals of their design and development projects. The work they produced may continue beyond the workshop and have an impact on scientific discovery and operations.&lt;/p>
+&lt;p>This setup is a valuable mechanism for encouraging people to build within a pre-existing design system. Being able to launch repositories that are preconfigured with design system tools and templates is a powerful way to promote the adoption of a design system and its embedded patterns and best practices.&lt;/p>
+&lt;p>It&amp;rsquo;s also an interesting example of &lt;strong>non-Jupyter interfaces&lt;/strong> orchestrated on a JupyterHub.
+The combination of VS Code for the Web, Cline, and OpenRouter represent a stack that can be easily transferable to other similar workshops.
+OpenRouter enabled the workshop team to manage the costs of AI usage entirely themselves.&lt;/p>
+&lt;p>In all, the participants and instructors were allowed to focus on their work instead of managing and setting up their infrastructure.&lt;/p>
+&lt;h2 id="links-to-learn-more">
+Links to learn more
+&lt;a class="header-anchor" href="#links-to-learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Learn more about the workshop on the STRUDEL website:
+&lt;a href="https://strudel.science/engage/news/10-23-2025-building-scientific-uis-with-strudel-and-ai-assistants/" target="_blank" rel="noopener" >strudel.science/engage/news/10-23-2025-building-scientific-uis-with-strudel-and-ai-assistants/&lt;/a>&lt;/li>
+&lt;li>Explore STRUDEL + AI assistant tips and tricks:
+&lt;a href="https://github.com/strudel-science/strudel-kit/blob/main/docs/docs/usage-with-ai.md" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> strudel-science/strudel-kit/blob/main/docs/docs/usage-with-ai.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>We would like to thank all workshop participants.
+&lt;a href="https://2i2c.org/collaborators/strudel/" >STRUDEL&lt;/a> is an open source project housed at the Berkeley Institute for Data Science (BIDS) at the University of California, Berkeley. The STRUDEL team includes members of the Lawrence Berkeley National Lab Scientific Data (SciData) Division UX team, Superbloom Design, The Carpentries, and 2i2c. The project is generously funded by the Alfred P. Sloan Foundation, Liz Vu &amp;amp; Josh Greenberg Program Officers, grants G-2022-19360, G-2023-21098, and G-2024-22557.&lt;/p></description></item><item><title>April joins the Jupyter Community Building Working Group</title><link>https://2i2c.org/blog/april-jupyter-community-building/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/april-jupyter-community-building/</guid><description>&lt;p>We&amp;rsquo;re pleased to share that our People Operations Lead,
 &lt;a href="https://2i2c.org/author/april-johnson/" >April Johnson&lt;/a>, has joined the
 &lt;a href="https://jupyter.org/governance/communitybuildingworkinggroup.html" target="_blank" rel="noopener" >Jupyter Community Building Working Group&lt;/a>!&lt;/p>
 &lt;p>This kind of work reflects how we think about
@@ -7007,7 +7367,7 @@ Where to follow along
 &lt;div class="about-us">
 &lt;blockquote>
 &lt;p>💡 Follow our work!
-&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a> for updates about 2i2c.
+&lt;a href="https://2i2c.org/mailing-list/" >Sign up for our mailing list&lt;/a> for updates about 2i2c.
 &lt;a href="https://2i2c.org/blog/czi-global-communities-announcement/mailto:hello@2i2c.org" >Send us an e-mail about collaborating or partnering&lt;/a> on a project.
 See our
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a> or our
@@ -8384,7 +8744,7 @@ Get involved
 &lt;/h2>&lt;p>Thanks for your interest in 2i2c and the mission that it hopes to accomplish.
 We hope that this update has been informative and interesting, and we welcome feedback about any of the information provided. If you&amp;rsquo;d like to help with any of the challenges or efforts described above, we welcome all forms of collaboration, and are happy to chat. Please drop us a line at
 &lt;a href="https://2i2c.org/blog/2021-q3-update/mailto:hello@2i2c.org" >&lt;code>hello@2i2c.org&lt;/code>&lt;/a> or
-&lt;a href="https://2i2c.org/#contact" target="_blank" rel="noopener" >contact us about joining our Slack community&lt;/a>. Thanks for reading!&lt;/p></description></item><item><title>2i2c launches next phase in partnership with CS&amp;S</title><link>https://2i2c.org/blog/css-announce/</link><pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/css-announce/</guid><description>&lt;p>&lt;em>This post was originally written for the
+&lt;a href="https://2i2c.org/blog/2021-q3-update/mailto:hello@2i2c.org" >contact us about joining our Slack community&lt;/a>. Thanks for reading!&lt;/p></description></item><item><title>2i2c launches next phase in partnership with CS&amp;S</title><link>https://2i2c.org/blog/css-announce/</link><pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/css-announce/</guid><description>&lt;p>&lt;em>This post was originally written for the
 &lt;a href="https://blog.codeforscience.org/" target="_blank" rel="noopener" >&lt;strong>CS&amp;amp;S blog&lt;/strong>&lt;/a>.&lt;/em>&lt;/p>
 &lt;p>
 &lt;a href="https://2i2c.org/collaborators/css/" >Code for Science &amp;amp; Society&lt;/a> is thrilled to welcome the
@@ -8402,12 +8762,12 @@ We hope that this update has been informative and interesting, and we welcome fe
 &lt;p>Achieving this mission will involve innovation at an infrastructure level, a business model level, and an open source community strategy level, and will be carried out over the coming years. 2i2c’s next steps are to run pilot JupyterHub infrastructure for select communities of practice in research and education, in order to better understand their needs and how these needs fit in with 2i2c’s developing sustainability model. They will also build infrastructure to deploy and customize a federation of JupyterHubs that are community-specific, and that run entirely on open source infrastructure.&lt;/p>
 &lt;p>If you believe that your community would benefit from a hub like this, please
 &lt;a href="https://2i2c.org/blog/css-announce/mailto:hello@2i2c.org" >reach out to the 2i2c team&lt;/a>, or
-&lt;a href="https://2i2c.org/#contact" target="_blank" rel="noopener" >join their mailing list&lt;/a>. Stay tuned as 2i2c builds its sustainable, scalable, and community-driven platform for interactive computing in the cloud.&lt;/p></description></item><item><title>Pilot hubs, new collaborations, and new team members - A six month update</title><link>https://2i2c.org/blog/six-month-update/</link><pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/six-month-update/</guid><description>&lt;p>It has been about six months since 2i2c first began operations (after receiving
+&lt;a href="https://2i2c.org/mailing-list/" >join their mailing list&lt;/a>. Stay tuned as 2i2c builds its sustainable, scalable, and community-driven platform for interactive computing in the cloud.&lt;/p></description></item><item><title>Pilot hubs, new collaborations, and new team members - A six month update</title><link>https://2i2c.org/blog/six-month-update/</link><pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/six-month-update/</guid><description>&lt;p>It has been about six months since 2i2c first began operations (after receiving
 &lt;a href="https://2i2c.org/blog/six-month-update/../czi-core-support" >funding from the Chan Zuckerberg Initiative&lt;/a>).
 In that time we&amp;rsquo;ve made progress along several directions, and wish to use this blog post to provide updates about the ways in which 2i2c has evolved over the first months of its existence.&lt;/p>
 &lt;p>Below are a few major updates from the 2i2c community - as always, if you want to learn more about 2i2c, keep an eye
 &lt;a href="https://2i2c.org/posts" >on our blog&lt;/a> or subscribe to the
-&lt;a href="https://2i2c.org/#contact" >2i2c mailing list&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/mailing-list/" >2i2c mailing list&lt;/a>.&lt;/p>
 &lt;h2 id="early-pilot-jupyterhub-infrastructure">
 Early pilot JupyterHub infrastructure
 &lt;a class="header-anchor" href="#early-pilot-jupyterhub-infrastructure">#&lt;/a>
@@ -8776,7 +9136,9 @@ Acknowledgements
 &lt;a href="http://www.icsi.berkeley.edu/" target="_blank" rel="noopener" >International Computer Science Institute&lt;/a>, a 501(c)(3) charitable organization. We thank ICSI for its collaboration and leadership in launching 2i2c!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>The Community Right to Replicate</title><link>https://2i2c.org/right-to-replicate/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://2i2c.org/right-to-replicate/</guid><description>&lt;p>The Right to Replicate gives communities the right to &lt;strong>replicate their infrastructure in its entirety elsewhere, with or without 2i2c&lt;/strong>.&lt;/p>
+&lt;/div></description></item><item><title>The Community Right to Replicate</title><link>https://2i2c.org/right-to-replicate/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://2i2c.org/right-to-replicate/</guid><description>&lt;p>&lt;em>This is part of
+&lt;a href="https://2i2c.org/open-practices/" >our open practices&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>The Right to Replicate gives communities the right to &lt;strong>replicate their infrastructure in its entirety elsewhere, with or without 2i2c&lt;/strong>.&lt;/p>
 &lt;p>This document describes 2i2c’s commitment to a community&amp;rsquo;s “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c. We make these commitments because we believe that using infrastructure that follows these principles will lead to a more fair, just, equitable world. We also believe they are the right foundation for more productive and impactful research and education.&lt;/p>
 &lt;p>2i2c is committed to running its own infrastructure on open-source tools and vendor-agnostic infrastructure, though it does not &lt;em>force&lt;/em> users to use only open-source tools in their own environments, code, and data. Below is a table describing how the Right to Replicate fits into 2i2c hub technology.&lt;/p>
 &lt;p>(Definitions of &lt;code>MUST&lt;/code>, &lt;code>MUST NOT&lt;/code>, &lt;code>SHOULD&lt;/code>, &lt;code>MAY&lt;/code>, etc are defined in
@@ -8934,78 +9296,30 @@ How we are funded
 &lt;a class="header-anchor" href="#how-we-are-funded">#&lt;/a>
 &lt;/h1>&lt;p>To sustain and grow our operations, 2i2c receives funding from the following sources:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Revenue from managed services&lt;/strong>. We build self-sustaining cloud services that generate revenue through management and support contracts. See
-&lt;a href="https://2i2c.org/platform/" >our services page&lt;/a> for more information.&lt;/li>
-&lt;li>&lt;strong>Project-focused grants&lt;/strong>. We lead and collaborate on several projects that involve developing and supporting infrastructure for research and education. See
-&lt;a href="https://2i2c.org/projects" >our projects page&lt;/a> for more information.&lt;/li>
-&lt;li>&lt;strong>Core organizational support&lt;/strong>. We raise core funding that covers the costs of strategically-critical roles that are not easily linked to specific deliverables and contracts.&lt;/li>
+&lt;li>&lt;strong>Membership&lt;/strong> - Communities join 2i2c&amp;rsquo;s network to collaborate with our team and
+&lt;a href="https://2i2c.org/members/" >peer organizations&lt;/a>, pool resources toward shared open source needs, and help drive the direction of the tools that research depends on. It includes managed open infrastructure via our
+&lt;a href="https://2i2c.org/platform/" >community hub platform&lt;/a>. See
+&lt;a href="https://2i2c.org/membership/" >our membership page&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Co-funded development projects&lt;/strong> - Members and funders invest in specific development work that addresses shared infrastructure challenges on
+&lt;a href="https://2i2c.org/roadmap/" target="_blank" rel="noopener" >our roadmap&lt;/a>, with improvements flowing back upstream to the open source communities we all rely on.&lt;/li>
+&lt;li>&lt;strong>Core organizational support&lt;/strong> - We raise philanthropic funding to cover core organizational costs. Our long-term goal is to fund operations entirely through the membership and co-development flywheel, and we&amp;rsquo;re actively working toward that.&lt;/li>
 &lt;/ul>
 &lt;div class="alert alert-">
 &lt;div>
-&lt;p>
-&lt;p>&lt;a href="https://compass.2i2c.org/finance/strategy" target="_blank" rel="noopener" >2i2c’s Financial and Sustainability Strategy page&lt;/a> has our full financial sustainability strategy.&lt;/p>&lt;/p>
-&lt;p>
-&lt;p>&lt;a href="https://2i2c.org/kpis/finances" target="_blank" rel="noopener" >Our accounting dashboards&lt;/a> have all our latest costs and revenue.&lt;/p>&lt;/p>
+&lt;a href="https://compass.2i2c.org/organization/service-model/" target="_blank" rel="noopener" >Our service model&lt;/a> describes how membership and co-funded projects work together.
 &lt;/div>
 &lt;/div>
-&lt;h2 id="major-sources-of-funding">
-Major sources of funding
-&lt;a class="header-anchor" href="#major-sources-of-funding">#&lt;/a>
-&lt;/h2>&lt;!-- This is in layouts/shortcodes/list-funders.html -->
-&lt;style>
-.funding-sources img {
-border-radius: .25rem;
-}
-&lt;/style>
-&lt;div class="funding-sources">
-&lt;div class="row py-3">
-&lt;div class="col-2">
-&lt;img src="https://2i2c.org/blog/2024/funding-czi/images/czi-logo.png" />
-&lt;/div>
-&lt;div class="col-10">
-&lt;p>The
-&lt;a href="https://chanzuckerberg.com/eoss/" target="_blank" rel="noopener" >Chan Zuckerberg Initiative &lt;/a> has supported 2i2c with three awards over 2i2c's lifetime. In 2020, we received
-&lt;a href="https://2i2c.org/blog/czi-core-support/" >~$1.4m over 3 years&lt;/a> to support capacity building in the Jupyter ecosystem for research and education. In 2022, we received
-&lt;a href="https://2i2c.org/blog/czi-global-communities-announcement/" >~$800K over two years&lt;/a> to serve open cloud infrastructure to communities in Latin America and Africa. In 2024, we received
-&lt;a href="https://2i2c.org/blog/funding-czi/" >~700K over one year&lt;/a> for core organizational support for 2i2c's mission.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;div class="row py-3">
-&lt;div class="col-2">
-&lt;img src="https://2i2c.org/blog/2024/funding-navigation/images/tnf-logo.png" />
-&lt;/div>
-&lt;div class="col-10">
-&lt;p>In 2024, we received
-&lt;a href="https://2i2c.org/blog/funding-navigation/" >~$1.5M over 2 years from The Navigation Fund&lt;/a> to identify and build a scalable sustainability model for 2i2c.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;div class="row py-3">
-&lt;div class="col-2">
-&lt;img src="https://repository-images.githubusercontent.com/101820659/4fcdfc00-6c25-11e9-9e30-33a31a285450" />
-&lt;/div>
-&lt;div class="col-10">
-&lt;p>In 2020, we received
-&lt;a href="https://2i2c.org/blog/pangeo-goes-live/" >$500,000 over two years&lt;/a> from
-&lt;a href="https://medium.com/pangeo/announcing-the-climate-data-science-lab-funded-by-the-moore-foundation-4bc4314ac02d" target="_blank" rel="noopener" >the Climate Data Lab&lt;/a> at Columbia University for managing and developing cloud infrastructure for
-&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >the Pangeo Project&lt;/a>.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;div class="row py-3">
-&lt;div class="col-2">
-&lt;img src="https://investinopen.org/content/images/2020/09/ioi-logo-sq-1.png" />
-&lt;/div>
-&lt;div class="col-10">
-&lt;p>
-&lt;a href="https://investinopen.org" target="_blank" rel="noopener" >Invest in Open Infrastructure&lt;/a> along with
-&lt;a href="https://jrost.org" target="_blank" rel="noopener" >Joint Roadmap for Open Science Tools&lt;/a> awarded 2i2c
-&lt;a href="https://investinopen.org/blog/jrost-rapid-response-fund-awardees/" target="_blank" rel="noopener" >a $5,000 grant&lt;/a> to fund JupyterHub cloud infrastructure for projects that did not have their own cloud funding.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title/><link>https://2i2c.org/open-technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-technology/</guid><description>
+&lt;h2 id="our-funders-and-collaborators">
+Our funders and collaborators
+&lt;a class="header-anchor" href="#our-funders-and-collaborators">#&lt;/a>
+&lt;/h2>&lt;p>See our
+&lt;a href="https://2i2c.org/collaborators/" >collaborators and funders page&lt;/a> for a full list of organizations that have supported 2i2c. You can filter by &lt;strong>Funders&lt;/strong> to see philanthropic supporters specifically.&lt;/p></description></item><item><title/><link>https://2i2c.org/open-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-practices/</guid><description/></item><item><title/><link>https://2i2c.org/open-technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-technology/</guid><description>
 &lt;h1 id="our-commitment-to-open-technology">
 Our commitment to open technology
 &lt;a class="header-anchor" href="#our-commitment-to-open-technology">#&lt;/a>
-&lt;/h1>&lt;p>This page describes 2i2c&amp;rsquo;s commitment to developing and contributing to infrastructure that is open source now and into the future. More context can be found
+&lt;/h1>&lt;p>&lt;em>This is part of
+&lt;a href="https://2i2c.org/open-practices/" >our open practices&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>This page describes 2i2c&amp;rsquo;s commitment to developing and contributing to infrastructure that is open source now and into the future. More context can be found
 &lt;a href="https://2i2c.org/blog/community-ownership/" >in this blog post&lt;/a>.&lt;/p>
 &lt;p>&lt;em>Definitions of MUST, MUST NOT, SHOULD, MAY, etc are defined in
 &lt;a href="https://tools.ietf.org/html/rfc2119" target="_blank" rel="noopener" >RFC 2119&lt;/a>&lt;/em>&lt;/p>
@@ -9110,7 +9424,28 @@ Grants from this funder
 &lt;a href="https://2i2c.org/blog/funding-czi/" >Support from CZI to sustain 2i2c&amp;rsquo;s mission&lt;/a> - ~$700K over one year for continued operations&lt;/li>
 &lt;li>&lt;strong>CZI Global Communities Grant (2022)&lt;/strong>:
 &lt;a href="https://2i2c.org/blog/czi-global-communities-announcement/" >New project: Open science cloud infrastructure and training for communities in Latin America and Africa&lt;/a> - Support for international collaborative programs&lt;/li>
-&lt;/ul></description></item><item><title>Cloudbank</title><link>https://2i2c.org/collaborators/cloudbank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/cloudbank/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>Cloudbank</title><link>https://2i2c.org/collaborators/cal-icor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/cal-icor/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/collaborators/cal-icor/featured_hu8173cb96b7d0e6cf6d062ed5813a28e1_42417_b85a05696623e4aee486ee47c7c68767.webp 400w,
+/collaborators/cal-icor/featured_hu8173cb96b7d0e6cf6d062ed5813a28e1_42417_3bf104ac5b9a5b9ed2fb6e53da2dec9c.webp 760w,
+/collaborators/cal-icor/featured_hu8173cb96b7d0e6cf6d062ed5813a28e1_42417_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/cal-icor/featured_hu8173cb96b7d0e6cf6d062ed5813a28e1_42417_b85a05696623e4aee486ee47c7c68767.webp"
+width="760"
+height="498"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;a href="https://www.cal-icor.org/" target="_blank" rel="noopener" >CAL-ICOR&lt;/a> is a &amp;ldquo;Browser-based Interactive Programming and Data Science Platform for Every California Student&amp;rdquo;. It gives educators and institutions a shared, scalable JupyterHub platform that removes hardware barriers, supports modern data science instruction, and expands access across the state.&lt;/p>
+&lt;p>From their website:&lt;/p>
+&lt;blockquote>
+&lt;p>The California Interactive Computing Open Resource (Cal-ICOR) initiative is a statewide effort to expand high-quality, accessible data science education across the University of California, California State University, and California Community College systems. Led by UC Berkeley and supported by the California Education Learning Lab, Cal-ICOR builds shared infrastructure, curriculum, and instructor support that lower the barriers to offering data-enabled learning, no matter the size, resources, or technical capacity of an institution.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Our mission is simple: ensure that every student in California has access to the tools, skills, and learning environments that prepare them for data-rich careers and civic participation.&lt;/p>
+&lt;/blockquote></description></item><item><title>Cloudbank</title><link>https://2i2c.org/collaborators/cloudbank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/cloudbank/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
@@ -9123,7 +9458,9 @@ height="88"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;p>Cloudbank enables and provides &amp;ldquo;anaged Services to Simplify Cloud Access for Computer Science Research and Education&amp;rdquo;.&lt;/p></description></item><item><title>Code for Science and Society</title><link>https://2i2c.org/collaborators/css/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/css/</guid><description>&lt;p>
+&lt;p>Cloudbank enables and provides &amp;ldquo;anaged Services to Simplify Cloud Access for Computer Science Research and Education&amp;rdquo;.&lt;/p>
+&lt;p>In particular, the
+&lt;a href="https://www.cloudbank.org/training/access-cloudbank-classroom" target="_blank" rel="noopener" >CloudBank Classroom&lt;/a> project is driving a lot of collaboration with 2i2c via our shared work on JupyterHubs for education.&lt;/p></description></item><item><title>Code for Science and Society</title><link>https://2i2c.org/collaborators/css/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/css/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
@@ -9479,15 +9816,17 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;li>Announcements from the open source and open science communities.&lt;/li>
 &lt;li>Guidance for how you can help our open science and open source network.&lt;/li>
 &lt;/ul>
-&lt;p>To sign up, just provide some basic information below:&lt;/p>
-&lt;style>
-iframe.ml-iframe {
-width: 100%;
-border: none;
-height: 100vh;
-}
-&lt;/style>
-&lt;iframe class="ml-iframe" src="https://2i2c.us2.list-manage.com/subscribe?u=494ab59616acdfc381a699b44&amp;id=94ce07e556">&lt;/iframe></description></item><item><title>Jupyter Book</title><link>https://2i2c.org/collaborators/jupyter-book/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/jupyter-book/</guid><description>&lt;p>
+&lt;p>To sign up, &lt;strong>subscribe below&lt;/strong>:&lt;/p>
+&lt;form
+action="https://buttondown.com/api/emails/embed-subscribe/2i2c"
+method="post"
+class="embeddable-buttondown-form"
+referrerpolicy="unsafe-url"
+>
+&lt;label for="bd-email">Enter your email&lt;/label>
+&lt;input type="email" name="email" id="bd-email" />
+&lt;input type="submit" value="Subscribe" />
+&lt;/form></description></item><item><title>Jupyter Book</title><link>https://2i2c.org/collaborators/jupyter-book/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/jupyter-book/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
@@ -9544,7 +9883,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://numfocus.org" target="_blank" rel="noopener" >NumFOCUS&lt;/a> is a nonprofit organization that serves as a fiscal sponsor for open source scientific computing tools in Python, R, and Julia.&lt;/p></description></item><item><title>Open practices at 2i2c</title><link>https://2i2c.org/open-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-practices/</guid><description/></item><item><title>Openscapes</title><link>https://2i2c.org/collaborators/openscapes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/openscapes/</guid><description>&lt;p>
+&lt;a href="https://numfocus.org" target="_blank" rel="noopener" >NumFOCUS&lt;/a> is a nonprofit organization that serves as a fiscal sponsor for open source scientific computing tools in Python, R, and Julia.&lt;/p></description></item><item><title>Openscapes</title><link>https://2i2c.org/collaborators/openscapes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/openscapes/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
@@ -9567,7 +9906,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://2i2c.org/blog/good-citizen/" >Directed and Foundational open source contributions&lt;/a>.&lt;/em>&lt;/p>
 &lt;ul class="cta-group">
 &lt;li>
-&lt;a href="https://2i2c.org/join/" class="btn btn-primary px-3 py-3">Join our member network&lt;/a>
+&lt;a href="https://2i2c.org/membership/" class="btn btn-primary px-3 py-3">Learn about membership&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;div class="container-fluid py-5">
@@ -9595,6 +9934,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://bmcc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/borough_of_manhattan_community_college_cuny.png" alt="Borough of Manhattan Community College, CUNY" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Borough of Manhattan Community College, CUNY&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://humboldt.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/cal_poly_humboldt.png" alt="Cal Poly Humboldt" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Cal Poly Humboldt&lt;/small>
@@ -9605,9 +9954,9 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.af.catalystproject.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/catalyst_project.png" alt="Catalyst Project" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Catalyst Project&lt;/small>
+&lt;a href="https://cmu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/carnegie_mellon_university.png" alt="Carnegie Mellon University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Carnegie Mellon University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9675,6 +10024,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://cra.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/computing_research_association.png" alt="Computing Research Association" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Computing Research Association&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://csum.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/csu_maritime.svg" alt="CSU Maritime" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">CSU Maritime&lt;/small>
@@ -9688,6 +10047,26 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://dvc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/diablo_valley_college.png" alt="Diablo Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Diablo Valley College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://elac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/east_los_angeles_college.svg" alt="East Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">East Los Angeles College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://etsu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/east_tennessee_state_university.png" alt="East Tennessee State University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">East Tennessee State University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9748,6 +10127,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://golden.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/golden_west_college.png" alt="Golden West College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Golden West College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://hmc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/harvey_mudd_college.png" alt="Harvey Mudd College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Harvey Mudd College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9825,6 +10214,36 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://lacc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/los_angeles_city_college.svg" alt="Los Angeles City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Los Angeles City College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://lahc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/los_angeles_harbor_college.svg" alt="Los Angeles Harbor College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Los Angeles Harbor College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://lavc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/los_angeles_valley_college.svg" alt="Los Angeles Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Los Angeles Valley College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://mendocino.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/mendocino_college.png" alt="Mendocino College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Mendocino College&lt;/small>
@@ -9865,29 +10284,19 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://must.af.catalystproject.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/must.png" alt="MUST" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">MUST&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://staging.nmfs-openscapes.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/noaa_fisheries_openscapes.png" alt="NOAA Fisheries Openscapes" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">NOAA Fisheries Openscapes&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://ocu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/oakland_city_university.svg" alt="Oakland City University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Oakland City University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -10015,9 +10424,9 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://skyline.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/skyline_college.png" alt="Skyline College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Skyline College&lt;/small>
+&lt;a href="https://spelman.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/spelman_college.png" alt="Spelman College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Spelman College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -10025,9 +10434,9 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://spelman.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/spelman_college.png" alt="Spelman College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Spelman College&lt;/small>
+&lt;a href="https://stanford.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/stanford_university.png" alt="Stanford University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Stanford University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -10048,16 +10457,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://tuskegee.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/tuskegee_university.png" alt="Tuskegee University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Tuskegee University&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.ubc-eoas.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/ubc_eoas.jpg" alt="UBC EOAS" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">UBC EOAS&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -10105,9 +10504,29 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://und.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/university_of_north_dakota.jpg" alt="University of North Dakota" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">University of North Dakota&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://virginia.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_virginia.png" alt="University of Virginia" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of Virginia&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://wlac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/west_los_angeles_college.svg" alt="West Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">West Los Angeles College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -10170,7 +10589,24 @@ Grants that fund this project
 &lt;a class="header-anchor" href="#grants-that-fund-this-project">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>NSF award 2324302&lt;/li>
-&lt;/ul></description></item><item><title>The Catalyst Project</title><link>https://2i2c.org/collaborators/catalyst/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/catalyst/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>STRUDEL</title><link>https://2i2c.org/collaborators/strudel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/strudel/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/collaborators/strudel/featured_huf4df1be5acaf0713e5588d7ca24046b5_5105_16d1c338900e9245b87133e00add86f1.webp 400w,
+/collaborators/strudel/featured_huf4df1be5acaf0713e5588d7ca24046b5_5105_afeca73b6ed86b9b2acb70b3eff6a635.webp 760w,
+/collaborators/strudel/featured_huf4df1be5acaf0713e5588d7ca24046b5_5105_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/strudel/featured_huf4df1be5acaf0713e5588d7ca24046b5_5105_16d1c338900e9245b87133e00add86f1.webp"
+width="760"
+height="118"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;a href="https://strudel.science/" target="_blank" rel="noopener" >STRUDEL&lt;/a> is an open source project creating and stewarding resources to enable more usable scientific software experiences.&lt;/p>
+&lt;p>It is housed at the
+&lt;a href="https://2i2c.org/collaborators/strudel/../bids/" >Berkeley Institute for Data Science&lt;/a> (BIDS) at the University of California, Berkeley. The STRUDEL team includes members of the Lawrence Berkeley National Lab Scientific Data (SciData) Division UX team, Superbloom Design, The Carpentries, and 2i2c.&lt;/p>
+&lt;p>STRUDEL project is generously funded by the Alfred P. Sloan Foundation, Liz Vu &amp;amp; Josh Greenberg Program Officers, grants G-2022-19360, G-2023-21098, and G-2024-22557.&lt;/p></description></item><item><title>The Catalyst Project</title><link>https://2i2c.org/collaborators/catalyst/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/catalyst/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="

@@ -1,4 +1,163 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>April joins the Jupyter Community Building Working Group</title><link>https://2i2c.org/blog/april-jupyter-community-building/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/april-jupyter-community-building/</guid><description>&lt;p>We&amp;rsquo;re pleased to share that our People Operations Lead,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>Jenny Wong joins the JupyterHub team</title><link>https://2i2c.org/blog/jenny-jupyterhub-team/</link><pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jenny-jupyterhub-team/</guid><description>&lt;p>We&amp;rsquo;re excited to share that
+&lt;a href="https://2i2c.org/author/jenny-wong" >Jenny Wong&lt;/a> has been
+&lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >invited to join the JupyterHub team&lt;/a> as a contributor and maintainer.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_ddabf68fc6b2a28d89787f12bbfc15bf.webp 400w,
+/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_09171b0e8ae76f6336bbe904eb791b1e.webp 760w,
+/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_ddabf68fc6b2a28d89787f12bbfc15bf.webp"
+width="760"
+height="398"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Jenny&amp;rsquo;s contributions to
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> and
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >grafana-dashboards&lt;/a>, along with her active participation in project meetings and community planning, earned her this recognition from the JupyterHub community. Being invited to a project team means that existing team members have recognized a pattern of high-quality contributions and trust in a person&amp;rsquo;s ability to steward the project.&lt;/p>
+&lt;p>We&amp;rsquo;re particularly excited about this because our mission isn&amp;rsquo;t just about deploying infrastructure - it&amp;rsquo;s about being
+&lt;a href="https://2i2c.org/blog/good-citizen/" >good citizens&lt;/a> in the open source communities we depend on. We invest in upstream contributions, participate in community governance, and aim to build the kind of relationships that strengthen the whole ecosystem. When our team members are welcomed into upstream project teams, it&amp;rsquo;s a signal that we&amp;rsquo;re doing this well.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://compass.hub.jupyter.org/en/latest/team/structure.html" target="_blank" rel="noopener" >JupyterHub team compass&lt;/a> - how the team is structured and how new members are added&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >JupyterHub proposal to add Jenny to the team&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> and
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >grafana-dashboards&lt;/a> - projects Jenny contributes to&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>The
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> community for fostering an open and welcoming project culture&lt;/li>
+&lt;li>Support from our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> gives us the capacity to invest in upstream open source engagement and build relationships like this&lt;/li>
+&lt;/ul></description></item><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
+We commit to
+&lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and
+&lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
+As part of this effort, we&amp;rsquo;re shifting our strategy to
+&lt;a href="https://2i2c.org/blog/public-roadmap/../strategy-update-2026/" >lean more heavily into co-creation&lt;/a> with member communities and open source communities.&lt;/p>
+&lt;p>Today we&amp;rsquo;re excited to share a first step towards making our development process more participatory, transparent, and useful: &lt;strong>we&amp;rsquo;re opening up our initiatives roadmap&lt;/strong>.
+You can find it here:&lt;/p>
+&lt;p>👉
+&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >2i2c.org/roadmap&lt;/a>&lt;/p>
+&lt;p>You can find all of our roadmap initiatives in this GitHub repository (please comment and engage with us there!):&lt;/p>
+&lt;p>👉
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/initiatives&lt;/a>&lt;/p>
+&lt;p>Moving forward, the roadmap will be a key part of our
+&lt;a href="https://2i2c.org/membership/" >service to member organizations&lt;/a>.&lt;/p>
+&lt;h2 id="why-were-opening-up-our-roadmap">
+Why we&amp;rsquo;re opening up our roadmap
+&lt;a class="header-anchor" href="#why-were-opening-up-our-roadmap">#&lt;/a>
+&lt;/h2>&lt;p>At 2i2c,
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >initiatives drive most of our work&lt;/a>.
+They represent major chunks of value with multiple steps needed to implement and unlock it.
+They range from making core infrastructure improvements to our member network, to making upstream contributions that enable new functionality on behalf of our member communities.
+While initiatives are generally public, they are spread across many places, and we&amp;rsquo;ve managed their prioritization, sequencing, and refinement in internal team spaces.
+This made it difficult for others to follow along, signal-boost, and potentially support initiatives they wanted to see done.&lt;/p>
+&lt;p>For this reason, we decided to build a
+&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >public view of our initiatives roadmap&lt;/a>. This reflects our current team priorities and what is coming down the pipeline.&lt;/p>
+&lt;p>We&amp;rsquo;ve also put our platform initiatives in a
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >public repository&lt;/a>. This gives us a public space for member communities (or anybody else) to discuss, collaborate, and support ideas in the open.&lt;/p>
+&lt;p>By opening this up, we hope to accomplish these goals:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Make it easier for everyone to see and influence our priorities&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier for member organizations to fund or collaborate on work&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier for open source communities to see what&amp;rsquo;s driving our contributions&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier to give credit to member communities that fund work&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;p>In short, we want to &lt;strong>model what sustainable open development can look like&lt;/strong>.
+Our hope is that this will both create more transparency and trust with our stakeholder communities, and invite them to tell us how we can best use our team capacity.&lt;/p>
+&lt;h2 id="we-hope-to-use-a-shared-roadmap-to-funnel-more-resources-into-open-source">
+We hope to use a shared roadmap to funnel more resources into open source
+&lt;a class="header-anchor" href="#we-hope-to-use-a-shared-roadmap-to-funnel-more-resources-into-open-source">#&lt;/a>
+&lt;/h2>&lt;p>We also hope we can leverage this as a &lt;strong>shared roadmap across our member communities&lt;/strong> that helps focus our attention and drive fundraising for our work.
+To begin, we&amp;rsquo;re inviting any
+&lt;a href="https://2i2c.org/members/" >member community&lt;/a> to provide financial support for these items as a way to influence our timelines and priorities, and we&amp;rsquo;re exploring ways to facilitate fractional co-funding across our member communities to help share the cost of development across many organizations.&lt;/p>
+&lt;p>This is an early experiment in collaborative and radically transparent development, and we will iterate and learn as we get feedback from member communities.
+We&amp;rsquo;re excited to see where this goes!&lt;/p>
+&lt;p>Please
+&lt;a href="https://2i2c.org/blog/public-roadmap/mailto:hello@2i2c.org" >give feedback on this idea&lt;/a>. If you&amp;rsquo;re interested in being a member organization of 2i2c,
+&lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >reach out to us about membership&lt;/a>.&lt;/p></description></item><item><title>STRUDEL enables rapid scientific GUI prototyping in partnership with 2i2c</title><link>https://2i2c.org/blog/strudel-gui-prototyping/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strudel-gui-prototyping/</guid><description>
+&lt;h2 id="what-happened">
+What happened
+&lt;a class="header-anchor" href="#what-happened">#&lt;/a>
+&lt;/h2>&lt;p>The STRUDEL team hosted an all-day workshop with over thirty participants prototyping web applications using the
+&lt;a href="https://strudel.science/strudel-kit/docs/" target="_blank" rel="noopener" >STRUDEL Design System&lt;/a> and AI assistants in a custom hub environment designed and managed by 2i2c. By the end of the day, all of the participants had a working prototype that incorporated their own data (or dummy data) into complex flows facilitated by the STRUDEL Design System.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Workshop participants collaborating" srcset="
+/blog/strudel-gui-prototyping/featured_huf7e1e9dfd2ee4f5cb694679523c404fe_1392808_d79e01eeb4de68e376491e8331f0661d.webp 400w,
+/blog/strudel-gui-prototyping/featured_huf7e1e9dfd2ee4f5cb694679523c404fe_1392808_9dc864e86bb854f3f73993bb02c698f7.webp 760w,
+/blog/strudel-gui-prototyping/featured_huf7e1e9dfd2ee4f5cb694679523c404fe_1392808_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/strudel-gui-prototyping/featured_huf7e1e9dfd2ee4f5cb694679523c404fe_1392808_d79e01eeb4de68e376491e8331f0661d.webp"
+width="760"
+height="505"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>After a brief introduction to STRUDEL, participants were guided on setting up their personal coding environments using the STRUDEL Hub that 2i2c managed. The hub was configured to launch a unique code repository for each participant that was set up pre-workshop on the
+&lt;a href="https://github.com/strudel-workshops" target="_blank" rel="noopener" >strudel-workshops&lt;/a> GitHub organization.&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Having a startup environment was very nice, as often getting a good development environment set up is half the battle for smaller projects.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>The hub used
+&lt;a href="https://code.visualstudio.com/docs/editor/vscode-web" target="_blank" rel="noopener" >VS Code for the Web&lt;/a>, pre-configured with the
+&lt;a href="https://cline.bot/" target="_blank" rel="noopener" >Cline AI assistant extension&lt;/a>. Participants configured Cline with a shared API key generated by the STRUDEL team via
+&lt;a href="https://openrouter.ai/" target="_blank" rel="noopener" >OpenRouter&lt;/a>. OpenRouter enabled the team to load credits into a shared account and API key that, in turn, enabled participants to use premium models inside of Cline.&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Super easy to set up Cline in the VM, I appreciated that&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>The day was split up into four sprints during which participants worked on different parts of their user interface application, with the majority of the participants working entirely in the 2i2c environment.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Workshop activities and prototyping" srcset="
+/blog/strudel-gui-prototyping/group_hud46985bb8ec1b4e2211a99b454dbc197_2234570_27616d80785bb9a9ecaa0041aec2b1cf.webp 400w,
+/blog/strudel-gui-prototyping/group_hud46985bb8ec1b4e2211a99b454dbc197_2234570_d36ffd6cbf156fbeff3015eec70461d9.webp 760w,
+/blog/strudel-gui-prototyping/group_hud46985bb8ec1b4e2211a99b454dbc197_2234570_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/strudel-gui-prototyping/group_hud46985bb8ec1b4e2211a99b454dbc197_2234570_27616d80785bb9a9ecaa0041aec2b1cf.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;I just want to express my gratitude for such an awesome day today. The workshop was really well structured and facilitated, and I learned a lot. Thank you so much for letting me come!&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="why-were-excited-about-this">
+Why we&amp;rsquo;re excited about this
+&lt;a class="header-anchor" href="#why-were-excited-about-this">#&lt;/a>
+&lt;/h2>&lt;p>We think it&amp;rsquo;s a great example of setting up a complex environment once, and then providing rapid access to these environments via a centralized hub.&lt;/p>
+&lt;p>This setup accelerated prototyping by removing the burden of setting up a development environment. The setup enabled participants, many of whom had never coded a web application or used an AI coding assistant before, to work seamlessly towards the goals of their design and development projects. The work they produced may continue beyond the workshop and have an impact on scientific discovery and operations.&lt;/p>
+&lt;p>This setup is a valuable mechanism for encouraging people to build within a pre-existing design system. Being able to launch repositories that are preconfigured with design system tools and templates is a powerful way to promote the adoption of a design system and its embedded patterns and best practices.&lt;/p>
+&lt;p>It&amp;rsquo;s also an interesting example of &lt;strong>non-Jupyter interfaces&lt;/strong> orchestrated on a JupyterHub.
+The combination of VS Code for the Web, Cline, and OpenRouter represent a stack that can be easily transferable to other similar workshops.
+OpenRouter enabled the workshop team to manage the costs of AI usage entirely themselves.&lt;/p>
+&lt;p>In all, the participants and instructors were allowed to focus on their work instead of managing and setting up their infrastructure.&lt;/p>
+&lt;h2 id="links-to-learn-more">
+Links to learn more
+&lt;a class="header-anchor" href="#links-to-learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Learn more about the workshop on the STRUDEL website:
+&lt;a href="https://strudel.science/engage/news/10-23-2025-building-scientific-uis-with-strudel-and-ai-assistants/" target="_blank" rel="noopener" >strudel.science/engage/news/10-23-2025-building-scientific-uis-with-strudel-and-ai-assistants/&lt;/a>&lt;/li>
+&lt;li>Explore STRUDEL + AI assistant tips and tricks:
+&lt;a href="https://github.com/strudel-science/strudel-kit/blob/main/docs/docs/usage-with-ai.md" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> strudel-science/strudel-kit/blob/main/docs/docs/usage-with-ai.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>We would like to thank all workshop participants.
+&lt;a href="https://2i2c.org/collaborators/strudel/" >STRUDEL&lt;/a> is an open source project housed at the Berkeley Institute for Data Science (BIDS) at the University of California, Berkeley. The STRUDEL team includes members of the Lawrence Berkeley National Lab Scientific Data (SciData) Division UX team, Superbloom Design, The Carpentries, and 2i2c. The project is generously funded by the Alfred P. Sloan Foundation, Liz Vu &amp;amp; Josh Greenberg Program Officers, grants G-2022-19360, G-2023-21098, and G-2024-22557.&lt;/p></description></item><item><title>April joins the Jupyter Community Building Working Group</title><link>https://2i2c.org/blog/april-jupyter-community-building/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/april-jupyter-community-building/</guid><description>&lt;p>We&amp;rsquo;re pleased to share that our People Operations Lead,
 &lt;a href="https://2i2c.org/author/april-johnson/" >April Johnson&lt;/a>, has joined the
 &lt;a href="https://jupyter.org/governance/communitybuildingworkinggroup.html" target="_blank" rel="noopener" >Jupyter Community Building Working Group&lt;/a>!&lt;/p>
 &lt;p>This kind of work reflects how we think about
